@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>StatPeriodismo · Estadística con Python para Periodismo (UMH)</title>
+<meta name="description" content="Curso de Estadística (1200) del Grado en Periodismo de la UMH: {{TOTAL}} sesiones en Google Colab para que ninguna cifra se te cuele en una noticia.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&display=swap" rel="stylesheet">
+<style>
+:root{
+  --tinta:#14213D; --papel:#FFFFFF; --gris:#5B6475; --niebla:#EEF2F7;
+  --corrector:#D6156C; --marcador:#FFE45C; --linea:#D5DCE6;
+  --display:"Bricolage Grotesque", "Arial Narrow", system-ui, sans-serif;
+  --texto:"Source Serif 4", Georgia, "Times New Roman", serif;
+  --ancho:1120px;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--papel);color:var(--tinta);font-family:var(--texto);font-size:1.125rem;line-height:1.6}
+a{color:inherit}
+:focus-visible{outline:3px solid var(--corrector);outline-offset:3px;border-radius:2px}
+.envoltorio{max-width:var(--ancho);margin:0 auto;padding:0 1.5rem}
+
+/* Barra superior */
+.barra{border-bottom:1px solid var(--linea)}
+.barra .envoltorio{display:flex;justify-content:space-between;align-items:center;height:4rem}
+.marca{font-family:var(--display);font-weight:800;font-size:1.35rem;letter-spacing:-.02em;text-decoration:none}
+.marca span{color:var(--corrector)}
+.barra nav a{font-family:var(--display);font-weight:500;font-size:1rem;text-decoration:none;margin-left:1.5rem}
+.barra nav a:hover{text-decoration:underline;text-underline-offset:4px}
+
+/* Portada: el titular que se corrige */
+.portada{padding:4.5rem 0 4rem}
+.asignatura{font-family:var(--display);font-weight:500;font-size:1rem;color:var(--gris);margin:0 0 1.75rem}
+.titular{font-family:var(--display);font-weight:800;font-size:clamp(2.6rem,7.2vw,6rem);line-height:1.02;letter-spacing:-.035em;margin:0;max-width:17ch;min-height:2.1em}
+.mal{background-image:linear-gradient(var(--corrector),var(--corrector));background-repeat:no-repeat;background-position:0 58%;
+     background-size:calc(var(--tachado,1) * 100%) .09em;-webkit-box-decoration-break:clone;box-decoration-break:clone;
+     transition:background-size .55s cubic-bezier(.6,0,.2,1)}
+.bien{display:inline-block;color:var(--corrector);font-size:.62em;letter-spacing:-.02em;vertical-align:.95em;margin-left:-.15em;white-space:nowrap;
+      opacity:var(--correccion,1);transform:translateY(calc((1 - var(--correccion,1)) * .3em));transition:opacity .4s ease .45s,transform .4s ease .45s}
+.bien::before{content:"‸";margin-right:.08em}
+.nota{display:flex;flex-wrap:wrap;gap:1rem 1.5rem;align-items:center;margin:2rem 0 0;max-width:62ch}
+.nota p{margin:0;font-style:italic}
+.nota mark{background:linear-gradient(transparent 55%,var(--marcador) 55%);color:inherit;font-style:normal;font-weight:600}
+.boton-otro{font-family:var(--display);font-weight:700;font-size:1rem;background:none;border:2px solid var(--tinta);border-radius:999px;padding:.45rem 1.1rem;color:var(--tinta);cursor:pointer}
+.boton-otro:hover{background:var(--tinta);color:var(--papel)}
+.entradilla{font-size:1.35rem;line-height:1.5;max-width:46ch;margin:3rem 0 2rem}
+.acciones{display:flex;flex-wrap:wrap;gap:1rem}
+.cta{font-family:var(--display);font-weight:700;font-size:1.1rem;text-decoration:none;padding:.95rem 1.6rem;border-radius:.4rem;display:inline-block}
+.cta-1{background:var(--corrector);color:#fff}
+.cta-1:hover{background:#B30F59}
+.cta-2{box-shadow:inset 0 0 0 2px var(--tinta)}
+.cta-2:hover{background:var(--niebla)}
+
+/* Cómo funciona */
+.pasos{background:var(--niebla);padding:3.5rem 0}
+.pasos h2,.temario h2{font-family:var(--display);font-weight:800;font-size:clamp(1.8rem,3.4vw,2.6rem);letter-spacing:-.025em;line-height:1.1;margin:0 0 2rem}
+.pasos ol{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(3,1fr);gap:2.5rem;counter-reset:paso}
+.pasos li{counter-increment:paso;position:relative;padding-top:3.2rem}
+.pasos li::before{content:counter(paso);position:absolute;top:0;left:0;font-family:var(--display);font-weight:800;font-size:2.6rem;line-height:1;color:var(--corrector)}
+.pasos h3{font-family:var(--display);font-weight:700;font-size:1.25rem;margin:0 0 .4rem}
+.pasos p{margin:0;color:var(--gris);font-size:1.05rem}
+
+/* Temario */
+.temario{padding:4rem 0 3rem}
+.temario-cab{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:end;gap:1.5rem;margin-bottom:2.5rem}
+.temario-cab h2{margin:0}
+.progreso{min-width:16rem;flex:0 1 22rem}
+.progreso p{margin:0 0 .5rem;font-family:var(--display);font-weight:500;font-size:1rem}
+.progreso-barra{height:.55rem;background:var(--niebla);border-radius:999px;overflow:hidden}
+.progreso-barra span{display:block;height:100%;width:0;background:var(--corrector);transition:width .4s ease}
+.buscar{display:block;margin:0 0 2.5rem;max-width:34rem}
+.buscar span{display:block;font-family:var(--display);font-weight:500;font-size:1rem;margin-bottom:.4rem}
+.buscar input{width:100%;font:inherit;font-size:1.05rem;padding:.75rem 1rem;border:2px solid var(--linea);border-radius:.4rem;color:var(--tinta);background:#fff}
+.buscar input:focus{border-color:var(--tinta);outline:none;box-shadow:0 0 0 3px var(--marcador)}
+.vacio{display:none;font-style:italic;color:var(--gris)}
+
+.unidad{margin:0 0 3rem}
+.unidad-cab{display:grid;grid-template-columns:auto 1fr auto;gap:1.25rem;align-items:center;border-bottom:3px solid var(--tinta);padding-bottom:.9rem;margin-bottom:.4rem}
+.unidad-num{font-family:var(--display);font-weight:800;line-height:1;width:3.4rem;height:3.4rem;display:grid;place-items:center;background:var(--tinta);color:var(--papel);border-radius:50%;font-size:1.8rem}
+.unidad-cab h3{font-family:var(--display);font-weight:800;font-size:1.55rem;letter-spacing:-.02em;margin:0;line-height:1.15}
+.unidad-cab p{margin:.15rem 0 0;color:var(--gris);font-size:1.02rem}
+.unidad-prog{font-family:var(--display);font-weight:500;font-size:.95rem;color:var(--gris);white-space:nowrap}
+
+.sesiones{list-style:none;margin:0;padding:0}
+.sesion{display:grid;grid-template-columns:3.4rem 1fr auto;gap:1.25rem;align-items:start;padding:1.1rem 0;border-bottom:1px solid var(--linea)}
+.s-num{font-family:var(--display);font-weight:700;font-size:1.6rem;line-height:1.1;color:var(--gris);text-align:center}
+.s-titulo{font-family:var(--display);font-weight:700;font-size:1.22rem;line-height:1.25;letter-spacing:-.01em;text-decoration:none;
+          background:linear-gradient(transparent 60%,transparent 60%);transition:background .25s ease}
+.s-titulo:hover{text-decoration:underline;text-decoration-color:var(--corrector);text-decoration-thickness:2px;text-underline-offset:4px}
+.s-gancho{margin:.3rem 0 0;color:var(--gris);font-size:1.02rem;max-width:62ch}
+.s-hecha{display:flex;align-items:center;gap:.45rem;font-family:var(--display);font-size:.95rem;color:var(--gris);cursor:pointer;padding-top:.15rem;user-select:none}
+.s-hecha input{width:1.25rem;height:1.25rem;accent-color:var(--corrector);cursor:pointer;margin:0}
+.sesion.hecha .s-titulo{background:linear-gradient(transparent 58%,var(--marcador) 58%)}
+.sesion.hecha .s-num{color:var(--corrector)}
+.sesion[hidden]{display:none}
+
+/* Aviso y pie */
+.aviso{border-left:6px solid var(--marcador);background:#FFFBE0;padding:1.4rem 1.6rem;margin:1rem 0 4rem;max-width:70ch}
+.aviso h2{font-family:var(--display);font-weight:700;font-size:1.25rem;margin:0 0 .35rem}
+.aviso p{margin:0}
+.pie{background:var(--tinta);color:#DCE3EE;padding:3rem 0;font-size:1rem}
+.pie .envoltorio{display:grid;grid-template-columns:1.4fr 1fr;gap:2.5rem}
+.pie h2{font-family:var(--display);font-weight:700;font-size:1.15rem;color:#fff;margin:0 0 .6rem}
+.pie p{margin:0 0 .6rem}
+.pie a{color:#fff}
+
+@media (max-width:760px){
+  body{font-size:1.05rem}
+  .portada{padding:3rem 0}
+  .titular{min-height:auto}
+  .bien{white-space:normal}
+  .pasos ol{grid-template-columns:1fr;gap:1.75rem}
+  .sesion{grid-template-columns:2.4rem 1fr;gap:.9rem}
+  .s-hecha{grid-column:2}
+  .unidad-cab{grid-template-columns:auto 1fr}
+  .unidad-prog{grid-column:2}
+  .pie .envoltorio{grid-template-columns:1fr}
+  .barra nav a{margin-left:1rem}
+}
+@media (prefers-reduced-motion:reduce){
+  *{transition:none!important;scroll-behavior:auto!important}
+}
+</style>
+</head>
+<body>
+<header class="barra">
+  <div class="envoltorio">
+    <a class="marca" href="#">Stat<span>Periodismo</span></a>
+    <nav aria-label="Principal"><a href="#temario">Sesiones</a><a href="{{REPO}}">GitHub</a></nav>
+  </div>
+</header>
+
+<main>
+<section class="portada" aria-labelledby="titular">
+  <div class="envoltorio">
+    <p class="asignatura">Estadística (1200), Grado en Periodismo, Universidad Miguel Hernández</p>
+    <h1 class="titular" id="titular" aria-live="polite">Los delitos <span class="mal">se disparan un 50 %</span> <span class="bien">pasan de 2 a 3</span></h1>
+    <div class="nota">
+      <p id="nota">Con cifras tan pequeñas, el porcentaje asusta más que el dato. <mark>Sesión 14</mark></p>
+      <button class="boton-otro" type="button" id="otro">Corrige otro titular</button>
+    </div>
+    <p class="entradilla">{{TOTAL}} sesiones en Google Colab para que ninguna cifra se te cuele en una noticia: encuestas, audiencias, sueldos, IPC, sondeos y bulos, con Python y sin instalar nada.</p>
+    <div class="acciones">
+      <a class="cta cta-1" href="{{PRIMERA}}" target="_blank" rel="noopener">Empieza por la sesión 1</a>
+      <a class="cta cta-2" href="#temario">Ver todas las sesiones</a>
+    </div>
+  </div>
+</section>
+
+<section class="pasos" aria-labelledby="como">
+  <div class="envoltorio">
+    <h2 id="como">Cómo funciona cada sesión</h2>
+    <ol>
+      <li><h3>Ábrela en Colab</h3><p>Pulsa el título de la sesión. Se abre en tu navegador con tu cuenta de Google; no hay que instalar nada.</p></li>
+      <li><h3>Ejecuta la configuración</h3><p>La primera celda descarga los datos y las preguntas. Después, ve ejecutando el código y leyendo qué ha pasado.</p></li>
+      <li><h3>Supera el reto aprendiz</h3><p>Al final hay preguntas interactivas y ejercicios con la solución plegada. Inténtalo antes de mirarla.</p></li>
+    </ol>
+  </div>
+</section>
+
+<section class="temario" id="temario" aria-labelledby="sesiones-t">
+  <div class="envoltorio">
+    <div class="temario-cab">
+      <h2 id="sesiones-t">Las {{TOTAL}} sesiones, en orden</h2>
+      <div class="progreso" aria-live="polite">
+        <p id="progreso-texto">Aún no has marcado ninguna sesión como hecha</p>
+        <div class="progreso-barra" aria-hidden="true"><span id="progreso-barra"></span></div>
+      </div>
+    </div>
+    <label class="buscar"><span>Busca un tema</span><input id="buscar" type="search" placeholder="Por ejemplo: encuesta, IPC, bulos, gráfico" autocomplete="off"></label>
+    <p class="vacio" id="vacio" role="status"></p>
+    {{SESIONES}}
+    <aside class="aviso" aria-labelledby="aviso-t">
+      <h2 id="aviso-t">Los datos del curso son simulados</h2>
+      <p>Las encuestas, sueldos, audiencias o sondeos se han creado para aprender y se parecen a los reales, pero ninguna cifra lo es. Para publicar, ve siempre a la fuente oficial: INE, CIS o datos.gob.es.</p>
+    </aside>
+  </div>
+</section>
+</main>
+
+<footer class="pie">
+  <div class="envoltorio">
+    <div>
+      <h2>Autoría</h2>
+      <p>Fernando Borrás Rocher, autor de la idea original; Juan Francisco Monge Ivars y José Santiago García Cremades. Departamento de Estadística, Matemáticas e Informática, Universidad Miguel Hernández de Elche.</p>
+      <p>Basado en <a href="https://unidigitalsimustat.umh.es/">SIMUSTAT</a>, proyecto UNIDIGITAL-UMH.</p>
+    </div>
+    <div>
+      <h2>Licencia y código</h2>
+      <p>Contenido con licencia <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.es">CC BY-SA 4.0</a>.</p>
+      <p>Cuadernos, datos y guía para el profesorado en <a href="{{REPO}}">GitHub</a>.</p>
+    </div>
+  </div>
+</footer>
+
+<script>
+(function(){
+  /* Titulares que se corrigen */
+  var titulares = [
+    {antes:"Los delitos ", mal:"se disparan un 50 %", bien:"pasan de 2 a 3", despues:"", nota:"Con cifras tan pequeñas, el porcentaje asusta más que el dato.", sesion:14},
+    {antes:"El partido A ", mal:"gana a B", bien:"empata con B", despues:": 34 % frente a 33 %", nota:"Con 1.000 entrevistas el margen de error es de unos ±3 puntos.", sesion:27},
+    {antes:"El periodista típico cobra ", mal:"29.300 €", bien:"26.800 €", despues:" al año", nota:"29.300 es la media, inflada por los sueldos de dirección; la mediana describe mejor al típico.", sesion:8},
+    {antes:"Leer prensa ", mal:"envejece", bien:"es más habitual entre mayores", despues:"", nota:"Que dos cosas vayan juntas no significa que una cause la otra.", sesion:13},
+    {antes:"El paro ", mal:"se hunde en julio", bien:"baja como cada verano", despues:"", nota:"Si pasa todos los años, es estacionalidad, no noticia.", sesion:18},
+    {antes:"Un detector acierta el 95 % ", mal:"de sus alarmas", bien:"de los casos", despues:"", nota:"Si hay pocos bulos, casi tres de cada cuatro alarmas son falsas.", sesion:22}
+  ];
+  var h1 = document.getElementById("titular"), nota = document.getElementById("nota");
+  var reducir = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+  var actual = 0;
+  function esc(t){var d=document.createElement("div");d.textContent=t;return d.innerHTML;}
+  function pinta(i, animar){
+    var t = titulares[i];
+    h1.innerHTML = esc(t.antes) + '<span class="mal">' + esc(t.mal) + '</span> <span class="bien">' + esc(t.bien) + '</span>' + esc(t.despues);
+    nota.innerHTML = esc(t.nota) + ' <mark>Sesión ' + t.sesion + '</mark>';
+    if (animar && !reducir){
+      h1.style.setProperty("--tachado", 0); h1.style.setProperty("--correccion", 0);
+      requestAnimationFrame(function(){ requestAnimationFrame(function(){
+        h1.style.setProperty("--tachado", 1); h1.style.setProperty("--correccion", 1);
+      });});
+    }
+  }
+  pinta(0, true);
+  document.getElementById("otro").addEventListener("click", function(){
+    actual = (actual + 1) % titulares.length; pinta(actual, true);
+  });
+
+  /* Progreso guardado en este navegador */
+  var CLAVE = "statperiodismo-hechas", TOTAL = {{TOTAL}};
+  var hechas = {};
+  try { hechas = JSON.parse(localStorage.getItem(CLAVE) || "{}") || {}; } catch(e){ hechas = {}; }
+  function guarda(){ try { localStorage.setItem(CLAVE, JSON.stringify(hechas)); } catch(e){} }
+  var casillas = document.querySelectorAll('.s-hecha input');
+  function actualiza(){
+    var n = 0, porUnidad = {}, totalUnidad = {};
+    casillas.forEach(function(c){
+      var li = c.closest(".sesion"), u = li.dataset.unidad;
+      totalUnidad[u] = (totalUnidad[u] || 0) + 1;
+      if (c.checked){ n++; porUnidad[u] = (porUnidad[u] || 0) + 1; }
+      li.classList.toggle("hecha", c.checked);
+    });
+    document.getElementById("progreso-barra").style.width = (n / TOTAL * 100) + "%";
+    document.getElementById("progreso-texto").textContent =
+      n === 0 ? "Aún no has marcado ninguna sesión como hecha" :
+      n === TOTAL ? "Has hecho las " + TOTAL + " sesiones. Enhorabuena." :
+      "Llevas " + n + " de " + TOTAL + " sesiones hechas";
+    document.querySelectorAll(".unidad-prog").forEach(function(s){
+      var u = s.dataset.unidad; s.textContent = (porUnidad[u] || 0) + " de " + totalUnidad[u];
+    });
+  }
+  casillas.forEach(function(c){
+    c.checked = !!hechas[c.dataset.num];
+    c.addEventListener("change", function(){
+      if (c.checked) hechas[c.dataset.num] = true; else delete hechas[c.dataset.num];
+      guarda(); actualiza();
+    });
+  });
+  actualiza();
+
+  /* Búsqueda */
+  var buscar = document.getElementById("buscar"), vacio = document.getElementById("vacio");
+  function normaliza(t){ return t.toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g, ""); }
+  buscar.addEventListener("input", function(){
+    var q = normaliza(buscar.value.trim()), visibles = 0;
+    document.querySelectorAll(".sesion").forEach(function(li){
+      var ok = !q || normaliza(li.dataset.busca).indexOf(q) !== -1;
+      li.hidden = !ok; if (ok) visibles++;
+    });
+    document.querySelectorAll(".unidad").forEach(function(sec){
+      sec.hidden = !sec.querySelector(".sesion:not([hidden])");
+    });
+    vacio.style.display = visibles ? "none" : "block";
+    vacio.textContent = visibles ? "" : "Ninguna sesión trata «" + buscar.value.trim() + "». Prueba con otra palabra, como encuesta, IPC o gráfico.";
+  });
+})();
+</script>
+</body>
+</html>

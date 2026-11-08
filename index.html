@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>StatPeriodismo · Estadística con Python para Periodismo (UMH)</title>
+<meta name="description" content="Curso de Estadística (1200) del Grado en Periodismo de la UMH: 30 sesiones en Google Colab para que ninguna cifra se te cuele en una noticia.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&display=swap" rel="stylesheet">
+<style>
+:root{
+  --tinta:#14213D; --papel:#FFFFFF; --gris:#5B6475; --niebla:#EEF2F7;
+  --corrector:#D6156C; --marcador:#FFE45C; --linea:#D5DCE6;
+  --display:"Bricolage Grotesque", "Arial Narrow", system-ui, sans-serif;
+  --texto:"Source Serif 4", Georgia, "Times New Roman", serif;
+  --ancho:1120px;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--papel);color:var(--tinta);font-family:var(--texto);font-size:1.125rem;line-height:1.6}
+a{color:inherit}
+:focus-visible{outline:3px solid var(--corrector);outline-offset:3px;border-radius:2px}
+.envoltorio{max-width:var(--ancho);margin:0 auto;padding:0 1.5rem}
+
+/* Barra superior */
+.barra{border-bottom:1px solid var(--linea)}
+.barra .envoltorio{display:flex;justify-content:space-between;align-items:center;height:4rem}
+.marca{font-family:var(--display);font-weight:800;font-size:1.35rem;letter-spacing:-.02em;text-decoration:none}
+.marca span{color:var(--corrector)}
+.barra nav a{font-family:var(--display);font-weight:500;font-size:1rem;text-decoration:none;margin-left:1.5rem}
+.barra nav a:hover{text-decoration:underline;text-underline-offset:4px}
+
+/* Portada: el titular que se corrige */
+.portada{padding:4.5rem 0 4rem}
+.asignatura{font-family:var(--display);font-weight:500;font-size:1rem;color:var(--gris);margin:0 0 1.75rem}
+.titular{font-family:var(--display);font-weight:800;font-size:clamp(2.6rem,7.2vw,6rem);line-height:1.02;letter-spacing:-.035em;margin:0;max-width:17ch;min-height:2.1em}
+.mal{background-image:linear-gradient(var(--corrector),var(--corrector));background-repeat:no-repeat;background-position:0 58%;
+     background-size:calc(var(--tachado,1) * 100%) .09em;-webkit-box-decoration-break:clone;box-decoration-break:clone;
+     transition:background-size .55s cubic-bezier(.6,0,.2,1)}
+.bien{display:inline-block;color:var(--corrector);font-size:.62em;letter-spacing:-.02em;vertical-align:.95em;margin-left:-.15em;white-space:nowrap;
+      opacity:var(--correccion,1);transform:translateY(calc((1 - var(--correccion,1)) * .3em));transition:opacity .4s ease .45s,transform .4s ease .45s}
+.bien::before{content:"‸";margin-right:.08em}
+.nota{display:flex;flex-wrap:wrap;gap:1rem 1.5rem;align-items:center;margin:2rem 0 0;max-width:62ch}
+.nota p{margin:0;font-style:italic}
+.nota mark{background:linear-gradient(transparent 55%,var(--marcador) 55%);color:inherit;font-style:normal;font-weight:600}
+.boton-otro{font-family:var(--display);font-weight:700;font-size:1rem;background:none;border:2px solid var(--tinta);border-radius:999px;padding:.45rem 1.1rem;color:var(--tinta);cursor:pointer}
+.boton-otro:hover{background:var(--tinta);color:var(--papel)}
+.entradilla{font-size:1.35rem;line-height:1.5;max-width:46ch;margin:3rem 0 2rem}
+.acciones{display:flex;flex-wrap:wrap;gap:1rem}
+.cta{font-family:var(--display);font-weight:700;font-size:1.1rem;text-decoration:none;padding:.95rem 1.6rem;border-radius:.4rem;display:inline-block}
+.cta-1{background:var(--corrector);color:#fff}
+.cta-1:hover{background:#B30F59}
+.cta-2{box-shadow:inset 0 0 0 2px var(--tinta)}
+.cta-2:hover{background:var(--niebla)}
+
+/* Cómo funciona */
+.pasos{background:var(--niebla);padding:3.5rem 0}
+.pasos h2,.temario h2{font-family:var(--display);font-weight:800;font-size:clamp(1.8rem,3.4vw,2.6rem);letter-spacing:-.025em;line-height:1.1;margin:0 0 2rem}
+.pasos ol{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(3,1fr);gap:2.5rem;counter-reset:paso}
+.pasos li{counter-increment:paso;position:relative;padding-top:3.2rem}
+.pasos li::before{content:counter(paso);position:absolute;top:0;left:0;font-family:var(--display);font-weight:800;font-size:2.6rem;line-height:1;color:var(--corrector)}
+.pasos h3{font-family:var(--display);font-weight:700;font-size:1.25rem;margin:0 0 .4rem}
+.pasos p{margin:0;color:var(--gris);font-size:1.05rem}
+
+/* Temario */
+.temario{padding:4rem 0 3rem}
+.temario-cab{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:end;gap:1.5rem;margin-bottom:2.5rem}
+.temario-cab h2{margin:0}
+.progreso{min-width:16rem;flex:0 1 22rem}
+.progreso p{margin:0 0 .5rem;font-family:var(--display);font-weight:500;font-size:1rem}
+.progreso-barra{height:.55rem;background:var(--niebla);border-radius:999px;overflow:hidden}
+.progreso-barra span{display:block;height:100%;width:0;background:var(--corrector);transition:width .4s ease}
+.buscar{display:block;margin:0 0 2.5rem;max-width:34rem}
+.buscar span{display:block;font-family:var(--display);font-weight:500;font-size:1rem;margin-bottom:.4rem}
+.buscar input{width:100%;font:inherit;font-size:1.05rem;padding:.75rem 1rem;border:2px solid var(--linea);border-radius:.4rem;color:var(--tinta);background:#fff}
+.buscar input:focus{border-color:var(--tinta);outline:none;box-shadow:0 0 0 3px var(--marcador)}
+.vacio{display:none;font-style:italic;color:var(--gris)}
+
+.unidad{margin:0 0 3rem}
+.unidad-cab{display:grid;grid-template-columns:auto 1fr auto;gap:1.25rem;align-items:center;border-bottom:3px solid var(--tinta);padding-bottom:.9rem;margin-bottom:.4rem}
+.unidad-num{font-family:var(--display);font-weight:800;line-height:1;width:3.4rem;height:3.4rem;display:grid;place-items:center;background:var(--tinta);color:var(--papel);border-radius:50%;font-size:1.8rem}
+.unidad-cab h3{font-family:var(--display);font-weight:800;font-size:1.55rem;letter-spacing:-.02em;margin:0;line-height:1.15}
+.unidad-cab p{margin:.15rem 0 0;color:var(--gris);font-size:1.02rem}
+.unidad-prog{font-family:var(--display);font-weight:500;font-size:.95rem;color:var(--gris);white-space:nowrap}
+
+.sesiones{list-style:none;margin:0;padding:0}
+.sesion{display:grid;grid-template-columns:3.4rem 1fr auto;gap:1.25rem;align-items:start;padding:1.1rem 0;border-bottom:1px solid var(--linea)}
+.s-num{font-family:var(--display);font-weight:700;font-size:1.6rem;line-height:1.1;color:var(--gris);text-align:center}
+.s-titulo{font-family:var(--display);font-weight:700;font-size:1.22rem;line-height:1.25;letter-spacing:-.01em;text-decoration:none;
+          background:linear-gradient(transparent 60%,transparent 60%);transition:background .25s ease}
+.s-titulo:hover{text-decoration:underline;text-decoration-color:var(--corrector);text-decoration-thickness:2px;text-underline-offset:4px}
+.s-gancho{margin:.3rem 0 0;color:var(--gris);font-size:1.02rem;max-width:62ch}
+.s-hecha{display:flex;align-items:center;gap:.45rem;font-family:var(--display);font-size:.95rem;color:var(--gris);cursor:pointer;padding-top:.15rem;user-select:none}
+.s-hecha input{width:1.25rem;height:1.25rem;accent-color:var(--corrector);cursor:pointer;margin:0}
+.sesion.hecha .s-titulo{background:linear-gradient(transparent 58%,var(--marcador) 58%)}
+.sesion.hecha .s-num{color:var(--corrector)}
+.sesion[hidden]{display:none}
+
+/* Aviso y pie */
+.aviso{border-left:6px solid var(--marcador);background:#FFFBE0;padding:1.4rem 1.6rem;margin:1rem 0 4rem;max-width:70ch}
+.aviso h2{font-family:var(--display);font-weight:700;font-size:1.25rem;margin:0 0 .35rem}
+.aviso p{margin:0}
+.pie{background:var(--tinta);color:#DCE3EE;padding:3rem 0;font-size:1rem}
+.pie .envoltorio{display:grid;grid-template-columns:1.4fr 1fr;gap:2.5rem}
+.pie h2{font-family:var(--display);font-weight:700;font-size:1.15rem;color:#fff;margin:0 0 .6rem}
+.pie p{margin:0 0 .6rem}
+.pie a{color:#fff}
+
+@media (max-width:760px){
+  body{font-size:1.05rem}
+  .portada{padding:3rem 0}
+  .titular{min-height:auto}
+  .bien{white-space:normal}
+  .pasos ol{grid-template-columns:1fr;gap:1.75rem}
+  .sesion{grid-template-columns:2.4rem 1fr;gap:.9rem}
+  .s-hecha{grid-column:2}
+  .unidad-cab{grid-template-columns:auto 1fr}
+  .unidad-prog{grid-column:2}
+  .pie .envoltorio{grid-template-columns:1fr}
+  .barra nav a{margin-left:1rem}
+}
+@media (prefers-reduced-motion:reduce){
+  *{transition:none!important;scroll-behavior:auto!important}
+}
+</style>
+</head>
+<body>
+<header class="barra">
+  <div class="envoltorio">
+    <a class="marca" href="#">Stat<span>Periodismo</span></a>
+    <nav aria-label="Principal"><a href="#temario">Sesiones</a><a href="https://github.com/fborrasumh/statperiodismo">GitHub</a></nav>
+  </div>
+</header>
+
+<main>
+<section class="portada" aria-labelledby="titular">
+  <div class="envoltorio">
+    <p class="asignatura">Estadística (1200), Grado en Periodismo, Universidad Miguel Hernández</p>
+    <h1 class="titular" id="titular" aria-live="polite">Los delitos <span class="mal">se disparan un 50 %</span> <span class="bien">pasan de 2 a 3</span></h1>
+    <div class="nota">
+      <p id="nota">Con cifras tan pequeñas, el porcentaje asusta más que el dato. <mark>Sesión 14</mark></p>
+      <button class="boton-otro" type="button" id="otro">Corrige otro titular</button>
+    </div>
+    <p class="entradilla">30 sesiones en Google Colab para que ninguna cifra se te cuele en una noticia: encuestas, audiencias, sueldos, IPC, sondeos y bulos, con Python y sin instalar nada.</p>
+    <div class="acciones">
+      <a class="cta cta-1" href="https://colab.research.google.com/github/fborrasumh/statperiodismo/blob/main/cuadernos/P01_estadistica_y_periodismo.ipynb" target="_blank" rel="noopener">Empieza por la sesión 1</a>
+      <a class="cta cta-2" href="#temario">Ver todas las sesiones</a>
+    </div>
+  </div>
+</section>
+
+<section class="pasos" aria-labelledby="como">
+  <div class="envoltorio">
+    <h2 id="como">Cómo funciona cada sesión</h2>
+    <ol>
+      <li><h3>Ábrela en Colab</h3><p>Pulsa el título de la sesión. Se abre en tu navegador con tu cuenta de Google; no hay que instalar nada.</p></li>
+      <li><h3>Ejecuta la configuración</h3><p>La primera celda descarga los datos y las preguntas. Después, ve ejecutando el código y leyendo qué ha pasado.</p></li>
+      <li><h3>Supera el reto aprendiz</h3><p>Al final hay preguntas interactivas y ejercicios con la solución plegada. Inténtalo antes de mirarla.</p></li>
+    </ol>
+  </div>
+</section>
+
+<section class="temario" id="temario" aria-labelledby="sesiones-t">
+  <div class="envoltorio">
+    <div class="temario-cab">
+      <h2 id="sesiones-t">Las 30 sesiones, en orden</h2>
+      <div class="progreso" aria-live="polite">
+        <p id="progreso-texto">Aún no has marcado ninguna sesión como hecha</p>
+        <div class="progreso-barra" aria-hidden="true"><span id="progreso-barra"></span></div>
+      </div>
+    </div>
+    <label class="buscar"><span>Busca un tema</span><input id="buscar" type="search" placeholder="Por ejemplo: encuesta, IPC, bulos, gráfico" autocomplete="off"></label>
+    <p class="vacio" id="vacio" role="status"></p>
+    <section class="unidad" aria-labelledby="u1"><header class="unidad-cab"><span class="unidad-num" aria-hidden="true">1</span><div><h3 id="u1">Introducción</h3><p>Colab, lo mínimo de Python y tu primera tabla de datos.</p></div><span class="unidad-prog" data-unidad="1"></span></header><ol class="sesiones">
+<li class="sesion" data-num="1" data-unidad="1" data-busca="estadística para contar historias: colab y primeros datos ¿por dónde se informa la gente? tu primer gráfico en cinco minutos."><span class="s-num">1</span><div class="s-texto"><a class="s-titulo" href="https://colab.research.google.com/github/fborrasumh/statperiodismo/blob/main/cuadernos/P01_estadistica_y_periodismo.ipynb" target="_blank" rel="noopener">Estadística para contar historias: Colab y primeros datos</a><p class="s-gancho">¿Por dónde se informa la gente? Tu primer gráfico en cinco minutos.</p></div><label class="s-hecha"><input type="checkbox" data-num="1"><span>Hecha</span></label></li>
+<li class="sesion" data-num="2" data-unidad="1" data-busca="python mínimo (i): números, textos, listas y condiciones escribe titulares automáticos con cifras dentro."><span class="s-num">2</span><div class="s-texto"><a class="s-titulo" href="https://colab.research.google.com/github/fborrasumh/statperiodismo/blob/main/cuadernos/P02_python_minimo_1.ipynb" target="_blank" rel="noopener">Python mínimo (I): números, textos, listas y condiciones</a><p class="s-gancho">Escribe titulares automáticos con cifras dentro.</p></div><label class="s-hecha"><input type="checkbox" data-num="2"><span>Hecha</span></label></li>
+<li class="sesion" data-num="3" data-unidad="1" data-busca="python mínimo (ii): bucles, funciones, diccionarios y librerías calcula la misma tasa para 140 municipios sin copiar y pegar."><span class="s-num">3</span><div class="s-texto"><a class="s-titulo" href="https://colab.research.google.com/github/fborrasumh/statperiodismo/blob/main/cuadernos/P03_python_minimo_2.ipynb" target="_blank" rel="noopener">Python mínimo (II): bucles, funciones, diccionarios y librerías</a><p class="s-gancho">Calcula la misma tasa para 140 municipios sin copiar y pegar.</p></div><label class="s-hecha"><input type="checkbox" data-num="3"><span>Hecha</span></label></li>
+<li class="sesion" data-num="4" data-unidad="1" data-busca="tablas de datos con pandas: leer, explorar, filtrar y limpiar abre una encuesta de 1.200 personas y descubre qué respuestas faltan."><span class="s-num">4</span><div class="s-texto"><a class="s-titulo" href="https://colab.research.google.com/github/fborrasumh/statperiodismo/blob/main/cuadernos/P04_tablas_de_datos_con_pandas.ipynb" target="_blank" rel="noopener">Tablas de datos con Pandas: leer, explorar, filtrar y limpiar</a><p class="s-gancho">Abre una encuesta de 1.200 personas y descubre qué respuestas faltan.</p></div><label class="s-hecha"><input type="checkbox" data-num="4"><span>Hecha</span></label></li>
+</ol></section>
+<section class="unidad" aria-labelledby="u2"><header class="unidad-cab"><span class="unidad-num" aria-hidden="true">2</span><div><h3 id="u2">Estadística descriptiva</h3><p>Resumir y dibujar datos sin engañar a nadie.</p></div><span class="unidad-prog" data-unidad="2"></span></header><ol class="sesiones">
+<li class="sesion" data-num="5" data-unidad="2" data-busca="tablas de frecuencias: contar bien antes de publicar «el 22 %»... ¿de quién? porcentajes sin errores de base."><span class="s-num">5</span><div class="s-texto"><a class="s-titulo" href="https://colab.research.google.com/github/fborrasumh/statperiodismo/blob/main/cuadernos/P05_tablas_de_frecuencias.ipynb" target="_blank" rel="noopener">Tablas de frecuencias: contar bien antes de publicar</a><p class="s-gancho">«El 22 %»... ¿de quién? Porcentajes sin errores de base.</p></div><label class="s-hecha"><input type="checkbox" data-num="5"><span>Hecha</span></label></li>
+<li class="sesion" data-num="6" data-unidad="2" data-busca="gráficos para variables cualitativas y gráficos que engañan detecta el eje truncado antes de que te engañe a ti."><span class="s-num">6</span><div class="s-texto"><a class="s-titulo" href="https://colab.research.google.com/github/fborrasumh/statperiodismo/blob/main/cuadernos/P06_graficos_cualitativas.ipynb" target="_blank" rel="noopener">Gráficos para variables cualitativas y gráficos que engañan</a><p class="s-gancho">Detecta el eje truncado antes de que te engañe a ti.</p></div><label class="s-hecha"><input type="checkbox" data-num="6"><span>Hecha</span></label></li>
+<li class="sesion" data-num="7" data-unidad="2" data-busca="gráficos para variables cuantitativas: el histograma ¿cómo se reparten de verdad los sueldos de una redacción?"><span class="s-num">7</span><div class="s-texto"><a class="s-titulo" href="https://colab.research.google.com/github/fborrasumh/statperiodismo/blob/main/cuadernos/P07_graficos_cuantitativas.ipynb" target="_blank" rel="noopener">Gráficos para variables cuantitativas: el histograma</a><p class="s-gancho">¿Cómo se reparten de verdad los sueldos de una redacción?</p></div><label class="s-hecha"><input type="checkbox" data-num="7"><span>Hecha</span></label></li>
+<li class="sesion" data-num="8" data-unidad="2" data-busca="medidas de centralización: media, mediana y moda por qué casi todo el mundo cobra menos que el «salario medio»."><span class="s-num">8</span><div class="s-texto"><a class="s-titulo" href="https://colab.research.google.com/github/fborrasumh/statperiodismo/blob/main/cuadernos/P08_media_mediana_moda.ipynb" target="_blank" rel="noopener">Medidas de centralización: media, mediana y moda</a><p class="s-gancho">Por qué casi todo el mundo cobra menos que el «salario medio».</p></div><label class="s-hecha"><input type="checkbox" data-num="8"><span>Hecha</span></label></li>
+<li class="sesion" data-num="9" data-unidad="2" data-busca="medidas de posición: cuartiles, percentiles y diagrama de caja «cobra más que el 70 % de sus compañeros»: percentiles y cajas."><span class="s-num">9</span><div class="s-texto"><a class="s-titulo" href="https://colab.research.google.com/github/fborrasumh/statperiodismo/blob/main/cuadernos/P09_cuartiles_y_diagrama_de_caja.ipynb" target="_blank" rel="noopener">Medidas de posición: cuartiles, percentiles y diagrama de caja</a><p class="s-gancho">«Cobra más que el 70 % de sus compañeros»: percentiles y cajas.</p></div><label class="s-hecha"><input type="checkbox" data-num="9"><span>Hecha</span></label></li>
+<li class="sesion" data-num="10" data-unidad="2" data-busca="medidas de dispersión: ¿son los datos parecidos o muy distintos? dos cadenas con el mismo share medio y nada en común."><span class="s-num">10</span><div class="s-texto"><a class="s-titulo" href="https://colab.research.google.com/github/fborrasumh/statperiodismo/blob/main/cuadernos/P10_medidas_de_dispersion.ipynb" target="_blank" rel="noopener">Medidas de dispersión: ¿son los datos parecidos o muy distintos?</a><p class="s-gancho">Dos cadenas con el mismo share medio y nada en común.</p></div><label class="s-hecha"><input type="checkbox" data-num="10"><span>Hecha</span></label></li>
+<li class="sesion" data-num="11" data-unidad="2" data-busca="valores atípicos, puntuaciones z y forma de la distribución un dato rarísimo: ¿error en la tabla o noticia del día?"><span class="s-num">11</span><div class="s-texto"><a class="s-titulo" href="https://colab.research.google.com/github/fborrasumh/statperiodismo/blob/main/cuadernos/P11_atipicos_y_forma.ipynb" target="_blank" rel="noopener">Valores atípicos, puntuaciones z y forma de la distribución</a><p class="s-gancho">Un dato rarísimo: ¿error en la tabla o noticia del día?</p></div><label class="s-hecha"><input type="checkbox" data-num="11"><span>Hecha</span></label></li>
+<li class="sesion" data-num="12" data-unidad="2" data-busca="relación entre variables cualitativas: tablas de contingencia ¿creen más bulos quienes comparten noticias?"><span class="s-num">12</span><div class="s-texto"><a class="s-titulo" href="https://colab.research.google.com/github/fborrasumh/statperiodismo/blob/main/cuadernos/P12_tablas_de_contingencia.ipynb" target="_blank" rel="noopener">Relación entre variables cualitativas: tablas de contingencia</a><p class="s-gancho">¿Creen más bulos quienes comparten noticias?</p></div><label class="s-hecha"><input type="checkbox" data-num="12"><span>Hecha</span></label></li>
+<li class="sesion" data-num="13" data-unidad="2" data-busca="relación entre variables cuantitativas: correlación y regresión leer prensa no envejece: correlación no es causa."><span class="s-num">13</span><div class="s-texto"><a class="s-titulo" href="https://colab.research.google.com/github/fborrasumh/statperiodismo/blob/main/cuadernos/P13_correlacion_y_regresion.ipynb" target="_blank" rel="noopener">Relación entre variables cuantitativas: correlación y regresión</a><p class="s-gancho">Leer prensa no envejece: correlación no es causa.</p></div><label class="s-hecha"><input type="checkbox" data-num="13"><span>Hecha</span></label></li>
+</ol></section>
+<section class="unidad" aria-labelledby="u3"><header class="unidad-cab"><span class="unidad-num" aria-hidden="true">3</span><div><h3 id="u3">Números índice y series cronológicas</h3><p>IPC, inflación, euros reales y tendencias.</p></div><span class="unidad-prog" data-unidad="3"></span></header><ol class="sesiones">
+<li class="sesion" data-num="14" data-unidad="3" data-busca="tasas de variación e índices simples «sube 5 puntos» no es «sube un 5 %»."><span class="s-num">14</span><div class="s-texto"><a class="s-titulo" href="https://colab.research.google.com/github/fborrasumh/statperiodismo/blob/main/cuadernos/P14_tasas_de_variacion_e_indices_simples.ipynb" target="_blank" rel="noopener">Tasas de variación e índices simples</a><p class="s-gancho">«Sube 5 puntos» no es «sube un 5 %».</p></div><label class="s-hecha"><input type="checkbox" data-num="14"><span>Hecha</span></label></li>
+<li class="sesion" data-num="15" data-unidad="3" data-busca="índices compuestos: la cesta de la compra (laspeyres y paasche) ¿cuánto más cara está la cesta de la compra? depende de qué cesta."><span class="s-num">15</span><div class="s-texto"><a class="s-titulo" href="https://colab.research.google.com/github/fborrasumh/statperiodismo/blob/main/cuadernos/P15_indices_compuestos.ipynb" target="_blank" rel="noopener">Índices compuestos: la cesta de la compra (Laspeyres y Paasche)</a><p class="s-gancho">¿Cuánto más cara está la cesta de la compra? Depende de qué cesta.</p></div><label class="s-hecha"><input type="checkbox" data-num="15"><span>Hecha</span></label></li>
+<li class="sesion" data-num="16" data-unidad="3" data-busca="el ipc: inflación, tasas interanuales y euros reales tu sueldo sube un 4 % y puedes comprar menos: euros reales."><span class="s-num">16</span><div class="s-texto"><a class="s-titulo" href="https://colab.research.google.com/github/fborrasumh/statperiodismo/blob/main/cuadernos/P16_ipc_y_terminos_reales.ipynb" target="_blank" rel="noopener">El IPC: inflación, tasas interanuales y euros reales</a><p class="s-gancho">Tu sueldo sube un 4 % y puedes comprar menos: euros reales.</p></div><label class="s-hecha"><input type="checkbox" data-num="16"><span>Hecha</span></label></li>
+<li class="sesion" data-num="17" data-unidad="3" data-busca="cambio de base y enlace de series compara precios de 2015 y de hoy aunque el índice haya cambiado de base."><span class="s-num">17</span><div class="s-texto"><a class="s-titulo" href="https://colab.research.google.com/github/fborrasumh/statperiodismo/blob/main/cuadernos/P17_cambio_de_base_y_enlace.ipynb" target="_blank" rel="noopener">Cambio de base y enlace de series</a><p class="s-gancho">Compara precios de 2015 y de hoy aunque el índice haya cambiado de base.</p></div><label class="s-hecha"><input type="checkbox" data-num="17"><span>Hecha</span></label></li>
+<li class="sesion" data-num="18" data-unidad="3" data-busca="series cronológicas: componentes y lectura de gráficos temporales «el paro baja en julio» casi nunca es noticia."><span class="s-num">18</span><div class="s-texto"><a class="s-titulo" href="https://colab.research.google.com/github/fborrasumh/statperiodismo/blob/main/cuadernos/P18_series_cronologicas.ipynb" target="_blank" rel="noopener">Series cronológicas: componentes y lectura de gráficos temporales</a><p class="s-gancho">«El paro baja en julio» casi nunca es noticia.</p></div><label class="s-hecha"><input type="checkbox" data-num="18"><span>Hecha</span></label></li>
+<li class="sesion" data-num="19" data-unidad="3" data-busca="tendencia con medias móviles y desestacionalización quita el efecto de la temporada y mira la tendencia."><span class="s-num">19</span><div class="s-texto"><a class="s-titulo" href="https://colab.research.google.com/github/fborrasumh/statperiodismo/blob/main/cuadernos/P19_tendencia_y_estacionalidad.ipynb" target="_blank" rel="noopener">Tendencia con medias móviles y desestacionalización</a><p class="s-gancho">Quita el efecto de la temporada y mira la tendencia.</p></div><label class="s-hecha"><input type="checkbox" data-num="19"><span>Hecha</span></label></li>
+</ol></section>
+<section class="unidad" aria-labelledby="u4"><header class="unidad-cab"><span class="unidad-num" aria-hidden="true">4</span><div><h3 id="u4">Probabilidad</h3><p>El azar, las probabilidades que se confunden y la campana de Gauss.</p></div><span class="unidad-prog" data-unidad="4"></span></header><ol class="sesiones">
+<li class="sesion" data-num="20" data-unidad="4" data-busca="azar y probabilidad: experimentos, sucesos y simulación el pueblo con más casos de españa... por puro azar."><span class="s-num">20</span><div class="s-texto"><a class="s-titulo" href="https://colab.research.google.com/github/fborrasumh/statperiodismo/blob/main/cuadernos/P20_azar_y_probabilidad.ipynb" target="_blank" rel="noopener">Azar y probabilidad: experimentos, sucesos y simulación</a><p class="s-gancho">El pueblo con más casos de España... por puro azar.</p></div><label class="s-hecha"><input type="checkbox" data-num="20"><span>Hecha</span></label></li>
+<li class="sesion" data-num="21" data-unidad="4" data-busca="probabilidad condicionada e independencia la falacia del fiscal: el número que más se confunde en los juicios."><span class="s-num">21</span><div class="s-texto"><a class="s-titulo" href="https://colab.research.google.com/github/fborrasumh/statperiodismo/blob/main/cuadernos/P21_probabilidad_condicionada.ipynb" target="_blank" rel="noopener">Probabilidad condicionada e independencia</a><p class="s-gancho">La falacia del fiscal: el número que más se confunde en los juicios.</p></div><label class="s-hecha"><input type="checkbox" data-num="21"><span>Hecha</span></label></li>
+<li class="sesion" data-num="22" data-unidad="4" data-busca="teorema de bayes: ¿cuánto acierta un detector de bulos? un detector de bulos «del 95 %» cuyas alarmas fallan 7 de cada 10 veces."><span class="s-num">22</span><div class="s-texto"><a class="s-titulo" href="https://colab.research.google.com/github/fborrasumh/statperiodismo/blob/main/cuadernos/P22_teorema_de_bayes.ipynb" target="_blank" rel="noopener">Teorema de Bayes: ¿cuánto acierta un detector de bulos?</a><p class="s-gancho">Un detector de bulos «del 95 %» cuyas alarmas fallan 7 de cada 10 veces.</p></div><label class="s-hecha"><input type="checkbox" data-num="22"><span>Hecha</span></label></li>
+<li class="sesion" data-num="23" data-unidad="4" data-busca="variables aleatorias discretas: binomial y poisson nueve accidentes en un fin de semana: ¿repunte o mala suerte?"><span class="s-num">23</span><div class="s-texto"><a class="s-titulo" href="https://colab.research.google.com/github/fborrasumh/statperiodismo/blob/main/cuadernos/P23_binomial_y_poisson.ipynb" target="_blank" rel="noopener">Variables aleatorias discretas: binomial y Poisson</a><p class="s-gancho">Nueve accidentes en un fin de semana: ¿repunte o mala suerte?</p></div><label class="s-hecha"><input type="checkbox" data-num="23"><span>Hecha</span></label></li>
+<li class="sesion" data-num="24" data-unidad="4" data-busca="la distribución normal la campana que hay detrás de cada encuesta."><span class="s-num">24</span><div class="s-texto"><a class="s-titulo" href="https://colab.research.google.com/github/fborrasumh/statperiodismo/blob/main/cuadernos/P24_distribucion_normal.ipynb" target="_blank" rel="noopener">La distribución normal</a><p class="s-gancho">La campana que hay detrás de cada encuesta.</p></div><label class="s-hecha"><input type="checkbox" data-num="24"><span>Hecha</span></label></li>
+</ol></section>
+<section class="unidad" aria-labelledby="u5"><header class="unidad-cab"><span class="unidad-num" aria-hidden="true">5</span><div><h3 id="u5">Conceptos básicos de inferencia estadística</h3><p>Muestras, encuestas, margen de error y contrastes.</p></div><span class="unidad-prog" data-unidad="5"></span></header><ol class="sesiones">
+<li class="sesion" data-num="25" data-unidad="5" data-busca="población, muestra y tipos de muestreo por qué una votación en redes no es una encuesta."><span class="s-num">25</span><div class="s-texto"><a class="s-titulo" href="https://colab.research.google.com/github/fborrasumh/statperiodismo/blob/main/cuadernos/P25_poblacion_muestra_y_muestreo.ipynb" target="_blank" rel="noopener">Población, muestra y tipos de muestreo</a><p class="s-gancho">Por qué una votación en redes no es una encuesta.</p></div><label class="s-hecha"><input type="checkbox" data-num="25"><span>Hecha</span></label></li>
+<li class="sesion" data-num="26" data-unidad="5" data-busca="distribución muestral y error estadístico (simulación de monte carlo) cinco institutos, cinco resultados: el error muestral."><span class="s-num">26</span><div class="s-texto"><a class="s-titulo" href="https://colab.research.google.com/github/fborrasumh/statperiodismo/blob/main/cuadernos/P26_distribucion_muestral_y_error.ipynb" target="_blank" rel="noopener">Distribución muestral y error estadístico (simulación de Monte Carlo)</a><p class="s-gancho">Cinco institutos, cinco resultados: el error muestral.</p></div><label class="s-hecha"><input type="checkbox" data-num="26"><span>Hecha</span></label></li>
+<li class="sesion" data-num="27" data-unidad="5" data-busca="intervalo de confianza para una proporción: el margen de error ¿empate técnico o ventaja real?"><span class="s-num">27</span><div class="s-texto"><a class="s-titulo" href="https://colab.research.google.com/github/fborrasumh/statperiodismo/blob/main/cuadernos/P27_margen_de_error_de_una_encuesta.ipynb" target="_blank" rel="noopener">Intervalo de confianza para una proporción: el margen de error</a><p class="s-gancho">¿Empate técnico o ventaja real?</p></div><label class="s-hecha"><input type="checkbox" data-num="27"><span>Hecha</span></label></li>
+<li class="sesion" data-num="28" data-unidad="5" data-busca="intervalo de confianza para una media y tamaño de muestra ¿cuántas entrevistas hacen falta para un margen de ±2 puntos?"><span class="s-num">28</span><div class="s-texto"><a class="s-titulo" href="https://colab.research.google.com/github/fborrasumh/statperiodismo/blob/main/cuadernos/P28_intervalo_para_una_media_y_tamano_de_muestra.ipynb" target="_blank" rel="noopener">Intervalo de confianza para una media y tamaño de muestra</a><p class="s-gancho">¿Cuántas entrevistas hacen falta para un margen de ±2 puntos?</p></div><label class="s-hecha"><input type="checkbox" data-num="28"><span>Hecha</span></label></li>
+<li class="sesion" data-num="29" data-unidad="5" data-busca="contrastes de hipótesis: la lógica del p-valor «un estudio demuestra...»: aprende a leer el p-valor."><span class="s-num">29</span><div class="s-texto"><a class="s-titulo" href="https://colab.research.google.com/github/fborrasumh/statperiodismo/blob/main/cuadernos/P29_contrastes_de_hipotesis.ipynb" target="_blank" rel="noopener">Contrastes de hipótesis: la lógica del p-valor</a><p class="s-gancho">«Un estudio demuestra...»: aprende a leer el p-valor.</p></div><label class="s-hecha"><input type="checkbox" data-num="29"><span>Hecha</span></label></li>
+<li class="sesion" data-num="30" data-unidad="5" data-busca="comparar dos grupos: proporciones, tablas y medias compara dos grupos y publícalo con su margen de error."><span class="s-num">30</span><div class="s-texto"><a class="s-titulo" href="https://colab.research.google.com/github/fborrasumh/statperiodismo/blob/main/cuadernos/P30_comparar_dos_grupos.ipynb" target="_blank" rel="noopener">Comparar dos grupos: proporciones, tablas y medias</a><p class="s-gancho">Compara dos grupos y publícalo con su margen de error.</p></div><label class="s-hecha"><input type="checkbox" data-num="30"><span>Hecha</span></label></li>
+</ol></section>
+    <aside class="aviso" aria-labelledby="aviso-t">
+      <h2 id="aviso-t">Los datos del curso son simulados</h2>
+      <p>Las encuestas, sueldos, audiencias o sondeos se han creado para aprender y se parecen a los reales, pero ninguna cifra lo es. Para publicar, ve siempre a la fuente oficial: INE, CIS o datos.gob.es.</p>
+    </aside>
+  </div>
+</section>
+</main>
+
+<footer class="pie">
+  <div class="envoltorio">
+    <div>
+      <h2>Autoría</h2>
+      <p>Fernando Borrás Rocher, autor de la idea original; Juan Francisco Monge Ivars y José Santiago García Cremades. Departamento de Estadística, Matemáticas e Informática, Universidad Miguel Hernández de Elche.</p>
+      <p>Basado en <a href="https://unidigitalsimustat.umh.es/">SIMUSTAT</a>, proyecto UNIDIGITAL-UMH.</p>
+    </div>
+    <div>
+      <h2>Licencia y código</h2>
+      <p>Contenido con licencia <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.es">CC BY-SA 4.0</a>.</p>
+      <p>Cuadernos, datos y guía para el profesorado en <a href="https://github.com/fborrasumh/statperiodismo">GitHub</a>.</p>
+    </div>
+  </div>
+</footer>
+
+<script>
+(function(){
+  /* Titulares que se corrigen */
+  var titulares = [
+    {antes:"Los delitos ", mal:"se disparan un 50 %", bien:"pasan de 2 a 3", despues:"", nota:"Con cifras tan pequeñas, el porcentaje asusta más que el dato.", sesion:14},
+    {antes:"El partido A ", mal:"gana a B", bien:"empata con B", despues:": 34 % frente a 33 %", nota:"Con 1.000 entrevistas el margen de error es de unos ±3 puntos.", sesion:27},
+    {antes:"El periodista típico cobra ", mal:"29.300 €", bien:"26.800 €", despues:" al año", nota:"29.300 es la media, inflada por los sueldos de dirección; la mediana describe mejor al típico.", sesion:8},
+    {antes:"Leer prensa ", mal:"envejece", bien:"es más habitual entre mayores", despues:"", nota:"Que dos cosas vayan juntas no significa que una cause la otra.", sesion:13},
+    {antes:"El paro ", mal:"se hunde en julio", bien:"baja como cada verano", despues:"", nota:"Si pasa todos los años, es estacionalidad, no noticia.", sesion:18},
+    {antes:"Un detector acierta el 95 % ", mal:"de sus alarmas", bien:"de los casos", despues:"", nota:"Si hay pocos bulos, casi tres de cada cuatro alarmas son falsas.", sesion:22}
+  ];
+  var h1 = document.getElementById("titular"), nota = document.getElementById("nota");
+  var reducir = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+  var actual = 0;
+  function esc(t){var d=document.createElement("div");d.textContent=t;return d.innerHTML;}
+  function pinta(i, animar){
+    var t = titulares[i];
+    h1.innerHTML = esc(t.antes) + '<span class="mal">' + esc(t.mal) + '</span> <span class="bien">' + esc(t.bien) + '</span>' + esc(t.despues);
+    nota.innerHTML = esc(t.nota) + ' <mark>Sesión ' + t.sesion + '</mark>';
+    if (animar && !reducir){
+      h1.style.setProperty("--tachado", 0); h1.style.setProperty("--correccion", 0);
+      requestAnimationFrame(function(){ requestAnimationFrame(function(){
+        h1.style.setProperty("--tachado", 1); h1.style.setProperty("--correccion", 1);
+      });});
+    }
+  }
+  pinta(0, true);
+  document.getElementById("otro").addEventListener("click", function(){
+    actual = (actual + 1) % titulares.length; pinta(actual, true);
+  });
+
+  /* Progreso guardado en este navegador */
+  var CLAVE = "statperiodismo-hechas", TOTAL = 30;
+  var hechas = {};
+  try { hechas = JSON.parse(localStorage.getItem(CLAVE) || "{}") || {}; } catch(e){ hechas = {}; }
+  function guarda(){ try { localStorage.setItem(CLAVE, JSON.stringify(hechas)); } catch(e){} }
+  var casillas = document.querySelectorAll('.s-hecha input');
+  function actualiza(){
+    var n = 0, porUnidad = {}, totalUnidad = {};
+    casillas.forEach(function(c){
+      var li = c.closest(".sesion"), u = li.dataset.unidad;
+      totalUnidad[u] = (totalUnidad[u] || 0) + 1;
+      if (c.checked){ n++; porUnidad[u] = (porUnidad[u] || 0) + 1; }
+      li.classList.toggle("hecha", c.checked);
+    });
+    document.getElementById("progreso-barra").style.width = (n / TOTAL * 100) + "%";
+    document.getElementById("progreso-texto").textContent =
+      n === 0 ? "Aún no has marcado ninguna sesión como hecha" :
+      n === TOTAL ? "Has hecho las " + TOTAL + " sesiones. Enhorabuena." :
+      "Llevas " + n + " de " + TOTAL + " sesiones hechas";
+    document.querySelectorAll(".unidad-prog").forEach(function(s){
+      var u = s.dataset.unidad; s.textContent = (porUnidad[u] || 0) + " de " + totalUnidad[u];
+    });
+  }
+  casillas.forEach(function(c){
+    c.checked = !!hechas[c.dataset.num];
+    c.addEventListener("change", function(){
+      if (c.checked) hechas[c.dataset.num] = true; else delete hechas[c.dataset.num];
+      guarda(); actualiza();
+    });
+  });
+  actualiza();
+
+  /* Búsqueda */
+  var buscar = document.getElementById("buscar"), vacio = document.getElementById("vacio");
+  function normaliza(t){ return t.toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g, ""); }
+  buscar.addEventListener("input", function(){
+    var q = normaliza(buscar.value.trim()), visibles = 0;
+    document.querySelectorAll(".sesion").forEach(function(li){
+      var ok = !q || normaliza(li.dataset.busca).indexOf(q) !== -1;
+      li.hidden = !ok; if (ok) visibles++;
+    });
+    document.querySelectorAll(".unidad").forEach(function(sec){
+      sec.hidden = !sec.querySelector(".sesion:not([hidden])");
+    });
+    vacio.style.display = visibles ? "none" : "block";
+    vacio.textContent = visibles ? "" : "Ninguna sesión trata «" + buscar.value.trim() + "». Prueba con otra palabra, como encuesta, IPC o gráfico.";
+  });
+})();
+</script>
+</body>
+</html>

@@ -1,5 +1,7 @@
 # SIMUSTAT Periodismo · Estadística con Python para el Grado en Periodismo
 
+**Portada para el estudiantado: [fborrasumh.github.io/statperiodismo](https://fborrasumh.github.io/statperiodismo/)**
+
 Curso completo de **Estadística (1200)**, 1.º del Grado en Periodismo de la Universidad Miguel Hernández de Elche, en **30 cuadernos de Google Colab**: uno por cada hora teórica de la asignatura. Todos los ejemplos son de **periodismo de datos**: encuestas, audiencias, salarios de redacciones, IPC, paro, sondeos electorales y verificación de bulos.
 
 Es la primera adaptación por grado de [SIMUSTAT](https://unidigitalsimustat.umh.es/), el laboratorio de Estadística con Python de la UMH. Sigue el mismo formato y los mismos principios, y sirve de ejemplo para adaptarlo a otras titulaciones.
@@ -80,6 +82,7 @@ herramientas/
   generar_datos.py  genera los datos simulados (semilla fija: reproducible)
   probar.py         ejecuta todos los cuadernos y las soluciones del reto
   indice.py         regenera este README
+  pagina.py         regenera index.html, la portada para el estudiantado
 GUIA_PROFESORADO.md planificación, evaluación y cómo adaptar el curso
 ```
 
@@ -93,6 +96,7 @@ python herramientas/generar_datos.py   # solo si cambias los datos
 python herramientas/construir.py       # regenera cuadernos y preguntas
 python herramientas/probar.py          # comprueba que todo se ejecuta
 python herramientas/indice.py          # actualiza el README
+python herramientas/pagina.py          # actualiza la portada index.html
 ```
 
 Para adaptar el curso a **otro grado**, copia el repositorio, cambia los datos y los textos de `contenido/` y la constante `REPO` de `construir.py`. La estructura (núcleo común de probabilidad e inferencia + contexto propio del grado) se mantiene.
