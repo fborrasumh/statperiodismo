@@ -1,5 +1,7 @@
 # SIMUSTAT Periodismo · Estadística con Python para el Grado en Periodismo
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24062699.svg)](https://doi.org/10.5281/zenodo.24062699)
+
 **Portada para el estudiantado: [fborrasumh.github.io/statperiodismo](https://fborrasumh.github.io/statperiodismo/)**
 
 Curso completo de **Estadística (1200)**, 1.º del Grado en Periodismo de la Universidad Miguel Hernández de Elche, en **30 cuadernos de Google Colab**: uno por cada hora teórica de la asignatura. Todos los ejemplos son de **periodismo de datos**: encuestas, audiencias, salarios de redacciones, IPC, paro, sondeos electorales y verificación de bulos.

@@ -3,6 +3,7 @@ message: "Si usas este material, cítalo así."
 title: "SIMUSTAT Periodismo: Estadística con Python para el Grado en Periodismo (UMH)"
 type: software
 version: 1.0.0
+doi: "10.5281/zenodo.24062699"
 date-released: 2026-11-08
 license: CC-BY-SA-4.0
 repository-code: "https://github.com/fborrasumh/statperiodismo"
