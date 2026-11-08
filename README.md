@@ -99,8 +99,8 @@ Para adaptar el curso a **otro grado**, copia el repositorio, cambia los datos y
 
 ## Autoría y licencia
 
-**Adaptación para el Grado en Periodismo**: Fernando Borrás Rocher ([ORCID 0000-0002-5519-4573](https://orcid.org/0000-0002-5519-4573)), Departamento de Estadística, Matemáticas e Informática, UMH.
+**Autoría**: Fernando Borrás Rocher ([ORCID 0000-0002-5519-4573](https://orcid.org/0000-0002-5519-4573)), autor de la idea original; Juan Francisco Monge Ivars y José Santiago García Cremades. Departamento de Estadística, Matemáticas e Informática, UMH.
 
-**Basado en SIMUSTAT**, de Fernando Borrás, Federico Botella, Inés Hernández, M.ª Asunción Martínez Mayoral, Josep Moltó y Javier Morales, desarrollado en el marco del proyecto UNIDIGITAL-UMH.
+Basado en [SIMUSTAT](https://unidigitalsimustat.umh.es/), proyecto UNIDIGITAL-UMH.
 
 Contenido publicado con licencia [Creative Commons Atribución-CompartirIgual 4.0 (CC BY-SA 4.0)](https://creativecommons.org/licenses/by-sa/4.0/deed.es), la misma que SIMUSTAT. Puedes copiarlo, adaptarlo y redistribuirlo citando la autoría y manteniendo la misma licencia. Ver [LICENSE](LICENSE) y [CITATION.cff](CITATION.cff).

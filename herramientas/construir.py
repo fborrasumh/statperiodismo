@@ -17,10 +17,15 @@ RAW = f"https://raw.githubusercontent.com/{REPO}/{RAMA}/"
 COLAB = f"https://colab.research.google.com/github/{REPO}/blob/{RAMA}/cuadernos/"
 QUIZ_VERSION = "2.9.6.4"
 
-AUTORIA = """**Adaptación para el Grado en Periodismo**: Fernando Borrás Rocher (f.borras@umh.es)
+AUTORIA = """**Autoría**:
 
-**Basado en SIMUSTAT**, de Fernando Borrás, Federico Botella, Inés Hernández, M.ª Asunción Martínez Mayoral, Josep Moltó y Javier Morales.
+*   Fernando Borrás Rocher (f.borras@umh.es), autor de la idea original
+*   Juan Francisco Monge Ivars
+*   José Santiago García Cremades
+
 Departamento de Estadística, Matemáticas e Informática. Universidad Miguel Hernández de Elche.
+
+Basado en [SIMUSTAT](https://unidigitalsimustat.umh.es/) (proyecto UNIDIGITAL-UMH, CC BY-SA 4.0).
 
 **Asignatura**: Estadística (1200), 1.º curso, Grado en Periodismo.
 

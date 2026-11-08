@@ -11,6 +11,12 @@ authors:
     given-names: "Fernando"
     orcid: "https://orcid.org/0000-0002-5519-4573"
     affiliation: "Universidad Miguel Hernández de Elche"
+  - family-names: "Monge Ivars"
+    given-names: "Juan Francisco"
+    affiliation: "Universidad Miguel Hernández de Elche"
+  - family-names: "García Cremades"
+    given-names: "José Santiago"
+    affiliation: "Universidad Miguel Hernández de Elche"
 keywords:
   - estadística
   - periodismo de datos
