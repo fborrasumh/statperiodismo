@@ -1,0 +1,37 @@
+cff-version: 1.2.0
+message: "Si usas este material, cítalo así."
+title: "SIMUSTAT Periodismo: Estadística con Python para el Grado en Periodismo (UMH)"
+type: software
+version: 1.0.0
+date-released: 2026-11-08
+license: CC-BY-SA-4.0
+repository-code: "https://github.com/fborrasumh/statperiodismo"
+authors:
+  - family-names: "Borrás Rocher"
+    given-names: "Fernando"
+    orcid: "https://orcid.org/0000-0002-5519-4573"
+    affiliation: "Universidad Miguel Hernández de Elche"
+keywords:
+  - estadística
+  - periodismo de datos
+  - Python
+  - Google Colab
+  - docencia universitaria
+abstract: "Curso completo de Estadística (asignatura 1200) para el Grado en Periodismo de la Universidad Miguel Hernández de Elche: 30 cuadernos de Google Colab con autoevaluaciones y retos, basados en SIMUSTAT."
+references:
+  - type: software
+    title: "SIMUSTAT: Simulador de Laboratorio de Estadística"
+    authors:
+      - family-names: "Borrás"
+        given-names: "Fernando"
+      - family-names: "Botella"
+        given-names: "Federico"
+      - family-names: "Hernández"
+        given-names: "Inés"
+      - family-names: "Martínez Mayoral"
+        given-names: "M.ª Asunción"
+      - family-names: "Moltó"
+        given-names: "Josep"
+      - family-names: "Morales"
+        given-names: "Javier"
+    url: "https://unidigitalsimustat.umh.es/"

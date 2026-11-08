@@ -1,0 +1,1201 @@
+id,edad,sexo,provincia,estudios,medio_principal,minutos_noticias_dia,confianza_medios,comparte_noticias,ha_creido_bulo,suscripcion_pago
+1,66,Hombre,Valencia,Universitarios,Televisión,46.0,,No,Sí,No
+2,57,Hombre,Valencia,FP,Prensa en papel,34.0,4.0,Sí,No,No
+3,49,Mujer,Alicante,Secundarios,Redes sociales,73.0,5.0,Sí,No,No
+4,24,Hombre,Valencia,FP,Prensa digital,27.0,6.0,Sí,Sí,No
+5,57,Hombre,Alicante,FP,Radio,39.0,5.0,Sí,No,No
+6,64,Mujer,Alicante,Universitarios,Prensa digital,100.0,1.0,No,No,Sí
+7,56,Hombre,Alicante,Primarios,Televisión,51.0,5.0,Sí,Sí,No
+8,30,Hombre,Alicante,Secundarios,Televisión,28.0,4.0,Sí,Sí,Sí
+9,79,Mujer,Valencia,Universitarios,Radio,78.0,6.0,No,No,No
+10,40,Hombre,Valencia,Secundarios,Televisión,41.0,10.0,Sí,No,No
+11,84,Hombre,Castellón,Primarios,Televisión,77.0,7.0,No,No,No
+12,42,Mujer,Castellón,Universitarios,Radio,59.0,6.0,No,No,No
+13,27,Mujer,Alicante,FP,Radio,56.0,3.0,No,No,No
+14,39,Mujer,Valencia,FP,Prensa digital,21.0,5.0,No,No,Sí
+15,71,Hombre,Valencia,Primarios,Radio,49.0,10.0,No,No,No
+16,61,Hombre,Alicante,Universitarios,Prensa digital,88.0,6.0,No,Sí,No
+17,61,Mujer,Valencia,Universitarios,Redes sociales,43.0,6.0,Sí,Sí,No
+18,70,Mujer,Alicante,Primarios,Prensa digital,37.0,5.0,No,No,No
+19,41,Hombre,Alicante,Primarios,Prensa en papel,21.0,6.0,No,No,No
+20,83,Mujer,Valencia,Universitarios,Prensa digital,54.0,5.0,Sí,No,No
+21,24,Hombre,Valencia,FP,Prensa digital,9.0,7.0,No,No,No
+22,30,Mujer,Valencia,Universitarios,Prensa digital,78.0,6.0,No,No,No
+23,83,Hombre,Alicante,Universitarios,Prensa digital,100.0,6.0,Sí,No,No
+24,47,Hombre,Valencia,FP,Televisión,68.0,4.0,No,Sí,No
+25,61,Hombre,Alicante,Primarios,Televisión,48.0,2.0,No,No,No
+26,78,Mujer,Castellón,Secundarios,Televisión,76.0,4.0,Sí,No,No
+27,24,Mujer,Alicante,Secundarios,Prensa digital,11.0,,No,No,No
+28,78,Mujer,Alicante,Secundarios,Televisión,100.0,8.0,No,No,No
+29,41,Hombre,Castellón,FP,Televisión,60.0,5.0,No,No,No
+30,33,Hombre,Alicante,Primarios,Televisión,51.0,4.0,Sí,No,No
+31,49,Mujer,Valencia,Universitarios,Redes sociales,103.0,2.0,No,No,No
+32,68,Hombre,Valencia,Universitarios,Radio,27.0,,No,No,No
+33,23,Mujer,Valencia,FP,Prensa digital,29.0,5.0,No,No,No
+34,69,Hombre,Valencia,Primarios,Radio,43.0,7.0,No,Sí,Sí
+35,40,Mujer,Valencia,Secundarios,Prensa digital,89.0,6.0,No,No,No
+36,31,Hombre,Castellón,FP,Redes sociales,12.0,3.0,No,No,No
+37,27,Hombre,Valencia,Primarios,Redes sociales,44.0,3.0,Sí,No,No
+38,70,Mujer,Valencia,Universitarios,Televisión,80.0,5.0,No,No,No
+39,38,Mujer,Valencia,Universitarios,Prensa digital,25.0,3.0,No,No,No
+40,58,Mujer,Valencia,Universitarios,Prensa digital,76.0,8.0,No,No,No
+41,28,Hombre,Alicante,FP,Radio,32.0,4.0,Sí,No,No
+42,33,Mujer,Valencia,Universitarios,Redes sociales,84.0,6.0,No,No,No
+43,52,Hombre,Castellón,Universitarios,Televisión,79.0,5.0,No,No,No
+44,21,Mujer,Castellón,Universitarios,Redes sociales,5.0,5.0,Sí,No,No
+45,49,Mujer,Alicante,Primarios,Televisión,51.0,0.0,No,No,No
+46,23,Hombre,Alicante,Primarios,Redes sociales,17.0,4.0,No,No,No
+47,80,Mujer,Valencia,FP,Radio,61.0,6.0,No,No,No
+48,36,Mujer,Valencia,FP,Televisión,79.0,4.0,No,No,No
+49,46,Hombre,Castellón,Secundarios,Televisión,50.0,6.0,No,Sí,No
+50,79,Mujer,Castellón,Universitarios,Radio,30.0,0.0,No,No,No
+51,18,Mujer,Alicante,Secundarios,Redes sociales,72.0,,Sí,Sí,No
+52,74,Hombre,Alicante,Universitarios,Radio,36.0,10.0,Sí,No,No
+53,83,Hombre,Valencia,Primarios,Redes sociales,42.0,6.0,Sí,No,No
+54,70,Mujer,Valencia,Primarios,Televisión,102.0,4.0,No,No,No
+55,55,Hombre,Alicante,Secundarios,Redes sociales,86.0,6.0,No,No,No
+56,77,Hombre,Valencia,Secundarios,Televisión,38.0,4.0,Sí,No,No
+57,32,Hombre,Alicante,Secundarios,Prensa en papel,40.0,5.0,No,No,No
+58,72,Mujer,Valencia,Secundarios,Televisión,,5.0,No,No,No
+59,56,Mujer,Alicante,FP,Televisión,30.0,4.0,No,Sí,No
+60,52,Mujer,Valencia,Secundarios,Televisión,49.0,5.0,No,No,No
+61,27,Hombre,Valencia,Universitarios,Redes sociales,37.0,6.0,Sí,No,No
+62,84,Mujer,Valencia,FP,Televisión,118.0,3.0,No,No,No
+63,56,Mujer,Valencia,Secundarios,Prensa digital,54.0,0.0,No,No,No
+64,71,Mujer,Alicante,Secundarios,Televisión,29.0,8.0,No,No,No
+65,84,Hombre,Alicante,Universitarios,Televisión,120.0,2.0,No,No,No
+66,63,Mujer,Valencia,FP,Prensa digital,62.0,3.0,No,No,No
+67,51,Hombre,Valencia,Primarios,Prensa en papel,87.0,1.0,No,No,No
+68,36,Mujer,Alicante,Universitarios,Televisión,24.0,,Sí,No,Sí
+69,40,Mujer,Valencia,FP,Prensa digital,82.0,4.0,No,No,No
+70,53,Hombre,Alicante,FP,Prensa digital,27.0,7.0,No,No,Sí
+71,37,Mujer,Valencia,Secundarios,Prensa digital,42.0,3.0,Sí,Sí,No
+72,68,Mujer,Valencia,Universitarios,Radio,52.0,6.0,Sí,Sí,No
+73,58,Mujer,Alicante,Universitarios,Prensa digital,51.0,4.0,Sí,No,No
+74,19,Hombre,Castellón,Primarios,Prensa digital,52.0,,No,No,No
+75,54,Mujer,Alicante,FP,Prensa digital,59.0,5.0,No,No,Sí
+76,44,Mujer,Alicante,Secundarios,Radio,42.0,6.0,No,No,No
+77,62,Mujer,Valencia,Primarios,Televisión,87.0,4.0,No,No,No
+78,73,Hombre,Valencia,Secundarios,Televisión,23.0,5.0,No,No,No
+79,76,Hombre,Valencia,Secundarios,Radio,115.0,5.0,No,No,Sí
+80,25,Mujer,Valencia,Secundarios,Prensa digital,85.0,6.0,No,No,No
+81,33,Hombre,Valencia,Universitarios,Prensa en papel,46.0,7.0,Sí,No,No
+82,30,Mujer,Valencia,Primarios,Prensa en papel,53.0,2.0,Sí,No,No
+83,18,Hombre,Alicante,FP,Radio,34.0,6.0,Sí,No,No
+84,65,Hombre,Castellón,Secundarios,Prensa digital,28.0,4.0,Sí,No,Sí
+85,85,Hombre,Alicante,Primarios,Radio,42.0,5.0,No,No,No
+86,32,Mujer,Valencia,FP,Televisión,24.0,5.0,No,No,No
+87,29,Mujer,Valencia,Secundarios,Radio,93.0,7.0,Sí,No,No
+88,48,Mujer,Castellón,Universitarios,Redes sociales,36.0,9.0,Sí,No,No
+89,52,Hombre,Valencia,FP,Prensa digital,50.0,5.0,Sí,Sí,No
+90,80,Mujer,Valencia,Primarios,Redes sociales,35.0,4.0,No,Sí,No
+91,39,Hombre,Valencia,Universitarios,Televisión,41.0,8.0,No,No,No
+92,57,Hombre,Valencia,Secundarios,Televisión,42.0,6.0,Sí,No,No
+93,52,Mujer,Castellón,FP,Radio,,7.0,No,No,No
+94,24,Hombre,Valencia,Primarios,Prensa digital,23.0,6.0,Sí,Sí,No
+95,77,Mujer,Castellón,FP,Prensa en papel,28.0,4.0,No,No,No
+96,75,Mujer,Valencia,Secundarios,Prensa en papel,76.0,7.0,Sí,No,No
+97,82,Hombre,Alicante,Universitarios,Prensa en papel,48.0,4.0,Sí,No,Sí
+98,36,Mujer,Alicante,Secundarios,Redes sociales,85.0,6.0,No,No,No
+99,40,Hombre,Valencia,Primarios,Prensa digital,72.0,4.0,No,No,No
+100,38,Hombre,Alicante,Primarios,Prensa digital,25.0,4.0,No,No,No
+101,72,Hombre,Valencia,Universitarios,Televisión,47.0,2.0,No,Sí,Sí
+102,18,Mujer,Valencia,FP,Redes sociales,16.0,0.0,No,No,No
+103,66,Mujer,Castellón,Primarios,Televisión,67.0,,Sí,No,No
+104,25,Hombre,Valencia,Primarios,Redes sociales,27.0,5.0,Sí,Sí,No
+105,51,Hombre,Valencia,Primarios,Redes sociales,48.0,7.0,No,No,No
+106,69,Hombre,Valencia,Secundarios,Prensa en papel,60.0,,No,No,No
+107,25,Hombre,Valencia,Universitarios,Redes sociales,11.0,5.0,Sí,Sí,No
+108,34,Hombre,Valencia,Secundarios,Prensa digital,53.0,3.0,No,No,No
+109,26,Hombre,Valencia,Primarios,Redes sociales,69.0,4.0,Sí,Sí,No
+110,41,Mujer,Valencia,Primarios,Televisión,25.0,6.0,No,No,No
+111,73,Hombre,Valencia,Universitarios,Televisión,62.0,4.0,Sí,No,No
+112,44,Hombre,Castellón,Universitarios,Redes sociales,53.0,4.0,No,Sí,No
+113,19,Hombre,Valencia,Primarios,Redes sociales,30.0,2.0,Sí,No,No
+114,23,Mujer,Valencia,Universitarios,Radio,41.0,7.0,Sí,No,No
+115,41,Hombre,Alicante,Universitarios,Redes sociales,123.0,5.0,Sí,No,No
+116,59,Hombre,Alicante,FP,Televisión,84.0,6.0,Sí,No,No
+117,38,Mujer,Alicante,Secundarios,Redes sociales,66.0,4.0,Sí,Sí,No
+118,60,Hombre,Alicante,Universitarios,Televisión,,3.0,No,No,No
+119,40,Hombre,Valencia,FP,Redes sociales,41.0,5.0,No,Sí,No
+120,26,Hombre,Alicante,FP,Redes sociales,57.0,5.0,Sí,No,No
+121,27,Hombre,Alicante,FP,Redes sociales,,4.0,Sí,Sí,No
+122,52,Mujer,Castellón,Universitarios,Prensa digital,43.0,,No,No,No
+123,22,Mujer,Alicante,FP,Prensa digital,12.0,6.0,No,No,No
+124,81,Mujer,Alicante,Secundarios,Televisión,42.0,3.0,No,No,No
+125,84,Hombre,Alicante,FP,Televisión,36.0,5.0,No,No,No
+126,59,Hombre,Alicante,Secundarios,Prensa digital,31.0,1.0,Sí,Sí,No
+127,55,Hombre,Valencia,Secundarios,Radio,75.0,8.0,Sí,Sí,No
+128,62,Hombre,Alicante,Universitarios,Radio,98.0,7.0,Sí,No,No
+129,63,Mujer,Alicante,Universitarios,Televisión,35.0,5.0,No,Sí,No
+130,44,Hombre,Alicante,Universitarios,Televisión,13.0,5.0,No,Sí,Sí
+131,32,Mujer,Valencia,Primarios,Prensa digital,25.0,4.0,No,No,No
+132,45,Mujer,Alicante,Universitarios,Redes sociales,135.0,2.0,Sí,Sí,No
+133,61,Hombre,Valencia,Universitarios,Prensa digital,68.0,4.0,Sí,Sí,No
+134,40,Mujer,Valencia,Secundarios,Televisión,18.0,10.0,No,No,No
+135,55,Mujer,Alicante,FP,Prensa digital,110.0,5.0,Sí,No,No
+136,25,Hombre,Alicante,Secundarios,Redes sociales,21.0,5.0,Sí,No,No
+137,76,Mujer,Castellón,Universitarios,Prensa digital,37.0,6.0,No,Sí,No
+138,51,Hombre,Alicante,Secundarios,Televisión,56.0,3.0,No,No,No
+139,60,Mujer,Alicante,Secundarios,Televisión,40.0,8.0,Sí,Sí,No
+140,23,Hombre,Valencia,FP,Redes sociales,47.0,6.0,No,Sí,No
+141,50,Hombre,Valencia,Secundarios,Prensa en papel,41.0,4.0,Sí,No,No
+142,29,Hombre,Alicante,Universitarios,Redes sociales,32.0,6.0,Sí,Sí,No
+143,69,Mujer,Castellón,Universitarios,Televisión,67.0,5.0,No,No,No
+144,57,Hombre,Alicante,FP,Redes sociales,78.0,4.0,Sí,Sí,No
+145,70,Mujer,Alicante,Secundarios,Prensa digital,178.0,6.0,Sí,Sí,No
+146,73,Hombre,Castellón,Universitarios,Prensa en papel,34.0,7.0,Sí,No,No
+147,30,Mujer,Castellón,Secundarios,Prensa digital,23.0,5.0,No,No,No
+148,76,Mujer,Valencia,Primarios,Televisión,61.0,5.0,Sí,No,No
+149,32,Hombre,Castellón,Universitarios,Radio,36.0,6.0,No,No,No
+150,58,Mujer,Valencia,Universitarios,Radio,43.0,5.0,No,No,No
+151,31,Mujer,Alicante,Universitarios,Prensa digital,49.0,3.0,Sí,Sí,No
+152,45,Hombre,Alicante,Universitarios,Redes sociales,63.0,5.0,Sí,No,No
+153,39,Hombre,Valencia,Universitarios,Televisión,52.0,5.0,Sí,No,No
+154,84,Hombre,Valencia,Universitarios,Televisión,41.0,8.0,No,No,No
+155,31,Hombre,Alicante,Secundarios,Prensa digital,42.0,9.0,Sí,No,No
+156,57,Hombre,Alicante,Primarios,Televisión,30.0,8.0,No,No,No
+157,36,Hombre,Alicante,Secundarios,Redes sociales,21.0,0.0,Sí,No,No
+158,80,Mujer,Alicante,Universitarios,Televisión,30.0,4.0,Sí,No,No
+159,61,Hombre,Valencia,Universitarios,Televisión,37.0,6.0,No,No,No
+160,82,Hombre,Valencia,Primarios,Radio,57.0,6.0,Sí,Sí,No
+161,55,Mujer,Valencia,Universitarios,Redes sociales,36.0,7.0,No,No,No
+162,70,Hombre,Valencia,Primarios,Radio,35.0,7.0,No,Sí,Sí
+163,57,Mujer,Alicante,Primarios,Prensa digital,44.0,2.0,No,Sí,No
+164,54,Hombre,Alicante,FP,Televisión,43.0,5.0,Sí,No,No
+165,57,Hombre,Castellón,Universitarios,Radio,32.0,6.0,No,Sí,No
+166,23,Hombre,Valencia,Secundarios,Redes sociales,13.0,6.0,Sí,No,No
+167,53,Mujer,Valencia,FP,Prensa digital,59.0,4.0,Sí,No,No
+168,34,Mujer,Valencia,FP,Prensa digital,,6.0,No,Sí,No
+169,44,Mujer,Alicante,Primarios,Prensa digital,46.0,7.0,No,No,No
+170,57,Hombre,Valencia,Universitarios,Radio,45.0,4.0,Sí,No,Sí
+171,82,Hombre,Valencia,Secundarios,Prensa en papel,101.0,7.0,Sí,No,No
+172,64,Hombre,Alicante,Secundarios,Prensa en papel,48.0,7.0,No,No,No
+173,58,Hombre,Alicante,Universitarios,Prensa digital,19.0,,No,No,No
+174,62,Mujer,Castellón,Secundarios,Radio,63.0,,No,No,No
+175,59,Mujer,Castellón,Secundarios,Prensa digital,33.0,3.0,No,No,No
+176,42,Mujer,Alicante,Universitarios,Prensa en papel,,7.0,No,No,No
+177,59,Mujer,Alicante,Universitarios,Prensa digital,32.0,,Sí,Sí,No
+178,22,Mujer,Alicante,FP,Redes sociales,3.0,8.0,No,No,No
+179,76,Mujer,Valencia,FP,Televisión,,4.0,No,No,No
+180,71,Hombre,Alicante,Universitarios,Radio,55.0,6.0,No,No,No
+181,69,Hombre,Valencia,Universitarios,Televisión,47.0,5.0,Sí,Sí,No
+182,18,Hombre,Alicante,FP,Redes sociales,28.0,1.0,Sí,Sí,No
+183,78,Mujer,Valencia,Secundarios,Televisión,36.0,3.0,Sí,No,No
+184,31,Hombre,Alicante,Primarios,Radio,75.0,4.0,No,No,No
+185,62,Mujer,Alicante,FP,Prensa digital,44.0,1.0,Sí,No,Sí
+186,26,Mujer,Alicante,Universitarios,Radio,47.0,1.0,No,No,No
+187,38,Hombre,Valencia,Primarios,Prensa digital,151.0,7.0,No,No,No
+188,60,Mujer,Valencia,Universitarios,Televisión,87.0,1.0,No,Sí,No
+189,40,Mujer,Castellón,Universitarios,Radio,48.0,3.0,Sí,No,No
+190,64,Hombre,Alicante,Secundarios,Redes sociales,63.0,4.0,Sí,Sí,No
+191,35,Hombre,Valencia,Universitarios,Televisión,47.0,10.0,No,No,No
+192,67,Hombre,Valencia,Secundarios,Prensa digital,111.0,5.0,No,No,No
+193,25,Hombre,Alicante,Primarios,Redes sociales,44.0,6.0,No,No,No
+194,78,Hombre,Alicante,Secundarios,Prensa digital,97.0,,No,No,No
+195,38,Mujer,Alicante,Universitarios,Prensa digital,49.0,2.0,No,Sí,No
+196,28,Mujer,Valencia,Secundarios,Redes sociales,31.0,8.0,No,No,No
+197,56,Hombre,Castellón,FP,Prensa digital,106.0,0.0,Sí,Sí,No
+198,72,Hombre,Alicante,FP,Televisión,79.0,3.0,No,No,No
+199,84,Mujer,Valencia,Primarios,Prensa digital,33.0,5.0,No,No,No
+200,59,Hombre,Valencia,Universitarios,Televisión,58.0,3.0,Sí,Sí,No
+201,26,Mujer,Alicante,FP,Prensa digital,68.0,,No,No,No
+202,58,Hombre,Valencia,Universitarios,Prensa en papel,52.0,7.0,No,Sí,No
+203,22,Hombre,Castellón,FP,Prensa digital,48.0,1.0,No,Sí,No
+204,29,Hombre,Alicante,FP,Redes sociales,95.0,7.0,Sí,Sí,No
+205,21,Hombre,Alicante,Secundarios,Prensa en papel,50.0,,No,No,No
+206,42,Mujer,Valencia,Universitarios,Redes sociales,82.0,2.0,Sí,No,No
+207,26,Mujer,Alicante,Universitarios,Radio,57.0,4.0,No,No,No
+208,35,Mujer,Alicante,Secundarios,Televisión,22.0,5.0,No,No,No
+209,38,Hombre,Alicante,Primarios,Televisión,25.0,8.0,Sí,Sí,No
+210,46,Mujer,Alicante,FP,Prensa digital,46.0,7.0,No,No,No
+211,42,Hombre,Valencia,Primarios,Redes sociales,33.0,5.0,Sí,No,No
+212,76,Mujer,Castellón,Universitarios,Redes sociales,103.0,4.0,Sí,No,Sí
+213,79,Mujer,Valencia,Universitarios,Radio,143.0,4.0,No,No,No
+214,61,Mujer,Valencia,Secundarios,Televisión,46.0,4.0,No,No,No
+215,81,Mujer,Valencia,FP,Televisión,103.0,5.0,No,Sí,No
+216,22,Hombre,Alicante,Secundarios,Prensa en papel,59.0,8.0,No,No,Sí
+217,71,Mujer,Alicante,Universitarios,Radio,102.0,4.0,No,Sí,No
+218,20,Mujer,Alicante,Primarios,Redes sociales,250.0,7.0,Sí,No,No
+219,19,Hombre,Alicante,FP,Prensa digital,16.0,,Sí,No,No
+220,68,Mujer,Valencia,Secundarios,Televisión,35.0,4.0,Sí,No,No
+221,45,Mujer,Valencia,Secundarios,Televisión,23.0,7.0,Sí,No,No
+222,58,Hombre,Alicante,Primarios,Televisión,45.0,5.0,Sí,No,No
+223,47,Hombre,Alicante,FP,Prensa digital,225.0,6.0,No,Sí,No
+224,35,Hombre,Valencia,Universitarios,Televisión,156.0,6.0,No,No,No
+225,76,Hombre,Castellón,Universitarios,Televisión,31.0,6.0,No,Sí,No
+226,38,Mujer,Alicante,Primarios,Prensa digital,29.0,5.0,Sí,No,Sí
+227,25,Hombre,Castellón,Universitarios,Prensa digital,28.0,6.0,No,No,Sí
+228,62,Mujer,Valencia,FP,Radio,63.0,4.0,No,No,No
+229,59,Hombre,Alicante,Universitarios,Televisión,67.0,3.0,Sí,No,Sí
+230,40,Mujer,Alicante,Universitarios,Prensa en papel,51.0,3.0,No,No,No
+231,24,Mujer,Valencia,Universitarios,Prensa digital,,7.0,Sí,Sí,No
+232,26,Mujer,Valencia,Universitarios,Redes sociales,43.0,8.0,Sí,No,No
+233,72,Mujer,Castellón,FP,Prensa digital,39.0,4.0,No,No,No
+234,50,Mujer,Alicante,Secundarios,Prensa en papel,63.0,7.0,No,No,No
+235,78,Hombre,Valencia,Secundarios,Televisión,42.0,,No,No,No
+236,53,Mujer,Alicante,Secundarios,Televisión,50.0,3.0,Sí,No,No
+237,23,Mujer,Alicante,Universitarios,Prensa en papel,31.0,6.0,No,No,No
+238,77,Hombre,Valencia,Secundarios,Televisión,96.0,8.0,Sí,Sí,No
+239,82,Mujer,Valencia,Universitarios,Radio,56.0,4.0,Sí,Sí,No
+240,80,Mujer,Valencia,Universitarios,Prensa digital,80.0,6.0,No,No,No
+241,20,Mujer,Valencia,Universitarios,Redes sociales,60.0,6.0,Sí,No,No
+242,33,Mujer,Alicante,Universitarios,Televisión,24.0,5.0,No,Sí,No
+243,59,Mujer,Valencia,Universitarios,Prensa digital,,8.0,No,No,No
+244,68,Mujer,Castellón,Primarios,Televisión,31.0,6.0,No,No,No
+245,56,Hombre,Valencia,Primarios,Radio,73.0,3.0,No,No,No
+246,20,Mujer,Alicante,Universitarios,Prensa digital,54.0,8.0,No,No,No
+247,59,Hombre,Valencia,Universitarios,Televisión,95.0,,No,No,Sí
+248,56,Mujer,Valencia,Secundarios,Televisión,173.0,5.0,Sí,Sí,Sí
+249,65,Mujer,Valencia,Primarios,Televisión,68.0,5.0,No,No,No
+250,56,Mujer,Valencia,FP,Redes sociales,27.0,6.0,No,No,Sí
+251,26,Hombre,Castellón,Secundarios,Televisión,21.0,7.0,No,No,No
+252,27,Hombre,Valencia,Secundarios,Redes sociales,78.0,4.0,No,No,No
+253,76,Hombre,Valencia,Primarios,Redes sociales,24.0,4.0,Sí,No,No
+254,41,Mujer,Valencia,Universitarios,Prensa digital,12.0,5.0,No,No,No
+255,42,Hombre,Valencia,Primarios,Radio,41.0,9.0,No,No,No
+256,83,Hombre,Valencia,FP,Radio,49.0,1.0,No,No,No
+257,69,Mujer,Valencia,Secundarios,Televisión,47.0,5.0,No,No,No
+258,71,Mujer,Valencia,Secundarios,Prensa en papel,31.0,4.0,Sí,No,No
+259,79,Hombre,Alicante,FP,Televisión,54.0,3.0,No,No,No
+260,29,Hombre,Castellón,Secundarios,Redes sociales,55.0,10.0,Sí,Sí,No
+261,18,Mujer,Valencia,Primarios,Redes sociales,20.0,4.0,No,No,No
+262,68,Mujer,Valencia,FP,Televisión,81.0,7.0,No,No,No
+263,29,Mujer,Valencia,Universitarios,Prensa digital,88.0,4.0,Sí,No,No
+264,32,Hombre,Castellón,FP,Televisión,20.0,6.0,No,No,Sí
+265,40,Mujer,Valencia,Universitarios,Televisión,22.0,3.0,No,Sí,No
+266,58,Mujer,Alicante,Universitarios,Televisión,33.0,2.0,No,Sí,No
+267,33,Mujer,Valencia,FP,Redes sociales,31.0,5.0,No,No,No
+268,29,Mujer,Valencia,Secundarios,Redes sociales,58.0,8.0,Sí,Sí,No
+269,36,Mujer,Alicante,FP,Prensa digital,34.0,4.0,No,No,No
+270,53,Hombre,Castellón,Universitarios,Prensa digital,56.0,,Sí,Sí,No
+271,54,Mujer,Alicante,Secundarios,Televisión,113.0,9.0,Sí,No,No
+272,57,Hombre,Valencia,Secundarios,Televisión,85.0,7.0,No,No,No
+273,29,Hombre,Alicante,Universitarios,Redes sociales,59.0,,Sí,Sí,Sí
+274,48,Hombre,Alicante,Primarios,Televisión,21.0,8.0,Sí,Sí,No
+275,21,Hombre,Castellón,Secundarios,Redes sociales,26.0,4.0,Sí,Sí,No
+276,47,Hombre,Alicante,FP,Prensa digital,30.0,4.0,No,No,No
+277,74,Mujer,Alicante,Primarios,Televisión,43.0,9.0,Sí,No,No
+278,20,Hombre,Valencia,Secundarios,Redes sociales,136.0,5.0,No,No,No
+279,70,Hombre,Valencia,Secundarios,Televisión,23.0,,Sí,No,Sí
+280,69,Hombre,Valencia,FP,Televisión,49.0,7.0,Sí,No,No
+281,34,Hombre,Valencia,FP,Redes sociales,96.0,4.0,Sí,Sí,No
+282,46,Hombre,Valencia,Universitarios,Redes sociales,47.0,7.0,Sí,Sí,No
+283,36,Hombre,Valencia,Universitarios,Prensa digital,41.0,7.0,No,No,No
+284,27,Hombre,Valencia,FP,Prensa digital,11.0,7.0,No,No,No
+285,58,Mujer,Valencia,Primarios,Televisión,23.0,8.0,No,No,No
+286,45,Mujer,Valencia,FP,Televisión,53.0,7.0,No,No,No
+287,71,Hombre,Alicante,FP,Televisión,90.0,3.0,No,No,No
+288,60,Hombre,Alicante,Universitarios,Prensa digital,35.0,4.0,No,No,No
+289,48,Mujer,Alicante,Universitarios,Prensa digital,119.0,5.0,No,No,No
+290,59,Mujer,Castellón,FP,Prensa digital,37.0,7.0,No,No,No
+291,36,Hombre,Valencia,Universitarios,Redes sociales,17.0,6.0,No,No,No
+292,47,Hombre,Alicante,FP,Prensa digital,50.0,5.0,No,No,Sí
+293,79,Hombre,Alicante,Secundarios,Televisión,77.0,6.0,No,No,No
+294,62,Hombre,Castellón,Universitarios,Prensa digital,53.0,7.0,No,No,No
+295,33,Hombre,Alicante,Secundarios,Redes sociales,21.0,5.0,Sí,No,No
+296,52,Mujer,Castellón,Universitarios,Prensa digital,83.0,1.0,No,No,Sí
+297,73,Hombre,Valencia,FP,Televisión,37.0,4.0,No,Sí,No
+298,34,Mujer,Valencia,FP,Redes sociales,44.0,2.0,Sí,No,No
+299,20,Mujer,Alicante,Secundarios,Redes sociales,61.0,7.0,No,No,No
+300,62,Hombre,Valencia,FP,Redes sociales,29.0,4.0,Sí,No,Sí
+301,34,Hombre,Alicante,Universitarios,Prensa en papel,43.0,8.0,No,No,No
+302,54,Hombre,Alicante,Secundarios,Televisión,45.0,5.0,No,Sí,No
+303,53,Hombre,Valencia,Secundarios,Prensa en papel,51.0,9.0,Sí,No,No
+304,30,Hombre,Valencia,Primarios,Redes sociales,41.0,5.0,Sí,Sí,No
+305,31,Mujer,Alicante,FP,Redes sociales,27.0,,Sí,Sí,No
+306,39,Hombre,Castellón,FP,Redes sociales,34.0,9.0,Sí,No,No
+307,76,Mujer,Valencia,FP,Radio,38.0,4.0,Sí,No,No
+308,37,Mujer,Valencia,Universitarios,Televisión,55.0,5.0,No,No,No
+309,55,Mujer,Castellón,FP,Prensa digital,55.0,5.0,Sí,No,No
+310,84,Hombre,Valencia,Secundarios,Televisión,32.0,4.0,No,No,No
+311,68,Mujer,Castellón,Primarios,Televisión,20.0,5.0,No,Sí,Sí
+312,67,Mujer,Valencia,FP,Radio,83.0,7.0,No,No,No
+313,21,Mujer,Valencia,Primarios,Prensa digital,94.0,6.0,No,No,No
+314,51,Hombre,Alicante,Secundarios,Televisión,31.0,8.0,Sí,No,No
+315,53,Hombre,Castellón,FP,Televisión,42.0,3.0,No,No,No
+316,28,Mujer,Alicante,FP,Televisión,33.0,8.0,Sí,No,No
+317,25,Hombre,Castellón,FP,Redes sociales,71.0,7.0,Sí,No,No
+318,67,Mujer,Valencia,Universitarios,Prensa en papel,52.0,2.0,Sí,No,No
+319,31,Mujer,Valencia,FP,Prensa digital,13.0,3.0,Sí,Sí,No
+320,78,Mujer,Alicante,Universitarios,Televisión,33.0,4.0,No,No,No
+321,28,Hombre,Alicante,Primarios,Redes sociales,32.0,8.0,No,Sí,No
+322,31,Mujer,Valencia,Universitarios,Redes sociales,49.0,1.0,No,No,No
+323,56,Mujer,Valencia,Secundarios,Televisión,69.0,10.0,No,Sí,No
+324,35,Mujer,Alicante,FP,Redes sociales,9.0,8.0,Sí,Sí,No
+325,68,Hombre,Castellón,FP,Televisión,40.0,5.0,No,No,No
+326,29,Hombre,Valencia,Universitarios,Prensa digital,29.0,3.0,No,No,No
+327,39,Mujer,Valencia,Universitarios,Redes sociales,100.0,9.0,Sí,No,No
+328,60,Mujer,Castellón,Universitarios,Prensa en papel,60.0,0.0,No,No,Sí
+329,71,Mujer,Alicante,Universitarios,Televisión,29.0,9.0,No,No,No
+330,37,Hombre,Castellón,Primarios,Redes sociales,88.0,6.0,Sí,Sí,No
+331,72,Mujer,Valencia,Primarios,Radio,30.0,3.0,No,Sí,No
+332,27,Hombre,Valencia,Secundarios,Redes sociales,104.0,3.0,Sí,No,No
+333,35,Mujer,Valencia,Secundarios,Televisión,42.0,,Sí,No,No
+334,72,Hombre,Valencia,Universitarios,Prensa en papel,39.0,4.0,No,No,No
+335,22,Mujer,Valencia,Secundarios,Televisión,36.0,9.0,Sí,No,No
+336,67,Hombre,Valencia,Primarios,Televisión,48.0,5.0,Sí,No,No
+337,34,Hombre,Valencia,FP,Prensa en papel,77.0,5.0,Sí,Sí,No
+338,61,Hombre,Alicante,Universitarios,Prensa digital,85.0,5.0,Sí,No,No
+339,32,Hombre,Alicante,Secundarios,Prensa digital,24.0,7.0,No,No,No
+340,37,Mujer,Valencia,Secundarios,Prensa digital,38.0,3.0,Sí,Sí,No
+341,53,Mujer,Alicante,Secundarios,Radio,28.0,3.0,No,No,No
+342,65,Hombre,Valencia,Universitarios,Prensa en papel,72.0,9.0,No,No,No
+343,23,Mujer,Alicante,Universitarios,Prensa digital,79.0,5.0,No,No,Sí
+344,22,Mujer,Valencia,FP,Redes sociales,41.0,6.0,Sí,Sí,No
+345,39,Hombre,Alicante,Secundarios,Prensa digital,36.0,4.0,No,No,No
+346,53,Hombre,Valencia,FP,Radio,178.0,2.0,Sí,No,No
+347,20,Mujer,Valencia,Universitarios,Redes sociales,36.0,0.0,No,No,No
+348,65,Mujer,Valencia,Secundarios,Televisión,45.0,4.0,No,No,No
+349,58,Mujer,Castellón,Universitarios,Televisión,63.0,7.0,No,No,Sí
+350,24,Mujer,Valencia,Secundarios,Redes sociales,40.0,4.0,Sí,No,No
+351,35,Mujer,Valencia,Secundarios,Prensa digital,22.0,3.0,No,No,No
+352,26,Mujer,Alicante,Secundarios,Redes sociales,31.0,2.0,No,No,No
+353,39,Mujer,Valencia,Universitarios,Televisión,34.0,6.0,Sí,Sí,Sí
+354,39,Mujer,Valencia,Secundarios,Prensa en papel,31.0,4.0,Sí,Sí,No
+355,66,Hombre,Alicante,Universitarios,Televisión,33.0,8.0,No,Sí,No
+356,24,Hombre,Alicante,Secundarios,Redes sociales,66.0,6.0,Sí,Sí,Sí
+357,83,Hombre,Castellón,Universitarios,Televisión,64.0,6.0,No,Sí,No
+358,47,Hombre,Valencia,Primarios,Redes sociales,50.0,3.0,Sí,Sí,No
+359,63,Hombre,Valencia,Universitarios,Prensa digital,41.0,6.0,No,No,No
+360,32,Mujer,Valencia,Secundarios,Televisión,27.0,3.0,No,No,No
+361,27,Hombre,Valencia,Universitarios,Redes sociales,32.0,7.0,No,No,No
+362,83,Mujer,Castellón,FP,Televisión,63.0,,No,Sí,Sí
+363,74,Mujer,Valencia,Secundarios,Prensa digital,57.0,4.0,Sí,No,No
+364,70,Mujer,Valencia,FP,Radio,33.0,6.0,No,No,No
+365,41,Hombre,Castellón,Primarios,Redes sociales,26.0,3.0,Sí,No,No
+366,55,Hombre,Valencia,Secundarios,Redes sociales,31.0,6.0,No,No,No
+367,83,Hombre,Valencia,Universitarios,Redes sociales,101.0,6.0,Sí,Sí,No
+368,45,Mujer,Valencia,Secundarios,Prensa digital,43.0,7.0,No,No,No
+369,44,Hombre,Alicante,Secundarios,Radio,72.0,6.0,No,No,Sí
+370,55,Hombre,Castellón,Universitarios,Prensa digital,37.0,7.0,Sí,Sí,No
+371,63,Mujer,Alicante,Primarios,Prensa digital,,6.0,No,No,No
+372,76,Hombre,Castellón,FP,Televisión,73.0,4.0,No,No,No
+373,31,Mujer,Valencia,FP,Televisión,63.0,7.0,Sí,No,No
+374,50,Hombre,Alicante,Secundarios,Televisión,64.0,5.0,No,No,No
+375,80,Hombre,Valencia,FP,Prensa digital,45.0,5.0,No,No,No
+376,48,Mujer,Valencia,FP,Televisión,49.0,3.0,Sí,No,No
+377,23,Hombre,Valencia,Secundarios,Redes sociales,31.0,2.0,Sí,No,No
+378,82,Hombre,Alicante,FP,Televisión,110.0,6.0,No,Sí,No
+379,59,Mujer,Alicante,Primarios,Prensa en papel,99.0,4.0,No,No,No
+380,50,Mujer,Castellón,Universitarios,Prensa digital,25.0,8.0,No,No,No
+381,55,Hombre,Valencia,FP,Prensa digital,68.0,8.0,No,Sí,No
+382,80,Hombre,Valencia,FP,Televisión,61.0,3.0,Sí,Sí,No
+383,70,Mujer,Valencia,Universitarios,Prensa en papel,64.0,5.0,No,No,No
+384,53,Mujer,Alicante,Secundarios,Radio,64.0,2.0,No,No,No
+385,71,Hombre,Alicante,Secundarios,Radio,39.0,6.0,No,Sí,No
+386,50,Mujer,Alicante,Universitarios,Redes sociales,74.0,1.0,Sí,No,Sí
+387,19,Mujer,Alicante,Secundarios,Redes sociales,41.0,4.0,No,No,No
+388,69,Mujer,Valencia,Universitarios,Televisión,69.0,2.0,No,No,No
+389,22,Mujer,Valencia,Secundarios,Prensa digital,36.0,,Sí,No,No
+390,66,Mujer,Valencia,Primarios,Televisión,120.0,8.0,No,No,Sí
+391,64,Hombre,Valencia,Universitarios,Radio,83.0,7.0,No,No,No
+392,77,Mujer,Valencia,Primarios,Televisión,39.0,5.0,Sí,No,No
+393,31,Hombre,Valencia,FP,Prensa digital,34.0,6.0,No,No,No
+394,35,Mujer,Castellón,Primarios,Prensa digital,76.0,5.0,No,No,No
+395,62,Mujer,Valencia,Universitarios,Redes sociales,45.0,1.0,No,No,No
+396,81,Hombre,Valencia,Universitarios,Televisión,71.0,8.0,No,No,No
+397,23,Mujer,Castellón,Secundarios,Redes sociales,48.0,4.0,No,No,No
+398,74,Hombre,Alicante,Primarios,Televisión,34.0,6.0,No,No,No
+399,44,Mujer,Valencia,FP,Radio,58.0,7.0,No,No,No
+400,60,Mujer,Alicante,Primarios,Televisión,23.0,2.0,No,No,No
+401,53,Mujer,Valencia,Universitarios,Radio,79.0,4.0,Sí,Sí,No
+402,60,Mujer,Alicante,Universitarios,Televisión,57.0,5.0,No,Sí,No
+403,50,Mujer,Castellón,FP,Prensa en papel,30.0,9.0,No,Sí,No
+404,41,Hombre,Valencia,Secundarios,Redes sociales,65.0,5.0,No,No,No
+405,34,Mujer,Valencia,Universitarios,Prensa digital,18.0,5.0,No,No,No
+406,55,Mujer,Valencia,FP,Televisión,26.0,,No,No,No
+407,19,Mujer,Castellón,Primarios,Televisión,83.0,4.0,No,Sí,No
+408,83,Hombre,Valencia,Universitarios,Radio,65.0,10.0,Sí,No,No
+409,23,Hombre,Valencia,Universitarios,Redes sociales,43.0,6.0,Sí,No,No
+410,45,Mujer,Alicante,Secundarios,Televisión,27.0,4.0,No,No,No
+411,39,Hombre,Castellón,Universitarios,Televisión,35.0,6.0,No,No,No
+412,60,Mujer,Alicante,FP,Prensa en papel,62.0,3.0,No,No,Sí
+413,55,Hombre,Castellón,Universitarios,Prensa en papel,19.0,5.0,No,No,No
+414,60,Mujer,Valencia,Secundarios,Prensa digital,33.0,5.0,Sí,No,No
+415,70,Hombre,Valencia,Universitarios,Televisión,49.0,4.0,Sí,Sí,No
+416,49,Mujer,Valencia,FP,Redes sociales,46.0,6.0,Sí,No,No
+417,35,Hombre,Alicante,Primarios,Redes sociales,23.0,7.0,No,No,No
+418,33,Hombre,Valencia,FP,Prensa digital,27.0,4.0,No,No,No
+419,27,Hombre,Valencia,Universitarios,Radio,16.0,4.0,No,No,Sí
+420,52,Hombre,Valencia,Secundarios,Televisión,54.0,6.0,No,No,No
+421,85,Hombre,Valencia,Universitarios,Televisión,54.0,1.0,Sí,Sí,No
+422,52,Hombre,Alicante,Secundarios,Prensa digital,45.0,5.0,No,No,No
+423,31,Hombre,Castellón,FP,Prensa digital,,8.0,No,No,No
+424,20,Mujer,Alicante,Secundarios,Radio,24.0,5.0,No,No,No
+425,80,Hombre,Valencia,Universitarios,Redes sociales,52.0,3.0,Sí,No,No
+426,73,Hombre,Valencia,Primarios,Televisión,56.0,6.0,No,Sí,No
+427,40,Mujer,Valencia,Universitarios,Redes sociales,20.0,4.0,Sí,No,Sí
+428,38,Mujer,Valencia,FP,Prensa en papel,,6.0,Sí,No,No
+429,77,Mujer,Valencia,Universitarios,Televisión,26.0,6.0,Sí,No,No
+430,44,Mujer,Castellón,FP,Prensa en papel,62.0,4.0,Sí,No,No
+431,83,Hombre,Alicante,Secundarios,Prensa digital,56.0,5.0,No,Sí,No
+432,70,Mujer,Alicante,Secundarios,Radio,40.0,7.0,No,No,No
+433,39,Hombre,Alicante,FP,Redes sociales,62.0,10.0,Sí,Sí,No
+434,77,Hombre,Valencia,Secundarios,Televisión,55.0,5.0,No,No,No
+435,56,Mujer,Alicante,FP,Prensa digital,110.0,1.0,No,No,Sí
+436,39,Mujer,Castellón,Secundarios,Televisión,39.0,5.0,Sí,Sí,No
+437,39,Hombre,Alicante,Primarios,Prensa digital,77.0,8.0,No,No,No
+438,77,Hombre,Valencia,Universitarios,Televisión,40.0,7.0,No,No,Sí
+439,80,Hombre,Alicante,FP,Prensa en papel,64.0,3.0,Sí,No,No
+440,54,Hombre,Valencia,Universitarios,Prensa digital,44.0,8.0,No,No,No
+441,30,Mujer,Valencia,FP,Prensa digital,95.0,,Sí,Sí,No
+442,50,Mujer,Valencia,Secundarios,Radio,24.0,,No,No,Sí
+443,52,Hombre,Valencia,Primarios,Televisión,64.0,5.0,Sí,Sí,No
+444,71,Mujer,Alicante,Primarios,Televisión,50.0,6.0,No,No,No
+445,63,Mujer,Castellón,FP,Prensa digital,,3.0,Sí,Sí,No
+446,69,Hombre,Valencia,Secundarios,Televisión,33.0,4.0,No,No,No
+447,74,Hombre,Alicante,FP,Prensa digital,25.0,7.0,No,No,Sí
+448,39,Mujer,Alicante,Primarios,Redes sociales,29.0,5.0,Sí,No,Sí
+449,55,Hombre,Valencia,Secundarios,Televisión,23.0,,No,No,No
+450,67,Hombre,Alicante,Secundarios,Televisión,23.0,8.0,No,No,No
+451,48,Hombre,Alicante,Secundarios,Redes sociales,45.0,4.0,Sí,No,No
+452,44,Mujer,Alicante,Universitarios,Prensa digital,34.0,2.0,No,No,No
+453,65,Mujer,Alicante,Universitarios,Televisión,49.0,6.0,No,No,No
+454,66,Hombre,Valencia,Universitarios,Prensa en papel,67.0,5.0,No,Sí,No
+455,33,Hombre,Valencia,Secundarios,Prensa digital,57.0,5.0,No,Sí,No
+456,38,Mujer,Valencia,Universitarios,Redes sociales,45.0,3.0,No,No,No
+457,53,Hombre,Valencia,Universitarios,Televisión,49.0,2.0,No,Sí,Sí
+458,42,Hombre,Valencia,FP,Prensa digital,23.0,5.0,No,No,No
+459,74,Hombre,Castellón,FP,Prensa en papel,45.0,2.0,Sí,Sí,No
+460,54,Hombre,Valencia,Secundarios,Televisión,42.0,8.0,Sí,Sí,No
+461,29,Mujer,Castellón,FP,Prensa digital,45.0,6.0,No,Sí,No
+462,28,Hombre,Valencia,Secundarios,Radio,19.0,10.0,No,No,No
+463,65,Hombre,Castellón,Secundarios,Prensa digital,50.0,7.0,Sí,Sí,No
+464,45,Hombre,Alicante,Primarios,Redes sociales,23.0,1.0,Sí,Sí,No
+465,25,Mujer,Alicante,Secundarios,Prensa digital,65.0,6.0,No,Sí,No
+466,38,Hombre,Alicante,FP,Prensa digital,16.0,5.0,No,No,No
+467,75,Hombre,Valencia,Secundarios,Televisión,73.0,5.0,Sí,No,No
+468,77,Hombre,Alicante,FP,Televisión,39.0,5.0,Sí,Sí,Sí
+469,45,Mujer,Alicante,Universitarios,Prensa digital,12.0,3.0,No,No,No
+470,38,Mujer,Alicante,Secundarios,Televisión,20.0,3.0,No,No,No
+471,35,Hombre,Alicante,Secundarios,Redes sociales,72.0,4.0,No,No,No
+472,59,Mujer,Valencia,Universitarios,Prensa en papel,71.0,7.0,No,No,No
+473,19,Mujer,Valencia,Universitarios,Redes sociales,53.0,3.0,Sí,No,No
+474,25,Hombre,Valencia,Universitarios,Prensa digital,11.0,3.0,Sí,Sí,No
+475,85,Hombre,Alicante,Secundarios,Prensa digital,66.0,4.0,No,No,No
+476,75,Hombre,Alicante,Universitarios,Redes sociales,39.0,2.0,No,No,No
+477,40,Mujer,Valencia,Universitarios,Prensa digital,34.0,6.0,No,No,No
+478,33,Hombre,Valencia,Secundarios,Prensa digital,20.0,8.0,No,No,No
+479,58,Mujer,Castellón,Universitarios,Televisión,42.0,7.0,Sí,No,Sí
+480,54,Hombre,Alicante,Universitarios,Televisión,54.0,5.0,Sí,No,No
+481,31,Hombre,Valencia,Universitarios,Televisión,53.0,8.0,Sí,No,No
+482,51,Mujer,Alicante,Universitarios,Prensa digital,56.0,4.0,No,No,No
+483,39,Mujer,Alicante,Primarios,Redes sociales,39.0,3.0,Sí,Sí,No
+484,18,Hombre,Valencia,Primarios,Redes sociales,13.0,1.0,Sí,No,No
+485,73,Hombre,Alicante,Secundarios,Prensa en papel,75.0,8.0,Sí,No,No
+486,19,Mujer,Valencia,Secundarios,Redes sociales,10.0,6.0,Sí,No,No
+487,81,Hombre,Valencia,FP,Radio,70.0,7.0,No,Sí,No
+488,19,Mujer,Valencia,FP,Redes sociales,50.0,5.0,Sí,Sí,No
+489,24,Mujer,Alicante,Secundarios,Redes sociales,18.0,5.0,No,No,No
+490,44,Hombre,Valencia,FP,Redes sociales,104.0,4.0,No,No,No
+491,77,Mujer,Valencia,Primarios,Televisión,36.0,8.0,Sí,Sí,No
+492,56,Mujer,Alicante,Secundarios,Prensa digital,31.0,8.0,No,Sí,No
+493,65,Hombre,Valencia,FP,Televisión,55.0,5.0,No,No,Sí
+494,40,Hombre,Alicante,Secundarios,Prensa digital,62.0,6.0,No,No,No
+495,46,Hombre,Alicante,Universitarios,Prensa digital,39.0,4.0,Sí,No,Sí
+496,57,Hombre,Alicante,Secundarios,Televisión,133.0,3.0,No,No,No
+497,41,Hombre,Valencia,Universitarios,Prensa digital,124.0,10.0,No,No,No
+498,50,Mujer,Valencia,FP,Radio,33.0,6.0,No,No,Sí
+499,35,Hombre,Valencia,FP,Prensa digital,84.0,4.0,Sí,Sí,No
+500,82,Mujer,Valencia,Universitarios,Prensa en papel,67.0,2.0,No,No,No
+501,41,Hombre,Castellón,FP,Redes sociales,37.0,5.0,No,Sí,No
+502,84,Mujer,Alicante,Secundarios,Radio,52.0,7.0,No,No,No
+503,27,Hombre,Alicante,Secundarios,Redes sociales,57.0,7.0,Sí,Sí,No
+504,53,Hombre,Valencia,FP,Prensa digital,58.0,7.0,Sí,No,No
+505,74,Mujer,Valencia,Secundarios,Televisión,31.0,5.0,No,No,No
+506,72,Hombre,Alicante,FP,Prensa en papel,44.0,6.0,Sí,No,No
+507,36,Hombre,Valencia,FP,Televisión,67.0,7.0,No,No,No
+508,47,Hombre,Valencia,Secundarios,Prensa digital,41.0,6.0,Sí,No,No
+509,83,Mujer,Valencia,Universitarios,Televisión,96.0,3.0,No,No,No
+510,44,Hombre,Valencia,Secundarios,Redes sociales,48.0,8.0,Sí,No,No
+511,35,Mujer,Valencia,Universitarios,Televisión,60.0,8.0,No,No,No
+512,53,Hombre,Valencia,Universitarios,Redes sociales,21.0,3.0,No,No,No
+513,47,Hombre,Valencia,FP,Redes sociales,20.0,5.0,Sí,No,No
+514,82,Hombre,Valencia,FP,Televisión,66.0,5.0,No,No,No
+515,72,Mujer,Alicante,Primarios,Prensa en papel,54.0,7.0,No,Sí,No
+516,75,Hombre,Alicante,Secundarios,Prensa en papel,64.0,5.0,No,No,No
+517,63,Hombre,Alicante,Secundarios,Televisión,64.0,4.0,Sí,No,No
+518,50,Hombre,Alicante,Universitarios,Prensa digital,,7.0,No,No,No
+519,80,Hombre,Valencia,Universitarios,Televisión,33.0,6.0,No,No,No
+520,29,Mujer,Alicante,Secundarios,Redes sociales,19.0,4.0,Sí,No,No
+521,85,Hombre,Valencia,Secundarios,Televisión,59.0,4.0,No,Sí,No
+522,65,Mujer,Alicante,Secundarios,Prensa digital,45.0,3.0,No,No,No
+523,25,Hombre,Alicante,Universitarios,Redes sociales,62.0,4.0,Sí,No,No
+524,84,Mujer,Valencia,Primarios,Prensa en papel,86.0,5.0,No,No,No
+525,70,Hombre,Alicante,Primarios,Televisión,28.0,7.0,No,No,No
+526,76,Hombre,Valencia,FP,Televisión,96.0,6.0,No,Sí,No
+527,52,Mujer,Alicante,FP,Televisión,28.0,4.0,Sí,No,No
+528,70,Mujer,Alicante,Secundarios,Prensa en papel,109.0,4.0,No,No,No
+529,53,Hombre,Castellón,Primarios,Redes sociales,24.0,9.0,Sí,Sí,No
+530,78,Hombre,Valencia,FP,Televisión,61.0,2.0,No,No,No
+531,40,Mujer,Valencia,Universitarios,Prensa digital,18.0,4.0,No,Sí,No
+532,72,Hombre,Alicante,FP,Prensa digital,36.0,5.0,Sí,No,No
+533,62,Hombre,Valencia,FP,Televisión,56.0,10.0,No,No,No
+534,22,Hombre,Alicante,FP,Prensa digital,82.0,8.0,Sí,No,No
+535,64,Hombre,Alicante,Primarios,Prensa digital,51.0,5.0,No,No,No
+536,22,Hombre,Alicante,Primarios,Radio,24.0,9.0,Sí,No,No
+537,36,Mujer,Valencia,Universitarios,Redes sociales,47.0,3.0,Sí,No,No
+538,40,Hombre,Valencia,FP,Redes sociales,38.0,7.0,Sí,No,Sí
+539,23,Hombre,Valencia,Secundarios,Prensa digital,31.0,4.0,Sí,Sí,No
+540,57,Mujer,Valencia,Secundarios,Prensa digital,51.0,5.0,Sí,Sí,No
+541,80,Mujer,Valencia,Universitarios,Televisión,54.0,8.0,Sí,Sí,No
+542,20,Hombre,Alicante,Universitarios,Redes sociales,21.0,5.0,Sí,No,No
+543,43,Hombre,Valencia,Universitarios,Prensa digital,39.0,2.0,No,No,No
+544,55,Mujer,Valencia,Primarios,Prensa en papel,53.0,5.0,No,Sí,No
+545,45,Hombre,Valencia,FP,Televisión,28.0,1.0,Sí,No,No
+546,49,Hombre,Valencia,Universitarios,Televisión,26.0,4.0,Sí,Sí,No
+547,78,Hombre,Alicante,Secundarios,Televisión,91.0,7.0,Sí,No,No
+548,24,Mujer,Alicante,Universitarios,Televisión,102.0,5.0,Sí,No,Sí
+549,65,Mujer,Castellón,Universitarios,Prensa en papel,,2.0,No,No,Sí
+550,73,Hombre,Valencia,Universitarios,Televisión,85.0,8.0,No,No,No
+551,78,Mujer,Valencia,Secundarios,Televisión,43.0,5.0,No,No,No
+552,49,Mujer,Alicante,Universitarios,Prensa digital,20.0,8.0,No,No,Sí
+553,52,Hombre,Valencia,Universitarios,Televisión,35.0,6.0,No,Sí,No
+554,30,Hombre,Castellón,Secundarios,Prensa digital,65.0,8.0,Sí,No,No
+555,67,Hombre,Valencia,FP,Televisión,37.0,4.0,No,No,No
+556,74,Hombre,Castellón,Universitarios,Prensa en papel,101.0,5.0,No,No,No
+557,76,Mujer,Alicante,Primarios,Televisión,40.0,2.0,No,No,No
+558,18,Hombre,Valencia,Secundarios,Redes sociales,30.0,8.0,Sí,No,No
+559,80,Hombre,Valencia,Primarios,Prensa en papel,60.0,7.0,Sí,Sí,No
+560,63,Mujer,Alicante,FP,Prensa en papel,52.0,6.0,Sí,No,No
+561,47,Mujer,Valencia,Universitarios,Prensa digital,25.0,8.0,No,No,No
+562,19,Hombre,Alicante,Primarios,Prensa en papel,6.0,9.0,No,Sí,No
+563,44,Hombre,Alicante,FP,Televisión,,6.0,No,Sí,No
+564,62,Hombre,Castellón,Primarios,Televisión,66.0,4.0,No,No,No
+565,60,Mujer,Valencia,Secundarios,Televisión,48.0,3.0,No,No,No
+566,80,Mujer,Valencia,Universitarios,Redes sociales,108.0,3.0,No,No,No
+567,81,Mujer,Valencia,Primarios,Televisión,45.0,5.0,No,No,Sí
+568,29,Mujer,Valencia,Primarios,Redes sociales,28.0,,Sí,Sí,No
+569,44,Mujer,Valencia,Primarios,Redes sociales,35.0,7.0,No,No,No
+570,63,Mujer,Alicante,Secundarios,Prensa en papel,39.0,4.0,Sí,No,No
+571,81,Hombre,Alicante,Secundarios,Redes sociales,34.0,8.0,No,No,No
+572,21,Mujer,Alicante,Primarios,Redes sociales,,9.0,Sí,Sí,No
+573,25,Hombre,Valencia,FP,Televisión,73.0,4.0,No,No,No
+574,35,Hombre,Valencia,Secundarios,Redes sociales,,5.0,Sí,Sí,No
+575,82,Hombre,Valencia,Secundarios,Televisión,52.0,5.0,No,No,No
+576,78,Hombre,Alicante,Universitarios,Prensa digital,76.0,6.0,No,No,No
+577,34,Hombre,Alicante,Secundarios,Televisión,22.0,4.0,No,No,No
+578,68,Hombre,Valencia,Universitarios,Prensa en papel,52.0,7.0,No,No,No
+579,28,Mujer,Alicante,FP,Prensa digital,53.0,6.0,No,No,No
+580,37,Mujer,Valencia,Primarios,Televisión,42.0,6.0,No,No,Sí
+581,53,Hombre,Castellón,FP,Radio,113.0,5.0,Sí,No,No
+582,84,Hombre,Alicante,Secundarios,Televisión,46.0,7.0,Sí,No,No
+583,71,Mujer,Valencia,Universitarios,Televisión,75.0,3.0,Sí,Sí,No
+584,54,Mujer,Alicante,FP,Prensa digital,34.0,3.0,No,No,No
+585,24,Mujer,Alicante,Secundarios,Radio,29.0,7.0,Sí,Sí,No
+586,85,Mujer,Castellón,FP,Televisión,43.0,5.0,No,No,No
+587,32,Mujer,Alicante,Secundarios,Prensa digital,61.0,3.0,No,Sí,No
+588,22,Hombre,Alicante,Universitarios,Radio,24.0,6.0,No,No,No
+589,25,Mujer,Valencia,FP,Prensa digital,35.0,3.0,No,No,No
+590,28,Mujer,Alicante,Secundarios,Redes sociales,27.0,3.0,Sí,Sí,No
+591,76,Mujer,Alicante,Primarios,Televisión,46.0,4.0,No,Sí,No
+592,77,Mujer,Valencia,Secundarios,Prensa digital,30.0,5.0,No,No,No
+593,22,Mujer,Valencia,Secundarios,Redes sociales,97.0,1.0,Sí,No,No
+594,63,Mujer,Valencia,Secundarios,Prensa digital,48.0,8.0,No,No,No
+595,35,Mujer,Alicante,FP,Prensa digital,86.0,6.0,Sí,Sí,No
+596,25,Hombre,Alicante,Universitarios,Redes sociales,74.0,3.0,Sí,No,No
+597,48,Mujer,Valencia,Secundarios,Redes sociales,91.0,5.0,Sí,No,No
+598,83,Mujer,Alicante,Universitarios,Televisión,160.0,2.0,No,No,Sí
+599,31,Hombre,Alicante,Universitarios,Televisión,56.0,3.0,No,No,No
+600,52,Hombre,Castellón,Primarios,Prensa digital,54.0,8.0,No,No,No
+601,27,Hombre,Valencia,FP,Redes sociales,23.0,0.0,Sí,No,No
+602,37,Hombre,Alicante,Secundarios,Redes sociales,35.0,,Sí,Sí,No
+603,39,Mujer,Alicante,FP,Redes sociales,28.0,2.0,Sí,No,No
+604,75,Hombre,Valencia,FP,Televisión,86.0,8.0,No,No,No
+605,76,Hombre,Valencia,Universitarios,Prensa digital,73.0,6.0,No,No,No
+606,51,Mujer,Valencia,Secundarios,Televisión,79.0,6.0,No,No,No
+607,27,Mujer,Alicante,Universitarios,Televisión,57.0,5.0,Sí,Sí,No
+608,34,Mujer,Valencia,FP,Redes sociales,19.0,6.0,Sí,No,No
+609,71,Mujer,Castellón,FP,Televisión,41.0,4.0,No,Sí,No
+610,77,Mujer,Alicante,Secundarios,Prensa digital,37.0,9.0,No,No,No
+611,23,Hombre,Alicante,Universitarios,Televisión,49.0,6.0,No,Sí,No
+612,79,Mujer,Valencia,Primarios,Televisión,63.0,6.0,Sí,Sí,Sí
+613,62,Mujer,Valencia,Secundarios,Radio,57.0,4.0,No,No,No
+614,81,Mujer,Valencia,Secundarios,Radio,89.0,10.0,No,No,No
+615,78,Mujer,Valencia,Secundarios,Televisión,62.0,7.0,Sí,No,No
+616,42,Hombre,Valencia,FP,Redes sociales,78.0,5.0,Sí,No,No
+617,21,Hombre,Alicante,Secundarios,Televisión,43.0,4.0,No,No,No
+618,18,Mujer,Alicante,Universitarios,Redes sociales,23.0,7.0,Sí,Sí,No
+619,80,Mujer,Alicante,FP,Televisión,67.0,5.0,No,No,No
+620,49,Mujer,Valencia,Universitarios,Televisión,62.0,5.0,No,Sí,No
+621,29,Hombre,Castellón,FP,Redes sociales,58.0,6.0,Sí,Sí,No
+622,81,Mujer,Alicante,Universitarios,Televisión,40.0,7.0,No,No,Sí
+623,60,Hombre,Valencia,Secundarios,Radio,53.0,6.0,No,No,Sí
+624,19,Mujer,Valencia,Secundarios,Prensa digital,23.0,6.0,Sí,Sí,No
+625,40,Mujer,Valencia,Primarios,Redes sociales,93.0,5.0,No,No,No
+626,36,Mujer,Valencia,Universitarios,Prensa digital,26.0,6.0,No,No,No
+627,19,Mujer,Castellón,Secundarios,Redes sociales,40.0,5.0,Sí,No,No
+628,26,Mujer,Alicante,Universitarios,Prensa digital,72.0,3.0,Sí,Sí,No
+629,19,Mujer,Valencia,Primarios,Prensa digital,23.0,10.0,No,Sí,No
+630,51,Hombre,Alicante,FP,Televisión,57.0,5.0,No,No,No
+631,60,Mujer,Valencia,Universitarios,Televisión,55.0,4.0,No,No,Sí
+632,21,Hombre,Valencia,Secundarios,Redes sociales,31.0,4.0,No,No,No
+633,41,Hombre,Valencia,Secundarios,Prensa digital,23.0,3.0,No,Sí,No
+634,74,Hombre,Alicante,Universitarios,Televisión,28.0,,No,No,No
+635,24,Hombre,Valencia,Primarios,Prensa digital,64.0,5.0,Sí,No,No
+636,58,Hombre,Castellón,FP,Televisión,71.0,6.0,Sí,No,No
+637,38,Mujer,Valencia,FP,Televisión,62.0,7.0,No,Sí,No
+638,47,Hombre,Castellón,FP,Prensa digital,41.0,4.0,Sí,Sí,No
+639,47,Hombre,Valencia,Universitarios,Prensa digital,30.0,4.0,No,No,No
+640,74,Mujer,Valencia,Universitarios,Televisión,66.0,6.0,Sí,No,No
+641,32,Mujer,Castellón,Primarios,Radio,38.0,7.0,Sí,No,No
+642,79,Hombre,Alicante,Primarios,Televisión,85.0,5.0,No,No,No
+643,38,Hombre,Alicante,Secundarios,Prensa digital,16.0,,No,No,No
+644,35,Mujer,Valencia,Universitarios,Redes sociales,17.0,6.0,Sí,No,Sí
+645,62,Hombre,Alicante,Primarios,Redes sociales,93.0,5.0,Sí,No,No
+646,58,Mujer,Valencia,Secundarios,Radio,76.0,8.0,No,Sí,Sí
+647,27,Mujer,Valencia,Primarios,Redes sociales,34.0,3.0,No,No,No
+648,25,Mujer,Valencia,Primarios,Redes sociales,21.0,1.0,No,Sí,No
+649,55,Mujer,Valencia,Universitarios,Televisión,58.0,4.0,No,No,No
+650,62,Hombre,Castellón,Universitarios,Prensa digital,,2.0,No,No,No
+651,19,Mujer,Valencia,Secundarios,Redes sociales,16.0,4.0,Sí,No,No
+652,78,Mujer,Castellón,Primarios,Televisión,84.0,8.0,No,No,No
+653,43,Mujer,Alicante,Universitarios,Redes sociales,67.0,8.0,No,No,Sí
+654,64,Hombre,Valencia,Primarios,Prensa digital,36.0,1.0,No,No,No
+655,67,Hombre,Valencia,Secundarios,Televisión,78.0,2.0,No,No,No
+656,70,Mujer,Valencia,Universitarios,Radio,28.0,4.0,No,No,No
+657,44,Mujer,Alicante,FP,Redes sociales,58.0,0.0,No,Sí,No
+658,41,Mujer,Alicante,Universitarios,Prensa digital,24.0,,No,No,No
+659,49,Mujer,Valencia,Universitarios,Redes sociales,29.0,3.0,Sí,Sí,No
+660,22,Hombre,Valencia,Secundarios,Redes sociales,20.0,4.0,No,No,No
+661,35,Hombre,Castellón,Primarios,Redes sociales,13.0,4.0,Sí,Sí,No
+662,56,Mujer,Valencia,Universitarios,Televisión,53.0,5.0,No,Sí,No
+663,31,Hombre,Alicante,Universitarios,Televisión,58.0,6.0,No,No,No
+664,73,Hombre,Castellón,FP,Televisión,65.0,5.0,No,No,No
+665,23,Hombre,Alicante,FP,Televisión,58.0,4.0,No,No,No
+666,75,Mujer,Castellón,Secundarios,Televisión,39.0,7.0,Sí,Sí,No
+667,56,Mujer,Valencia,Secundarios,Prensa digital,89.0,5.0,No,No,No
+668,55,Hombre,Valencia,Universitarios,Prensa digital,38.0,5.0,Sí,Sí,No
+669,41,Mujer,Alicante,Universitarios,Prensa en papel,35.0,4.0,No,No,Sí
+670,67,Hombre,Castellón,Universitarios,Radio,51.0,,No,No,No
+671,76,Hombre,Valencia,FP,Radio,48.0,6.0,No,No,No
+672,64,Mujer,Castellón,Universitarios,Redes sociales,63.0,2.0,Sí,Sí,No
+673,42,Hombre,Alicante,Primarios,Prensa digital,59.0,8.0,Sí,No,No
+674,22,Mujer,Castellón,Secundarios,Redes sociales,15.0,4.0,Sí,No,No
+675,74,Hombre,Alicante,Primarios,Televisión,83.0,5.0,No,No,No
+676,31,Hombre,Castellón,Secundarios,Televisión,60.0,4.0,No,No,No
+677,77,Mujer,Valencia,FP,Televisión,30.0,3.0,Sí,No,No
+678,39,Mujer,Alicante,Secundarios,Redes sociales,20.0,9.0,Sí,No,No
+679,65,Hombre,Alicante,Universitarios,Prensa en papel,109.0,5.0,No,No,No
+680,85,Hombre,Alicante,Universitarios,Televisión,68.0,6.0,Sí,Sí,Sí
+681,31,Mujer,Valencia,Universitarios,Redes sociales,32.0,2.0,Sí,No,No
+682,57,Mujer,Valencia,Universitarios,Televisión,53.0,4.0,No,No,No
+683,79,Hombre,Valencia,FP,Prensa en papel,79.0,8.0,No,No,No
+684,44,Hombre,Alicante,Universitarios,Redes sociales,98.0,,Sí,No,No
+685,81,Mujer,Castellón,FP,Televisión,90.0,6.0,No,No,No
+686,68,Hombre,Castellón,Universitarios,Televisión,57.0,6.0,No,No,No
+687,65,Hombre,Alicante,FP,Prensa digital,57.0,3.0,Sí,No,No
+688,21,Mujer,Valencia,FP,Prensa en papel,38.0,4.0,Sí,No,No
+689,53,Mujer,Valencia,Secundarios,Televisión,34.0,8.0,No,Sí,No
+690,70,Mujer,Valencia,FP,Prensa digital,85.0,7.0,Sí,Sí,No
+691,72,Hombre,Valencia,FP,Radio,61.0,4.0,No,No,Sí
+692,35,Mujer,Alicante,Secundarios,Redes sociales,36.0,2.0,Sí,Sí,No
+693,79,Hombre,Valencia,FP,Televisión,34.0,6.0,No,No,No
+694,59,Mujer,Valencia,Universitarios,Televisión,25.0,4.0,No,No,No
+695,41,Hombre,Castellón,Secundarios,Prensa digital,36.0,5.0,No,No,No
+696,31,Mujer,Valencia,FP,Redes sociales,27.0,5.0,No,No,Sí
+697,52,Mujer,Valencia,FP,Prensa digital,59.0,5.0,Sí,No,No
+698,64,Hombre,Castellón,Primarios,Televisión,66.0,8.0,Sí,No,No
+699,49,Hombre,Alicante,FP,Televisión,38.0,5.0,No,Sí,No
+700,61,Mujer,Valencia,Secundarios,Radio,48.0,,No,No,No
+701,30,Mujer,Valencia,FP,Redes sociales,63.0,7.0,No,No,No
+702,67,Hombre,Alicante,Secundarios,Prensa digital,30.0,4.0,No,No,No
+703,64,Hombre,Castellón,Universitarios,Redes sociales,44.0,4.0,Sí,No,Sí
+704,74,Mujer,Castellón,FP,Televisión,72.0,5.0,No,Sí,No
+705,55,Hombre,Castellón,Secundarios,Televisión,30.0,6.0,No,No,No
+706,57,Mujer,Valencia,Universitarios,Televisión,49.0,5.0,Sí,No,No
+707,70,Hombre,Alicante,Universitarios,Televisión,124.0,5.0,No,No,Sí
+708,75,Hombre,Castellón,Secundarios,Televisión,86.0,2.0,No,No,No
+709,37,Hombre,Valencia,Universitarios,Televisión,103.0,7.0,Sí,No,Sí
+710,32,Mujer,Alicante,Secundarios,Radio,27.0,,No,No,No
+711,55,Mujer,Valencia,Secundarios,Televisión,35.0,5.0,Sí,Sí,No
+712,64,Hombre,Castellón,FP,Redes sociales,34.0,,Sí,Sí,No
+713,66,Hombre,Valencia,Universitarios,Prensa digital,32.0,5.0,No,No,No
+714,49,Mujer,Valencia,Universitarios,Televisión,53.0,6.0,No,Sí,No
+715,31,Mujer,Valencia,FP,Prensa digital,55.0,4.0,No,Sí,No
+716,69,Hombre,Alicante,Primarios,Prensa en papel,42.0,5.0,No,No,Sí
+717,66,Hombre,Castellón,Universitarios,Prensa digital,45.0,4.0,Sí,No,No
+718,84,Hombre,Alicante,Universitarios,Prensa digital,33.0,,No,No,Sí
+719,30,Hombre,Valencia,Universitarios,Redes sociales,50.0,6.0,Sí,Sí,No
+720,20,Mujer,Alicante,Universitarios,Redes sociales,25.0,6.0,No,Sí,Sí
+721,58,Hombre,Alicante,FP,Radio,43.0,5.0,No,No,No
+722,27,Mujer,Castellón,FP,Redes sociales,46.0,7.0,Sí,Sí,No
+723,27,Hombre,Alicante,Universitarios,Redes sociales,34.0,2.0,Sí,No,No
+724,39,Hombre,Valencia,Universitarios,Prensa digital,96.0,7.0,Sí,No,No
+725,43,Hombre,Valencia,Universitarios,Televisión,44.0,7.0,No,No,No
+726,75,Hombre,Valencia,Secundarios,Prensa digital,81.0,2.0,No,No,No
+727,51,Hombre,Valencia,FP,Prensa en papel,54.0,5.0,No,Sí,No
+728,36,Mujer,Alicante,Universitarios,Redes sociales,20.0,5.0,No,No,Sí
+729,55,Mujer,Valencia,FP,Redes sociales,51.0,10.0,Sí,No,No
+730,60,Hombre,Valencia,Universitarios,Prensa digital,92.0,,No,No,No
+731,39,Hombre,Alicante,Universitarios,Televisión,130.0,3.0,No,No,Sí
+732,39,Mujer,Alicante,Universitarios,Televisión,,1.0,No,No,No
+733,63,Hombre,Alicante,Secundarios,Redes sociales,35.0,5.0,Sí,No,No
+734,31,Mujer,Valencia,Secundarios,Prensa digital,36.0,7.0,Sí,No,No
+735,30,Hombre,Valencia,Secundarios,Redes sociales,57.0,4.0,Sí,No,No
+736,67,Hombre,Valencia,Secundarios,Prensa digital,55.0,5.0,No,No,No
+737,70,Mujer,Valencia,Universitarios,Radio,28.0,7.0,No,Sí,No
+738,45,Hombre,Valencia,Universitarios,Prensa digital,38.0,5.0,Sí,No,No
+739,34,Mujer,Alicante,Universitarios,Prensa digital,75.0,3.0,No,No,No
+740,49,Hombre,Valencia,Universitarios,Prensa en papel,39.0,7.0,Sí,No,No
+741,65,Mujer,Castellón,FP,Televisión,96.0,6.0,No,No,No
+742,26,Hombre,Alicante,Primarios,Redes sociales,55.0,3.0,No,No,No
+743,59,Hombre,Valencia,Secundarios,Televisión,30.0,2.0,No,No,No
+744,48,Hombre,Alicante,Secundarios,Prensa digital,90.0,5.0,Sí,No,No
+745,42,Mujer,Castellón,Universitarios,Prensa digital,53.0,0.0,No,Sí,No
+746,80,Mujer,Valencia,Universitarios,Televisión,,5.0,Sí,No,No
+747,60,Hombre,Valencia,Universitarios,Televisión,66.0,5.0,No,No,No
+748,53,Mujer,Castellón,FP,Redes sociales,81.0,5.0,No,No,No
+749,64,Mujer,Valencia,FP,Televisión,43.0,6.0,Sí,No,No
+750,40,Mujer,Valencia,Universitarios,Televisión,38.0,5.0,No,No,No
+751,85,Mujer,Valencia,Universitarios,Prensa digital,91.0,6.0,Sí,Sí,No
+752,48,Hombre,Valencia,Primarios,Prensa digital,41.0,1.0,No,No,No
+753,47,Mujer,Alicante,Secundarios,Prensa digital,24.0,3.0,No,Sí,No
+754,45,Hombre,Valencia,FP,Radio,39.0,5.0,Sí,Sí,No
+755,65,Mujer,Valencia,Secundarios,Televisión,91.0,6.0,No,Sí,No
+756,58,Mujer,Valencia,Secundarios,Televisión,77.0,7.0,No,No,No
+757,27,Mujer,Valencia,Secundarios,Radio,67.0,3.0,Sí,No,No
+758,51,Mujer,Valencia,FP,Televisión,35.0,6.0,No,No,No
+759,26,Mujer,Alicante,Secundarios,Redes sociales,18.0,4.0,No,No,No
+760,65,Mujer,Castellón,Secundarios,Radio,51.0,3.0,No,Sí,No
+761,80,Mujer,Valencia,FP,Redes sociales,55.0,6.0,Sí,No,No
+762,34,Mujer,Alicante,FP,Prensa digital,13.0,5.0,No,No,No
+763,69,Mujer,Valencia,Secundarios,Televisión,26.0,3.0,No,No,No
+764,37,Mujer,Valencia,Secundarios,Redes sociales,100.0,5.0,Sí,No,No
+765,22,Hombre,Valencia,Universitarios,Redes sociales,78.0,3.0,No,No,No
+766,73,Mujer,Valencia,FP,Prensa en papel,46.0,3.0,Sí,Sí,No
+767,22,Mujer,Valencia,FP,Redes sociales,14.0,7.0,Sí,Sí,No
+768,55,Mujer,Alicante,FP,Televisión,83.0,4.0,No,No,Sí
+769,63,Hombre,Alicante,Secundarios,Televisión,62.0,7.0,No,No,No
+770,39,Hombre,Valencia,Secundarios,Televisión,58.0,5.0,No,No,Sí
+771,49,Mujer,Valencia,Universitarios,Televisión,16.0,5.0,Sí,Sí,No
+772,42,Mujer,Valencia,Secundarios,Televisión,50.0,3.0,No,No,No
+773,50,Mujer,Valencia,Primarios,Radio,52.0,4.0,No,No,No
+774,39,Hombre,Alicante,Primarios,Redes sociales,62.0,1.0,Sí,No,No
+775,40,Hombre,Valencia,Secundarios,Prensa en papel,63.0,4.0,No,Sí,No
+776,47,Hombre,Alicante,Secundarios,Prensa digital,72.0,5.0,Sí,No,No
+777,79,Mujer,Valencia,FP,Televisión,94.0,8.0,No,No,No
+778,40,Hombre,Alicante,Universitarios,Prensa digital,83.0,1.0,No,Sí,Sí
+779,57,Hombre,Valencia,Primarios,Televisión,30.0,,Sí,Sí,No
+780,21,Hombre,Alicante,Primarios,Redes sociales,15.0,5.0,Sí,No,No
+781,23,Mujer,Valencia,Secundarios,Prensa digital,80.0,8.0,No,No,No
+782,61,Mujer,Valencia,Universitarios,Prensa digital,129.0,6.0,No,No,Sí
+783,33,Mujer,Valencia,Primarios,Televisión,56.0,8.0,No,No,No
+784,57,Mujer,Alicante,Universitarios,Televisión,47.0,3.0,No,No,Sí
+785,74,Hombre,Valencia,Universitarios,Prensa en papel,96.0,4.0,No,No,No
+786,22,Hombre,Castellón,Secundarios,Televisión,51.0,7.0,Sí,No,No
+787,64,Mujer,Alicante,Primarios,Prensa digital,45.0,4.0,No,No,No
+788,35,Hombre,Castellón,Primarios,Redes sociales,48.0,6.0,No,No,No
+789,25,Mujer,Alicante,Primarios,Redes sociales,27.0,4.0,Sí,No,No
+790,63,Mujer,Valencia,FP,Redes sociales,90.0,4.0,Sí,Sí,No
+791,29,Mujer,Valencia,FP,Redes sociales,23.0,2.0,Sí,No,No
+792,74,Mujer,Alicante,Universitarios,Televisión,51.0,3.0,No,No,No
+793,77,Mujer,Alicante,FP,Televisión,93.0,4.0,No,No,Sí
+794,31,Hombre,Valencia,Primarios,Redes sociales,13.0,5.0,No,Sí,No
+795,79,Mujer,Alicante,Secundarios,Prensa en papel,43.0,5.0,No,No,No
+796,25,Mujer,Castellón,Universitarios,Redes sociales,62.0,7.0,Sí,No,Sí
+797,55,Hombre,Alicante,Primarios,Prensa digital,18.0,6.0,No,Sí,Sí
+798,54,Hombre,Alicante,Primarios,Televisión,40.0,6.0,Sí,Sí,No
+799,48,Mujer,Alicante,FP,Redes sociales,47.0,4.0,No,No,No
+800,19,Mujer,Valencia,Secundarios,Televisión,16.0,4.0,Sí,No,Sí
+801,25,Hombre,Castellón,FP,Redes sociales,63.0,5.0,Sí,Sí,No
+802,34,Hombre,Valencia,Universitarios,Prensa digital,25.0,6.0,Sí,No,No
+803,70,Mujer,Valencia,Universitarios,Televisión,42.0,2.0,Sí,No,Sí
+804,60,Hombre,Alicante,Secundarios,Televisión,62.0,3.0,No,No,No
+805,71,Mujer,Alicante,Primarios,Radio,44.0,3.0,No,No,No
+806,48,Mujer,Castellón,Secundarios,Prensa digital,25.0,5.0,No,Sí,No
+807,75,Hombre,Valencia,Universitarios,Televisión,82.0,4.0,Sí,No,No
+808,44,Hombre,Valencia,Primarios,Televisión,39.0,6.0,Sí,No,No
+809,33,Mujer,Castellón,Universitarios,Prensa digital,24.0,6.0,Sí,Sí,No
+810,42,Hombre,Alicante,Universitarios,Prensa digital,22.0,3.0,No,Sí,No
+811,79,Mujer,Valencia,FP,Televisión,29.0,5.0,No,No,Sí
+812,73,Mujer,Valencia,Secundarios,Televisión,72.0,9.0,Sí,Sí,No
+813,74,Mujer,Alicante,FP,Televisión,70.0,6.0,Sí,No,No
+814,20,Mujer,Valencia,Primarios,Prensa digital,5.0,7.0,No,No,No
+815,45,Hombre,Alicante,Secundarios,Televisión,,8.0,No,No,No
+816,85,Mujer,Valencia,Secundarios,Televisión,93.0,5.0,No,No,No
+817,65,Mujer,Valencia,Universitarios,Prensa en papel,31.0,4.0,No,No,No
+818,35,Mujer,Valencia,FP,Prensa digital,19.0,4.0,No,Sí,No
+819,43,Mujer,Alicante,Secundarios,Prensa digital,20.0,3.0,Sí,No,No
+820,67,Hombre,Valencia,FP,Televisión,28.0,6.0,No,No,No
+821,45,Hombre,Alicante,Universitarios,Redes sociales,61.0,,Sí,No,Sí
+822,53,Hombre,Valencia,Secundarios,Prensa digital,39.0,8.0,No,No,No
+823,46,Mujer,Valencia,Primarios,Prensa digital,31.0,6.0,No,Sí,No
+824,51,Hombre,Valencia,Universitarios,Redes sociales,63.0,2.0,Sí,Sí,No
+825,22,Mujer,Valencia,Universitarios,Redes sociales,60.0,6.0,Sí,Sí,No
+826,64,Mujer,Alicante,Universitarios,Radio,49.0,4.0,Sí,Sí,Sí
+827,30,Mujer,Valencia,FP,Prensa digital,100.0,7.0,No,No,Sí
+828,50,Hombre,Alicante,Secundarios,Televisión,42.0,9.0,No,No,No
+829,38,Mujer,Valencia,Universitarios,Prensa en papel,91.0,5.0,Sí,Sí,No
+830,36,Hombre,Valencia,FP,Televisión,55.0,6.0,No,No,No
+831,70,Hombre,Alicante,FP,Prensa digital,100.0,3.0,Sí,No,No
+832,62,Mujer,Valencia,Universitarios,Prensa digital,25.0,5.0,No,No,No
+833,70,Mujer,Castellón,Secundarios,Televisión,42.0,7.0,No,No,No
+834,40,Mujer,Valencia,Secundarios,Prensa digital,35.0,7.0,No,No,No
+835,77,Hombre,Valencia,Universitarios,Televisión,61.0,5.0,No,No,No
+836,43,Hombre,Valencia,Primarios,Prensa digital,138.0,6.0,No,No,No
+837,55,Hombre,Valencia,Primarios,Televisión,34.0,4.0,No,Sí,No
+838,38,Hombre,Valencia,Secundarios,Redes sociales,28.0,3.0,Sí,No,No
+839,18,Mujer,Valencia,Secundarios,Redes sociales,8.0,3.0,No,No,Sí
+840,53,Mujer,Alicante,Primarios,Redes sociales,36.0,9.0,Sí,Sí,No
+841,63,Hombre,Valencia,Primarios,Radio,43.0,6.0,No,Sí,No
+842,80,Mujer,Valencia,Secundarios,Radio,47.0,3.0,Sí,Sí,No
+843,64,Mujer,Valencia,Secundarios,Televisión,59.0,3.0,No,No,No
+844,82,Hombre,Alicante,Primarios,Prensa digital,80.0,5.0,No,No,Sí
+845,74,Hombre,Alicante,FP,Prensa digital,93.0,4.0,No,No,No
+846,74,Hombre,Alicante,Secundarios,Prensa en papel,51.0,5.0,Sí,No,Sí
+847,46,Hombre,Valencia,Universitarios,Televisión,33.0,4.0,No,No,No
+848,66,Mujer,Valencia,Universitarios,Televisión,51.0,5.0,No,No,No
+849,25,Hombre,Valencia,FP,Prensa digital,37.0,1.0,No,No,No
+850,19,Hombre,Alicante,Secundarios,Redes sociales,22.0,7.0,Sí,Sí,No
+851,38,Hombre,Alicante,Universitarios,Televisión,24.0,4.0,No,No,No
+852,49,Hombre,Valencia,Universitarios,Redes sociales,66.0,7.0,Sí,Sí,No
+853,68,Mujer,Valencia,Primarios,Televisión,22.0,7.0,No,Sí,No
+854,19,Hombre,Alicante,Secundarios,Prensa digital,22.0,5.0,No,No,No
+855,53,Hombre,Castellón,Universitarios,Prensa digital,36.0,5.0,No,No,No
+856,74,Hombre,Alicante,Universitarios,Prensa digital,81.0,6.0,Sí,Sí,No
+857,35,Hombre,Alicante,Secundarios,Prensa digital,64.0,5.0,No,No,No
+858,52,Mujer,Alicante,FP,Televisión,32.0,,No,No,No
+859,48,Hombre,Valencia,Universitarios,Prensa digital,63.0,6.0,No,No,Sí
+860,80,Mujer,Valencia,Secundarios,Televisión,99.0,6.0,No,No,No
+861,70,Hombre,Valencia,Secundarios,Televisión,74.0,,No,No,No
+862,19,Mujer,Castellón,FP,Prensa digital,53.0,2.0,No,No,No
+863,29,Mujer,Castellón,Universitarios,Redes sociales,40.0,6.0,Sí,No,Sí
+864,57,Hombre,Valencia,FP,Prensa en papel,22.0,6.0,Sí,Sí,No
+865,75,Hombre,Alicante,Primarios,Prensa en papel,81.0,,No,No,Sí
+866,71,Hombre,Valencia,Primarios,Televisión,114.0,5.0,No,No,No
+867,58,Hombre,Valencia,Secundarios,Televisión,58.0,5.0,No,No,No
+868,48,Mujer,Valencia,Universitarios,Redes sociales,20.0,5.0,No,Sí,No
+869,49,Mujer,Valencia,Universitarios,Televisión,56.0,,Sí,Sí,No
+870,19,Mujer,Valencia,Secundarios,Redes sociales,21.0,8.0,Sí,Sí,No
+871,65,Mujer,Castellón,Universitarios,Televisión,52.0,4.0,No,Sí,No
+872,21,Hombre,Alicante,Secundarios,Radio,12.0,9.0,No,No,No
+873,44,Mujer,Valencia,Universitarios,Televisión,39.0,6.0,No,No,No
+874,70,Mujer,Valencia,Secundarios,Prensa en papel,36.0,4.0,No,No,No
+875,76,Hombre,Valencia,Primarios,Prensa digital,67.0,6.0,No,No,No
+876,47,Hombre,Alicante,Universitarios,Televisión,39.0,7.0,No,Sí,No
+877,26,Hombre,Valencia,Universitarios,Redes sociales,100.0,,No,No,No
+878,26,Hombre,Valencia,FP,Redes sociales,41.0,4.0,No,No,No
+879,60,Hombre,Alicante,FP,Radio,61.0,4.0,Sí,No,No
+880,77,Hombre,Alicante,Primarios,Televisión,81.0,4.0,No,No,No
+881,54,Hombre,Alicante,Primarios,Televisión,69.0,6.0,Sí,No,No
+882,37,Hombre,Valencia,Universitarios,Prensa digital,16.0,3.0,No,Sí,No
+883,67,Hombre,Valencia,Secundarios,Prensa digital,31.0,7.0,Sí,No,No
+884,45,Mujer,Alicante,Secundarios,Redes sociales,54.0,7.0,Sí,Sí,No
+885,67,Hombre,Valencia,Primarios,Televisión,148.0,9.0,No,No,No
+886,38,Mujer,Valencia,Primarios,Redes sociales,70.0,7.0,No,No,No
+887,33,Mujer,Alicante,Primarios,Prensa en papel,25.0,4.0,No,Sí,No
+888,24,Mujer,Valencia,Universitarios,Redes sociales,49.0,5.0,Sí,Sí,No
+889,40,Mujer,Castellón,Primarios,Radio,77.0,6.0,Sí,Sí,No
+890,43,Hombre,Castellón,FP,Prensa digital,39.0,5.0,No,No,No
+891,78,Mujer,Alicante,Universitarios,Prensa digital,43.0,5.0,Sí,Sí,No
+892,83,Mujer,Valencia,FP,Televisión,,6.0,Sí,No,No
+893,20,Mujer,Valencia,FP,Prensa digital,39.0,4.0,Sí,Sí,Sí
+894,81,Hombre,Castellón,Secundarios,Radio,64.0,6.0,No,No,No
+895,40,Mujer,Alicante,FP,Redes sociales,,5.0,No,Sí,Sí
+896,82,Hombre,Valencia,FP,Televisión,71.0,6.0,Sí,Sí,Sí
+897,56,Hombre,Valencia,Secundarios,Televisión,62.0,5.0,No,No,Sí
+898,18,Mujer,Valencia,Secundarios,Prensa digital,28.0,3.0,No,No,No
+899,29,Hombre,Alicante,FP,Redes sociales,15.0,4.0,No,No,No
+900,35,Hombre,Alicante,FP,Prensa digital,67.0,4.0,No,Sí,No
+901,18,Mujer,Alicante,Primarios,Redes sociales,21.0,2.0,Sí,Sí,No
+902,26,Mujer,Valencia,Secundarios,Redes sociales,39.0,6.0,No,No,No
+903,85,Mujer,Valencia,Universitarios,Televisión,75.0,7.0,No,No,No
+904,76,Mujer,Valencia,Primarios,Redes sociales,35.0,3.0,No,No,No
+905,75,Hombre,Alicante,Primarios,Televisión,,2.0,Sí,Sí,No
+906,84,Hombre,Castellón,Universitarios,Prensa en papel,85.0,0.0,Sí,No,No
+907,40,Hombre,Valencia,Universitarios,Prensa en papel,44.0,8.0,No,No,No
+908,30,Mujer,Alicante,Primarios,Radio,12.0,4.0,Sí,No,Sí
+909,59,Hombre,Valencia,FP,Prensa digital,19.0,9.0,No,No,No
+910,83,Hombre,Valencia,FP,Prensa en papel,72.0,6.0,No,No,No
+911,64,Mujer,Alicante,FP,Televisión,48.0,5.0,No,No,No
+912,38,Hombre,Alicante,Primarios,Redes sociales,57.0,5.0,Sí,Sí,Sí
+913,19,Mujer,Valencia,FP,Radio,9.0,5.0,No,No,No
+914,41,Hombre,Castellón,Secundarios,Prensa digital,42.0,4.0,No,No,No
+915,34,Mujer,Castellón,Universitarios,Redes sociales,23.0,5.0,Sí,Sí,No
+916,48,Hombre,Castellón,Primarios,Televisión,23.0,7.0,No,No,No
+917,18,Mujer,Castellón,FP,Redes sociales,28.0,7.0,Sí,Sí,No
+918,38,Mujer,Valencia,Primarios,Redes sociales,13.0,5.0,Sí,No,No
+919,24,Hombre,Alicante,FP,Radio,22.0,5.0,Sí,No,No
+920,34,Hombre,Alicante,FP,Prensa digital,40.0,6.0,Sí,No,No
+921,62,Hombre,Castellón,FP,Televisión,18.0,8.0,Sí,No,No
+922,39,Hombre,Alicante,Primarios,Televisión,63.0,6.0,No,No,No
+923,51,Hombre,Alicante,Secundarios,Prensa en papel,126.0,6.0,No,No,No
+924,23,Mujer,Alicante,Universitarios,Redes sociales,28.0,8.0,No,No,No
+925,47,Mujer,Alicante,FP,Redes sociales,53.0,4.0,Sí,Sí,No
+926,65,Hombre,Valencia,FP,Televisión,77.0,4.0,Sí,Sí,No
+927,48,Mujer,Alicante,Universitarios,Televisión,58.0,4.0,No,No,No
+928,44,Mujer,Valencia,Secundarios,Televisión,56.0,5.0,Sí,No,No
+929,47,Mujer,Valencia,Secundarios,Prensa digital,43.0,5.0,No,No,No
+930,83,Hombre,Valencia,Universitarios,Televisión,78.0,5.0,Sí,No,No
+931,79,Mujer,Valencia,Universitarios,Televisión,104.0,4.0,No,No,No
+932,50,Hombre,Alicante,Secundarios,Redes sociales,31.0,3.0,Sí,No,No
+933,74,Hombre,Alicante,Secundarios,Televisión,34.0,2.0,No,No,No
+934,28,Mujer,Valencia,Universitarios,Prensa digital,23.0,9.0,No,Sí,No
+935,32,Hombre,Alicante,FP,Prensa en papel,32.0,5.0,No,No,No
+936,66,Mujer,Alicante,Universitarios,Televisión,56.0,6.0,No,Sí,No
+937,60,Hombre,Alicante,Primarios,Televisión,33.0,3.0,No,Sí,No
+938,79,Hombre,Alicante,Universitarios,Televisión,96.0,7.0,No,No,No
+939,45,Hombre,Valencia,Universitarios,Redes sociales,72.0,6.0,Sí,No,No
+940,76,Mujer,Alicante,FP,Televisión,,8.0,No,No,No
+941,32,Mujer,Alicante,Secundarios,Redes sociales,37.0,4.0,No,No,No
+942,40,Hombre,Valencia,Secundarios,Prensa digital,57.0,5.0,Sí,No,No
+943,20,Hombre,Valencia,Secundarios,Redes sociales,29.0,5.0,Sí,No,No
+944,62,Hombre,Alicante,FP,Televisión,49.0,5.0,No,Sí,No
+945,67,Mujer,Valencia,FP,Prensa en papel,59.0,6.0,No,Sí,No
+946,76,Hombre,Valencia,Universitarios,Televisión,46.0,4.0,Sí,Sí,No
+947,48,Hombre,Alicante,Universitarios,Prensa digital,79.0,3.0,No,Sí,Sí
+948,69,Mujer,Valencia,FP,Televisión,33.0,4.0,No,No,No
+949,73,Mujer,Castellón,Universitarios,Televisión,34.0,2.0,Sí,No,Sí
+950,25,Hombre,Alicante,Universitarios,Redes sociales,18.0,3.0,Sí,No,No
+951,57,Mujer,Castellón,Primarios,Televisión,32.0,7.0,No,No,No
+952,58,Mujer,Valencia,Universitarios,Prensa digital,47.0,7.0,Sí,Sí,No
+953,36,Hombre,Valencia,Universitarios,Prensa digital,27.0,2.0,No,No,No
+954,36,Hombre,Valencia,FP,Prensa en papel,17.0,3.0,No,No,No
+955,25,Hombre,Valencia,Primarios,Prensa digital,8.0,3.0,No,No,No
+956,28,Mujer,Castellón,FP,Redes sociales,21.0,4.0,Sí,No,No
+957,59,Hombre,Castellón,Secundarios,Televisión,27.0,3.0,No,No,No
+958,81,Mujer,Alicante,Secundarios,Prensa en papel,35.0,6.0,No,No,No
+959,52,Hombre,Alicante,Secundarios,Prensa en papel,50.0,4.0,No,Sí,No
+960,72,Mujer,Valencia,Secundarios,Prensa en papel,24.0,2.0,Sí,Sí,No
+961,54,Hombre,Valencia,Primarios,Prensa en papel,62.0,7.0,Sí,Sí,No
+962,49,Mujer,Alicante,FP,Televisión,29.0,5.0,No,No,Sí
+963,47,Mujer,Valencia,Secundarios,Televisión,,9.0,No,Sí,No
+964,67,Mujer,Valencia,Secundarios,Prensa digital,53.0,7.0,No,No,No
+965,48,Mujer,Castellón,Secundarios,Televisión,42.0,5.0,Sí,No,No
+966,43,Mujer,Alicante,Secundarios,Prensa digital,89.0,7.0,Sí,Sí,No
+967,52,Mujer,Valencia,Secundarios,Televisión,67.0,5.0,Sí,No,No
+968,58,Mujer,Castellón,Primarios,Televisión,60.0,8.0,Sí,Sí,No
+969,48,Hombre,Alicante,Secundarios,Televisión,44.0,3.0,No,No,No
+970,78,Hombre,Valencia,FP,Prensa en papel,67.0,8.0,No,No,Sí
+971,48,Mujer,Castellón,Secundarios,Prensa digital,40.0,9.0,No,No,No
+972,83,Mujer,Alicante,Universitarios,Televisión,53.0,5.0,Sí,No,Sí
+973,38,Mujer,Alicante,Universitarios,Televisión,49.0,7.0,Sí,No,Sí
+974,58,Mujer,Alicante,Universitarios,Prensa digital,95.0,3.0,No,No,No
+975,45,Mujer,Alicante,Primarios,Radio,49.0,0.0,Sí,No,No
+976,54,Mujer,Alicante,FP,Prensa en papel,32.0,5.0,Sí,No,Sí
+977,79,Hombre,Valencia,Primarios,Televisión,41.0,5.0,No,No,No
+978,42,Hombre,Valencia,FP,Televisión,16.0,3.0,No,No,No
+979,42,Mujer,Alicante,Secundarios,Televisión,54.0,,Sí,No,No
+980,18,Mujer,Alicante,Universitarios,Prensa en papel,53.0,4.0,No,No,No
+981,81,Hombre,Alicante,FP,Radio,50.0,1.0,No,No,Sí
+982,57,Hombre,Alicante,Secundarios,Prensa digital,50.0,4.0,No,No,No
+983,70,Hombre,Valencia,FP,Televisión,142.0,4.0,Sí,No,No
+984,85,Mujer,Valencia,Secundarios,Prensa en papel,63.0,,No,No,No
+985,82,Hombre,Valencia,Universitarios,Televisión,67.0,6.0,No,No,No
+986,61,Hombre,Alicante,FP,Prensa digital,73.0,,No,No,No
+987,34,Hombre,Alicante,FP,Televisión,35.0,5.0,No,Sí,No
+988,72,Hombre,Alicante,FP,Radio,65.0,5.0,Sí,No,No
+989,40,Hombre,Alicante,Secundarios,Televisión,40.0,,No,No,No
+990,19,Mujer,Valencia,Universitarios,Redes sociales,28.0,8.0,Sí,No,No
+991,50,Hombre,Valencia,Secundarios,Televisión,81.0,7.0,No,No,No
+992,54,Hombre,Alicante,Primarios,Televisión,19.0,4.0,No,No,No
+993,71,Mujer,Valencia,Secundarios,Prensa en papel,38.0,3.0,Sí,Sí,Sí
+994,45,Mujer,Valencia,Universitarios,Prensa digital,41.0,8.0,No,No,Sí
+995,32,Hombre,Castellón,Primarios,Redes sociales,48.0,7.0,No,No,No
+996,34,Mujer,Valencia,Primarios,Prensa digital,16.0,4.0,No,No,No
+997,44,Hombre,Alicante,Universitarios,Televisión,33.0,2.0,No,No,No
+998,68,Mujer,Alicante,Secundarios,Radio,39.0,6.0,No,No,No
+999,47,Hombre,Alicante,Secundarios,Radio,59.0,4.0,Sí,No,No
+1000,78,Hombre,Valencia,FP,Prensa en papel,28.0,5.0,Sí,Sí,No
+1001,44,Hombre,Valencia,Universitarios,Televisión,25.0,4.0,No,No,No
+1002,47,Mujer,Valencia,FP,Prensa en papel,46.0,4.0,No,Sí,No
+1003,42,Hombre,Valencia,Secundarios,Redes sociales,31.0,4.0,No,No,No
+1004,36,Mujer,Alicante,Secundarios,Televisión,58.0,7.0,Sí,Sí,No
+1005,74,Hombre,Valencia,Secundarios,Televisión,,5.0,No,No,No
+1006,24,Mujer,Valencia,Primarios,Redes sociales,67.0,3.0,No,Sí,No
+1007,34,Hombre,Valencia,Primarios,Prensa digital,40.0,2.0,No,Sí,No
+1008,22,Hombre,Valencia,FP,Radio,42.0,7.0,Sí,No,No
+1009,65,Hombre,Valencia,Secundarios,Televisión,60.0,6.0,Sí,No,No
+1010,64,Hombre,Alicante,Secundarios,Televisión,45.0,2.0,Sí,No,Sí
+1011,71,Hombre,Valencia,Secundarios,Televisión,36.0,9.0,Sí,No,No
+1012,37,Mujer,Valencia,Secundarios,Prensa digital,65.0,6.0,Sí,Sí,No
+1013,47,Mujer,Alicante,Universitarios,Televisión,35.0,7.0,No,No,No
+1014,61,Hombre,Valencia,Universitarios,Prensa digital,70.0,6.0,No,No,No
+1015,44,Hombre,Valencia,Universitarios,Redes sociales,44.0,5.0,No,No,No
+1016,72,Mujer,Alicante,FP,Televisión,63.0,6.0,No,Sí,No
+1017,77,Mujer,Alicante,Universitarios,Televisión,48.0,3.0,No,No,No
+1018,35,Mujer,Valencia,FP,Televisión,20.0,,No,Sí,No
+1019,73,Hombre,Alicante,Secundarios,Prensa en papel,38.0,1.0,No,No,No
+1020,46,Mujer,Valencia,Primarios,Prensa en papel,119.0,7.0,No,Sí,No
+1021,35,Mujer,Alicante,FP,Prensa digital,33.0,1.0,No,No,No
+1022,54,Mujer,Valencia,Universitarios,Televisión,32.0,9.0,No,No,No
+1023,54,Mujer,Valencia,Universitarios,Televisión,27.0,8.0,No,No,No
+1024,53,Mujer,Valencia,Secundarios,Televisión,44.0,6.0,No,Sí,No
+1025,30,Mujer,Alicante,Universitarios,Redes sociales,39.0,1.0,Sí,No,No
+1026,27,Mujer,Valencia,Universitarios,Prensa digital,45.0,8.0,Sí,No,No
+1027,76,Hombre,Castellón,Primarios,Televisión,79.0,5.0,No,Sí,No
+1028,71,Mujer,Valencia,Secundarios,Radio,28.0,5.0,Sí,Sí,No
+1029,31,Mujer,Valencia,Universitarios,Televisión,51.0,6.0,No,No,Sí
+1030,34,Mujer,Valencia,Secundarios,Televisión,48.0,3.0,No,No,No
+1031,32,Hombre,Castellón,Universitarios,Prensa digital,100.0,8.0,No,Sí,No
+1032,43,Hombre,Valencia,Primarios,Prensa en papel,40.0,3.0,No,No,No
+1033,38,Hombre,Alicante,FP,Prensa digital,19.0,7.0,No,No,No
+1034,71,Mujer,Alicante,Universitarios,Prensa digital,23.0,7.0,No,Sí,No
+1035,35,Hombre,Valencia,Universitarios,Prensa digital,40.0,4.0,No,No,No
+1036,30,Hombre,Alicante,Secundarios,Radio,21.0,7.0,No,Sí,No
+1037,53,Mujer,Valencia,Universitarios,Televisión,41.0,2.0,No,Sí,No
+1038,27,Hombre,Valencia,FP,Redes sociales,14.0,4.0,No,No,No
+1039,41,Hombre,Valencia,FP,Prensa digital,54.0,5.0,Sí,No,No
+1040,61,Mujer,Alicante,Universitarios,Prensa digital,,,No,No,No
+1041,36,Mujer,Valencia,Secundarios,Redes sociales,71.0,1.0,Sí,Sí,No
+1042,84,Mujer,Valencia,Universitarios,Televisión,35.0,5.0,Sí,No,No
+1043,71,Hombre,Alicante,Secundarios,Televisión,39.0,2.0,No,No,No
+1044,72,Mujer,Alicante,Universitarios,Televisión,26.0,7.0,No,No,No
+1045,36,Mujer,Alicante,Secundarios,Televisión,19.0,7.0,Sí,Sí,No
+1046,31,Mujer,Alicante,Secundarios,Redes sociales,59.0,6.0,Sí,Sí,No
+1047,46,Hombre,Alicante,Universitarios,Prensa digital,17.0,,Sí,No,Sí
+1048,40,Hombre,Castellón,Universitarios,Televisión,,4.0,Sí,No,Sí
+1049,84,Mujer,Valencia,Secundarios,Televisión,120.0,6.0,No,No,Sí
+1050,81,Mujer,Valencia,FP,Prensa digital,74.0,3.0,No,No,No
+1051,35,Hombre,Valencia,Universitarios,Redes sociales,65.0,1.0,Sí,No,No
+1052,25,Mujer,Valencia,Universitarios,Redes sociales,34.0,4.0,No,No,No
+1053,55,Hombre,Alicante,Secundarios,Redes sociales,43.0,3.0,Sí,Sí,No
+1054,27,Mujer,Alicante,Universitarios,Redes sociales,37.0,1.0,No,No,No
+1055,44,Mujer,Valencia,FP,Prensa digital,25.0,4.0,No,No,No
+1056,49,Mujer,Alicante,Universitarios,Redes sociales,49.0,4.0,No,No,No
+1057,65,Hombre,Valencia,Universitarios,Prensa en papel,110.0,3.0,Sí,No,No
+1058,46,Hombre,Valencia,Secundarios,Radio,14.0,3.0,No,No,No
+1059,74,Mujer,Alicante,FP,Televisión,59.0,8.0,Sí,No,No
+1060,51,Hombre,Castellón,Universitarios,Televisión,111.0,4.0,No,Sí,No
+1061,66,Hombre,Valencia,Secundarios,Televisión,90.0,3.0,No,No,No
+1062,51,Hombre,Valencia,Secundarios,Televisión,44.0,4.0,No,No,No
+1063,24,Mujer,Castellón,Universitarios,Redes sociales,14.0,5.0,No,No,No
+1064,24,Hombre,Valencia,Secundarios,Redes sociales,39.0,3.0,No,Sí,Sí
+1065,20,Mujer,Valencia,Secundarios,Prensa digital,91.0,4.0,Sí,Sí,No
+1066,26,Mujer,Castellón,Universitarios,Redes sociales,39.0,6.0,Sí,Sí,No
+1067,40,Mujer,Castellón,Universitarios,Radio,45.0,2.0,No,No,No
+1068,20,Mujer,Alicante,FP,Radio,94.0,4.0,Sí,Sí,No
+1069,73,Mujer,Alicante,Secundarios,Televisión,22.0,8.0,No,No,No
+1070,64,Hombre,Alicante,FP,Prensa digital,44.0,6.0,Sí,No,No
+1071,73,Mujer,Alicante,Universitarios,Televisión,129.0,1.0,Sí,No,No
+1072,49,Mujer,Valencia,FP,Prensa digital,59.0,3.0,No,No,No
+1073,32,Mujer,Valencia,Secundarios,Prensa digital,42.0,5.0,No,No,No
+1074,72,Mujer,Alicante,Universitarios,Prensa en papel,120.0,7.0,No,No,No
+1075,62,Hombre,Alicante,Universitarios,Prensa digital,72.0,3.0,No,No,No
+1076,79,Mujer,Valencia,Primarios,Televisión,38.0,4.0,No,No,No
+1077,49,Hombre,Valencia,Primarios,Televisión,27.0,8.0,Sí,No,No
+1078,60,Mujer,Valencia,Universitarios,Prensa digital,124.0,6.0,Sí,No,Sí
+1079,81,Hombre,Castellón,FP,Radio,81.0,7.0,No,No,No
+1080,20,Hombre,Alicante,Universitarios,Prensa digital,9.0,6.0,No,Sí,No
+1081,40,Hombre,Valencia,Secundarios,Prensa digital,30.0,7.0,No,No,No
+1082,61,Hombre,Alicante,Universitarios,Radio,72.0,8.0,No,No,Sí
+1083,75,Hombre,Alicante,Universitarios,Televisión,90.0,7.0,Sí,Sí,Sí
+1084,72,Hombre,Valencia,Secundarios,Redes sociales,57.0,,Sí,No,No
+1085,46,Mujer,Valencia,Universitarios,Televisión,60.0,5.0,No,No,No
+1086,46,Hombre,Alicante,Primarios,Radio,86.0,2.0,No,No,No
+1087,32,Mujer,Valencia,Primarios,Televisión,11.0,7.0,Sí,No,No
+1088,80,Mujer,Alicante,FP,Prensa en papel,48.0,5.0,No,No,No
+1089,25,Hombre,Alicante,FP,Redes sociales,25.0,2.0,Sí,No,Sí
+1090,55,Hombre,Valencia,Primarios,Radio,24.0,5.0,Sí,No,No
+1091,48,Mujer,Castellón,FP,Prensa digital,86.0,4.0,No,No,No
+1092,18,Mujer,Valencia,Secundarios,Redes sociales,,3.0,Sí,No,Sí
+1093,44,Mujer,Valencia,Secundarios,Prensa digital,40.0,2.0,No,Sí,No
+1094,32,Hombre,Valencia,Secundarios,Televisión,12.0,4.0,No,No,No
+1095,53,Hombre,Valencia,FP,Televisión,,6.0,No,Sí,No
+1096,71,Hombre,Valencia,Universitarios,Prensa en papel,24.0,4.0,No,No,Sí
+1097,21,Mujer,Alicante,Universitarios,Redes sociales,9.0,5.0,Sí,Sí,No
+1098,63,Hombre,Valencia,Universitarios,Televisión,24.0,5.0,No,No,No
+1099,53,Mujer,Valencia,Universitarios,Prensa digital,45.0,5.0,Sí,No,No
+1100,65,Hombre,Valencia,Secundarios,Redes sociales,56.0,5.0,Sí,Sí,No
+1101,67,Mujer,Valencia,Universitarios,Televisión,38.0,2.0,No,No,No
+1102,62,Mujer,Valencia,Secundarios,Redes sociales,38.0,4.0,Sí,No,No
+1103,70,Mujer,Valencia,Universitarios,Prensa digital,73.0,1.0,Sí,No,No
+1104,36,Mujer,Castellón,Universitarios,Televisión,19.0,7.0,No,No,No
+1105,74,Hombre,Valencia,FP,Televisión,80.0,7.0,No,No,No
+1106,46,Hombre,Valencia,Primarios,Prensa digital,50.0,7.0,No,No,No
+1107,72,Mujer,Alicante,Universitarios,Radio,67.0,5.0,No,No,No
+1108,64,Hombre,Castellón,Universitarios,Redes sociales,,5.0,Sí,Sí,Sí
+1109,27,Mujer,Castellón,FP,Redes sociales,54.0,4.0,Sí,No,No
+1110,53,Mujer,Alicante,Primarios,Televisión,129.0,1.0,No,No,No
+1111,31,Hombre,Valencia,Universitarios,Radio,33.0,7.0,Sí,No,No
+1112,55,Mujer,Castellón,Primarios,Prensa digital,46.0,5.0,Sí,Sí,No
+1113,53,Hombre,Castellón,Secundarios,Redes sociales,57.0,2.0,Sí,No,No
+1114,77,Hombre,Alicante,Universitarios,Televisión,120.0,6.0,Sí,No,No
+1115,62,Hombre,Valencia,Secundarios,Radio,34.0,8.0,No,No,No
+1116,85,Mujer,Valencia,Secundarios,Televisión,48.0,8.0,No,No,No
+1117,69,Mujer,Castellón,Primarios,Televisión,41.0,2.0,No,No,No
+1118,30,Hombre,Valencia,Universitarios,Redes sociales,15.0,5.0,No,No,No
+1119,60,Hombre,Alicante,FP,Televisión,23.0,5.0,Sí,No,No
+1120,84,Hombre,Castellón,Universitarios,Televisión,87.0,4.0,No,Sí,No
+1121,26,Hombre,Alicante,Secundarios,Redes sociales,23.0,2.0,Sí,No,No
+1122,75,Hombre,Valencia,Primarios,Prensa digital,54.0,6.0,No,No,No
+1123,64,Mujer,Alicante,Secundarios,Televisión,102.0,3.0,No,No,No
+1124,60,Mujer,Alicante,Universitarios,Radio,63.0,8.0,Sí,Sí,No
+1125,76,Hombre,Alicante,Primarios,Redes sociales,51.0,2.0,No,Sí,No
+1126,24,Mujer,Valencia,Universitarios,Prensa digital,26.0,1.0,No,No,No
+1127,40,Hombre,Valencia,Secundarios,Televisión,31.0,5.0,No,No,No
+1128,39,Hombre,Valencia,Secundarios,Televisión,67.0,2.0,Sí,Sí,No
+1129,77,Mujer,Alicante,Secundarios,Televisión,39.0,6.0,No,Sí,No
+1130,85,Mujer,Alicante,Universitarios,Prensa en papel,38.0,6.0,No,No,Sí
+1131,57,Mujer,Alicante,Universitarios,Prensa digital,47.0,4.0,No,No,No
+1132,20,Mujer,Valencia,Secundarios,Redes sociales,81.0,7.0,Sí,No,No
+1133,68,Mujer,Valencia,Universitarios,Radio,162.0,8.0,No,No,No
+1134,79,Mujer,Valencia,Primarios,Televisión,98.0,7.0,Sí,Sí,No
+1135,42,Hombre,Alicante,Universitarios,Prensa digital,24.0,0.0,No,No,No
+1136,24,Mujer,Valencia,Universitarios,Redes sociales,17.0,8.0,Sí,No,No
+1137,30,Mujer,Valencia,Secundarios,Redes sociales,30.0,3.0,Sí,Sí,No
+1138,45,Mujer,Alicante,Primarios,Prensa digital,32.0,,No,No,No
+1139,63,Hombre,Valencia,Primarios,Redes sociales,34.0,3.0,No,No,No
+1140,50,Hombre,Alicante,Universitarios,Televisión,75.0,,No,No,No
+1141,35,Mujer,Alicante,Primarios,Prensa digital,,3.0,No,No,No
+1142,34,Hombre,Valencia,FP,Televisión,35.0,5.0,No,No,No
+1143,36,Hombre,Valencia,Secundarios,Radio,124.0,7.0,No,No,No
+1144,28,Mujer,Valencia,Secundarios,Redes sociales,40.0,6.0,Sí,No,No
+1145,78,Hombre,Valencia,FP,Televisión,80.0,1.0,No,No,No
+1146,73,Hombre,Alicante,Primarios,Televisión,68.0,3.0,No,No,No
+1147,43,Hombre,Castellón,Universitarios,Prensa digital,38.0,5.0,Sí,No,No
+1148,46,Mujer,Alicante,Universitarios,Prensa digital,35.0,7.0,No,No,No
+1149,53,Mujer,Alicante,Secundarios,Televisión,55.0,4.0,No,No,No
+1150,35,Hombre,Alicante,Primarios,Televisión,37.0,7.0,Sí,No,No
+1151,55,Hombre,Alicante,FP,Prensa digital,85.0,4.0,Sí,No,No
+1152,64,Mujer,Valencia,Universitarios,Televisión,82.0,7.0,No,Sí,No
+1153,65,Mujer,Valencia,Universitarios,Televisión,93.0,4.0,No,Sí,Sí
+1154,50,Hombre,Valencia,Secundarios,Radio,62.0,,No,No,No
+1155,71,Hombre,Valencia,Primarios,Televisión,50.0,3.0,Sí,No,No
+1156,47,Mujer,Alicante,Universitarios,Redes sociales,40.0,3.0,Sí,No,No
+1157,51,Mujer,Valencia,Universitarios,Televisión,55.0,6.0,No,Sí,No
+1158,60,Mujer,Valencia,Secundarios,Televisión,35.0,3.0,No,No,Sí
+1159,70,Hombre,Valencia,Primarios,Televisión,88.0,2.0,No,No,Sí
+1160,45,Hombre,Alicante,Secundarios,Radio,83.0,,No,No,No
+1161,55,Hombre,Alicante,Secundarios,Prensa digital,69.0,8.0,Sí,No,No
+1162,46,Hombre,Castellón,Secundarios,Redes sociales,57.0,5.0,No,No,No
+1163,85,Mujer,Valencia,Primarios,Televisión,54.0,9.0,Sí,Sí,No
+1164,25,Hombre,Alicante,Universitarios,Redes sociales,36.0,4.0,No,No,No
+1165,44,Mujer,Alicante,Secundarios,Televisión,58.0,4.0,No,Sí,No
+1166,80,Hombre,Alicante,Universitarios,Televisión,35.0,2.0,Sí,Sí,No
+1167,64,Mujer,Valencia,FP,Televisión,57.0,6.0,No,Sí,No
+1168,71,Hombre,Valencia,Primarios,Prensa en papel,65.0,6.0,No,No,No
+1169,71,Mujer,Alicante,Secundarios,Televisión,222.0,7.0,No,No,No
+1170,46,Mujer,Valencia,Universitarios,Redes sociales,,3.0,No,No,No
+1171,82,Hombre,Valencia,Universitarios,Prensa digital,43.0,6.0,No,No,No
+1172,26,Hombre,Alicante,Secundarios,Redes sociales,55.0,7.0,Sí,Sí,No
+1173,20,Hombre,Valencia,Universitarios,Redes sociales,5.0,6.0,Sí,Sí,No
+1174,55,Mujer,Valencia,Universitarios,Televisión,60.0,2.0,No,No,No
+1175,65,Hombre,Alicante,Universitarios,Prensa digital,42.0,3.0,No,No,No
+1176,58,Mujer,Castellón,Universitarios,Prensa digital,33.0,4.0,No,Sí,No
+1177,28,Hombre,Valencia,Universitarios,Redes sociales,63.0,4.0,No,No,No
+1178,84,Hombre,Alicante,Primarios,Televisión,42.0,7.0,Sí,Sí,No
+1179,69,Mujer,Castellón,FP,Televisión,67.0,6.0,No,Sí,No
+1180,18,Hombre,Valencia,Secundarios,Televisión,31.0,9.0,No,No,No
+1181,54,Hombre,Valencia,Primarios,Televisión,124.0,7.0,No,Sí,No
+1182,48,Mujer,Alicante,Universitarios,Redes sociales,49.0,0.0,Sí,No,Sí
+1183,56,Hombre,Valencia,FP,Prensa digital,17.0,6.0,Sí,No,No
+1184,45,Mujer,Castellón,Universitarios,Radio,35.0,1.0,Sí,Sí,No
+1185,72,Mujer,Alicante,FP,Televisión,137.0,7.0,No,No,No
+1186,83,Hombre,Castellón,Primarios,Radio,69.0,8.0,No,No,No
+1187,31,Mujer,Valencia,Secundarios,Prensa digital,34.0,6.0,No,No,No
+1188,42,Hombre,Alicante,FP,Prensa digital,52.0,3.0,No,No,No
+1189,61,Hombre,Alicante,FP,Televisión,36.0,4.0,No,No,No
+1190,29,Hombre,Alicante,Universitarios,Redes sociales,,4.0,Sí,No,No
+1191,57,Hombre,Valencia,Secundarios,Prensa en papel,30.0,3.0,No,No,Sí
+1192,40,Hombre,Valencia,FP,Televisión,82.0,4.0,No,No,No
+1193,20,Hombre,Valencia,Universitarios,Redes sociales,54.0,3.0,No,Sí,No
+1194,54,Hombre,Alicante,Secundarios,Radio,62.0,3.0,No,Sí,No
+1195,38,Mujer,Valencia,FP,Prensa digital,35.0,6.0,No,No,No
+1196,44,Mujer,Castellón,Secundarios,Radio,49.0,6.0,Sí,No,No
+1197,80,Mujer,Valencia,Secundarios,Radio,85.0,4.0,No,No,No
+1198,38,Hombre,Valencia,FP,Prensa digital,95.0,7.0,No,No,No
+1199,44,Mujer,Alicante,Secundarios,Prensa digital,30.0,1.0,Sí,No,No
+1200,66,Mujer,Valencia,Secundarios,Prensa en papel,20.0,6.0,No,No,No

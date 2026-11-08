@@ -1,0 +1,4 @@
+herramientas/_ejecutados/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/

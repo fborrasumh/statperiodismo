@@ -1,0 +1,161 @@
+programa,cadena,genero,franja,duracion_min,share,espectadores_miles
+Programa 001,Autonómica,Deportes,Late night,60,3.5,165
+Programa 002,Cadena 2,Ficción,Prime time,120,12.8,1614
+Programa 003,Cadena 1,Ficción,Tarde,45,14.8,1273
+Programa 004,Cadena 4,Informativo,Late night,60,20.3,790
+Programa 005,Cadena 4,Informativo,Sobremesa,60,14.2,855
+Programa 006,Cadena 3,Informativo,Sobremesa,60,9.5,889
+Programa 007,Cadena 4,Informativo,Sobremesa,45,8.5,652
+Programa 008,Autonómica,Ficción,Sobremesa,30,9.5,733
+Programa 009,Autonómica,Debate,Tarde,30,5.9,219
+Programa 010,Cadena 2,Informativo,Prime time,45,18.9,2485
+Programa 011,Autonómica,Debate,Late night,90,8.1,574
+Programa 012,Cadena 1,Ficción,Prime time,120,11.9,1452
+Programa 013,Cadena 4,Debate,Mañana,45,15.8,672
+Programa 014,Autonómica,Entretenimiento,Late night,60,6.1,306
+Programa 015,Cadena 4,Ficción,Late night,45,10.9,443
+Programa 016,Cadena 2,Deportes,Prime time,30,9.1,1319
+Programa 017,Cadena 1,Deportes,Mañana,45,1.3,90
+Programa 018,Cadena 4,Ficción,Prime time,45,11.4,1008
+Programa 019,Cadena 2,Informativo,Tarde,30,7.6,484
+Programa 020,Cadena 2,Deportes,Late night,120,14.1,821
+Programa 021,Cadena 1,Informativo,Late night,90,1.0,24
+Programa 022,Cadena 2,Entretenimiento,Late night,60,16.0,490
+Programa 023,Cadena 2,Debate,Mañana,120,12.7,768
+Programa 024,Autonómica,Debate,Tarde,120,8.1,410
+Programa 025,Cadena 4,Entretenimiento,Tarde,120,11.2,845
+Programa 026,Cadena 3,Deportes,Sobremesa,60,13.3,1572
+Programa 027,Autonómica,Informativo,Sobremesa,60,5.8,797
+Programa 028,Autonómica,Ficción,Tarde,120,4.9,268
+Programa 029,Cadena 1,Debate,Late night,120,13.5,461
+Programa 030,Cadena 2,Informativo,Prime time,30,10.0,1812
+Programa 031,Cadena 3,Deportes,Prime time,90,8.9,1791
+Programa 032,Cadena 1,Informativo,Sobremesa,120,5.8,626
+Programa 033,Cadena 2,Debate,Sobremesa,45,5.1,492
+Programa 034,Cadena 4,Debate,Mañana,90,5.0,297
+Programa 035,Cadena 4,Entretenimiento,Late night,45,10.1,446
+Programa 036,Autonómica,Ficción,Mañana,30,5.5,267
+Programa 037,Autonómica,Debate,Tarde,60,4.2,325
+Programa 038,Autonómica,Ficción,Sobremesa,60,6.5,607
+Programa 039,Cadena 2,Deportes,Tarde,45,21.5,1312
+Programa 040,Cadena 4,Entretenimiento,Sobremesa,60,5.0,444
+Programa 041,Cadena 2,Informativo,Late night,60,12.4,576
+Programa 042,Autonómica,Informativo,Prime time,30,11.0,1742
+Programa 043,Cadena 4,Deportes,Mañana,30,6.2,318
+Programa 044,Autonómica,Debate,Prime time,120,9.2,1075
+Programa 045,Cadena 4,Entretenimiento,Prime time,45,12.6,1210
+Programa 046,Cadena 4,Debate,Sobremesa,120,3.1,448
+Programa 047,Cadena 3,Entretenimiento,Mañana,30,11.4,544
+Programa 048,Cadena 4,Debate,Tarde,30,7.9,682
+Programa 049,Autonómica,Entretenimiento,Sobremesa,45,5.6,821
+Programa 050,Cadena 1,Informativo,Tarde,90,18.0,1025
+Programa 051,Autonómica,Entretenimiento,Late night,45,2.5,129
+Programa 052,Cadena 4,Entretenimiento,Mañana,30,8.1,428
+Programa 053,Cadena 2,Debate,Tarde,60,11.5,737
+Programa 054,Cadena 2,Deportes,Prime time,45,10.0,822
+Programa 055,Cadena 3,Informativo,Sobremesa,60,17.8,1207
+Programa 056,Cadena 1,Ficción,Mañana,60,11.8,408
+Programa 057,Autonómica,Entretenimiento,Mañana,120,5.6,351
+Programa 058,Autonómica,Ficción,Late night,120,1.8,64
+Programa 059,Cadena 4,Entretenimiento,Mañana,90,12.9,668
+Programa 060,Cadena 4,Debate,Sobremesa,120,13.7,1434
+Programa 061,Cadena 1,Debate,Late night,60,8.0,258
+Programa 062,Cadena 4,Deportes,Tarde,60,10.7,632
+Programa 063,Cadena 2,Debate,Prime time,60,4.7,644
+Programa 064,Cadena 2,Deportes,Mañana,30,11.7,555
+Programa 065,Cadena 1,Deportes,Sobremesa,90,8.1,662
+Programa 066,Autonómica,Debate,Prime time,90,8.2,1864
+Programa 067,Cadena 4,Entretenimiento,Tarde,120,8.9,741
+Programa 068,Cadena 4,Deportes,Tarde,120,6.3,302
+Programa 069,Cadena 3,Informativo,Prime time,60,14.2,2602
+Programa 070,Cadena 3,Deportes,Sobremesa,90,19.8,2107
+Programa 071,Cadena 3,Deportes,Prime time,30,11.3,1613
+Programa 072,Cadena 3,Deportes,Late night,120,10.0,368
+Programa 073,Cadena 3,Informativo,Late night,30,12.5,368
+Programa 074,Cadena 4,Debate,Tarde,60,8.5,430
+Programa 075,Autonómica,Debate,Tarde,120,11.0,850
+Programa 076,Cadena 1,Ficción,Sobremesa,90,7.6,676
+Programa 077,Cadena 4,Debate,Late night,45,6.9,281
+Programa 078,Cadena 1,Entretenimiento,Tarde,120,5.8,455
+Programa 079,Cadena 1,Informativo,Sobremesa,90,15.0,1850
+Programa 080,Cadena 2,Informativo,Mañana,30,11.0,590
+Programa 081,Cadena 1,Debate,Sobremesa,120,7.7,1138
+Programa 082,Cadena 1,Informativo,Late night,120,5.2,185
+Programa 083,Cadena 4,Informativo,Tarde,45,11.9,498
+Programa 084,Cadena 4,Debate,Late night,45,8.5,370
+Programa 085,Cadena 4,Entretenimiento,Sobremesa,90,8.3,706
+Programa 086,Cadena 4,Debate,Mañana,120,11.5,376
+Programa 087,Autonómica,Ficción,Tarde,60,1.4,92
+Programa 088,Cadena 1,Ficción,Sobremesa,45,7.2,675
+Programa 089,Cadena 1,Entretenimiento,Mañana,90,4.5,277
+Programa 090,Cadena 2,Debate,Late night,90,10.5,454
+Programa 091,Cadena 3,Debate,Tarde,120,10.3,504
+Programa 092,Cadena 2,Informativo,Prime time,90,8.6,1083
+Programa 093,Autonómica,Informativo,Prime time,90,8.2,978
+Programa 094,Cadena 2,Debate,Tarde,45,12.8,1114
+Programa 095,Cadena 1,Informativo,Late night,30,6.1,221
+Programa 096,Cadena 3,Debate,Tarde,120,11.0,746
+Programa 097,Cadena 2,Debate,Late night,90,11.5,509
+Programa 098,Cadena 4,Deportes,Tarde,90,11.6,528
+Programa 099,Autonómica,Deportes,Late night,60,1.0,66
+Programa 100,Autonómica,Informativo,Mañana,30,13.6,540
+Programa 101,Cadena 4,Informativo,Sobremesa,120,16.2,1447
+Programa 102,Cadena 1,Informativo,Mañana,60,15.6,764
+Programa 103,Cadena 1,Ficción,Mañana,45,9.0,382
+Programa 104,Cadena 2,Entretenimiento,Sobremesa,30,8.1,993
+Programa 105,Cadena 3,Ficción,Tarde,120,1.0,83
+Programa 106,Autonómica,Ficción,Prime time,60,5.1,613
+Programa 107,Cadena 4,Ficción,Late night,120,5.7,171
+Programa 108,Cadena 3,Debate,Mañana,90,6.4,442
+Programa 109,Cadena 3,Informativo,Tarde,30,15.5,1083
+Programa 110,Cadena 1,Deportes,Late night,30,7.6,377
+Programa 111,Cadena 1,Informativo,Sobremesa,90,13.5,1258
+Programa 112,Cadena 2,Debate,Mañana,90,1.0,34
+Programa 113,Cadena 4,Informativo,Mañana,30,5.2,270
+Programa 114,Cadena 4,Entretenimiento,Mañana,60,1.1,74
+Programa 115,Cadena 1,Deportes,Tarde,30,11.4,868
+Programa 116,Cadena 1,Deportes,Mañana,60,8.1,477
+Programa 117,Cadena 2,Informativo,Late night,120,12.4,364
+Programa 118,Cadena 2,Ficción,Sobremesa,90,1.0,101
+Programa 119,Cadena 1,Debate,Prime time,60,12.0,1260
+Programa 120,Cadena 3,Debate,Prime time,30,5.5,621
+Programa 121,Autonómica,Informativo,Late night,45,3.8,169
+Programa 122,Cadena 2,Ficción,Mañana,90,12.6,748
+Programa 123,Cadena 4,Deportes,Tarde,120,11.8,650
+Programa 124,Cadena 2,Debate,Mañana,60,11.0,508
+Programa 125,Cadena 3,Entretenimiento,Mañana,60,14.1,462
+Programa 126,Cadena 2,Debate,Mañana,45,9.5,465
+Programa 127,Cadena 1,Entretenimiento,Mañana,60,3.7,160
+Programa 128,Cadena 3,Debate,Prime time,30,10.5,2012
+Programa 129,Cadena 4,Deportes,Late night,60,8.4,508
+Programa 130,Cadena 2,Entretenimiento,Late night,120,8.5,414
+Programa 131,Cadena 1,Entretenimiento,Tarde,90,6.7,588
+Programa 132,Cadena 3,Deportes,Mañana,30,12.2,490
+Programa 133,Cadena 3,Deportes,Prime time,90,15.6,3117
+Programa 134,Cadena 4,Debate,Sobremesa,90,10.6,1131
+Programa 135,Autonómica,Entretenimiento,Tarde,120,5.2,448
+Programa 136,Autonómica,Ficción,Late night,120,12.8,482
+Programa 137,Cadena 4,Ficción,Sobremesa,60,9.9,804
+Programa 138,Cadena 4,Deportes,Prime time,90,12.1,2177
+Programa 139,Cadena 3,Entretenimiento,Mañana,45,4.6,252
+Programa 140,Cadena 3,Debate,Prime time,45,8.2,1158
+Programa 141,Cadena 4,Deportes,Prime time,30,1.9,340
+Programa 142,Cadena 1,Ficción,Sobremesa,60,6.3,582
+Programa 143,Autonómica,Informativo,Sobremesa,90,8.3,776
+Programa 144,Autonómica,Deportes,Prime time,30,10.3,1073
+Programa 145,Cadena 4,Entretenimiento,Prime time,60,7.7,840
+Programa 146,Cadena 3,Informativo,Late night,60,13.5,485
+Programa 147,Cadena 1,Debate,Tarde,30,10.9,904
+Programa 148,Cadena 3,Ficción,Mañana,45,13.6,481
+Programa 149,Cadena 4,Ficción,Sobremesa,30,21.1,1703
+Programa 150,Cadena 2,Debate,Prime time,45,7.3,995
+Programa 151,Cadena 1,Informativo,Late night,120,15.0,857
+Programa 152,Cadena 3,Informativo,Late night,60,10.1,484
+Programa 153,Cadena 3,Debate,Prime time,120,8.3,1067
+Programa 154,Cadena 1,Entretenimiento,Late night,120,14.3,625
+Programa 155,Cadena 2,Entretenimiento,Prime time,45,5.4,944
+Programa 156,Autonómica,Informativo,Late night,45,5.0,241
+Programa 157,Cadena 4,Informativo,Late night,90,11.6,398
+Programa 158,Autonómica,Entretenimiento,Prime time,45,8.7,757
+Programa 159,Cadena 1,Debate,Mañana,90,12.3,1179
+Programa 160,Cadena 1,Ficción,Prime time,90,11.6,1739

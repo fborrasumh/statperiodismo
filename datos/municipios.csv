@@ -1,0 +1,141 @@
+municipio,comarca,poblacion,renta_media_persona,tasa_paro,edad_media,hogares_internet_pct,lectores_prensa_pct
+Municipio 001,Interior,121495,13540,19.5,38.4,81.3,11.3
+Municipio 002,Litoral,2256,18009,12.4,50.1,92.0,19.9
+Municipio 003,Litoral,2870,14451,16.9,42.8,78.4,13.6
+Municipio 004,Litoral,56760,14414,13.3,42.2,81.8,11.7
+Municipio 005,Área metropolitana,11174,12009,20.9,45.7,73.3,15.0
+Municipio 006,Área metropolitana,13303,16730,10.1,46.1,84.8,17.6
+Municipio 007,Litoral,774,13046,19.7,39.4,74.2,12.6
+Municipio 008,Interior,7621,15557,18.5,42.0,92.1,11.5
+Municipio 009,Litoral,2818,11727,19.5,43.0,75.7,12.0
+Municipio 010,Litoral,181654,15892,15.8,47.1,91.2,17.2
+Municipio 011,Interior,7261,15692,15.2,42.1,86.1,17.5
+Municipio 012,Litoral,2476,13595,14.5,41.8,72.7,14.8
+Municipio 013,Litoral,66624,14343,13.6,45.3,84.5,18.2
+Municipio 014,Litoral,133542,18145,11.7,43.9,96.6,14.3
+Municipio 015,Interior,1297,11702,17.0,42.5,82.9,9.2
+Municipio 016,Litoral,5068,14900,14.6,37.2,79.4,8.0
+Municipio 017,Litoral,5694,14601,15.9,42.2,80.4,12.5
+Municipio 018,Interior,2506,14945,16.9,40.6,90.0,16.1
+Municipio 019,Interior,1970,15537,14.7,48.7,88.4,22.1
+Municipio 020,Litoral,5248,14551,19.3,42.7,78.7,8.7
+Municipio 021,Área metropolitana,2933,14394,18.4,43.8,77.3,16.0
+Municipio 022,Litoral,6398,15848,13.7,38.1,87.4,9.2
+Municipio 023,Litoral,20010,18928,13.4,38.8,90.1,9.9
+Municipio 024,Litoral,4335,13408,20.5,52.7,84.2,22.2
+Municipio 025,Litoral,9130,17704,10.7,45.3,88.3,16.5
+Municipio 026,Área metropolitana,5872,15093,16.3,51.5,83.6,19.4
+Municipio 027,Área metropolitana,8253,16364,11.0,48.0,86.3,17.9
+Municipio 028,Interior,465,15376,18.1,41.0,79.8,14.8
+Municipio 029,Interior,1309,16358,13.1,44.6,79.7,19.1
+Municipio 030,Litoral,1885,15359,18.7,40.8,82.9,10.4
+Municipio 031,Interior,16259,15177,15.9,36.1,85.8,7.8
+Municipio 032,Interior,1341,15351,15.6,44.3,83.7,13.2
+Municipio 033,Interior,13127,11596,18.8,47.3,78.8,14.7
+Municipio 034,Interior,6221,13495,19.9,39.5,81.0,12.2
+Municipio 035,Interior,75053,15830,18.5,42.3,85.0,12.9
+Municipio 036,Litoral,1604,15384,16.3,44.5,85.7,13.9
+Municipio 037,Área metropolitana,283252,15973,16.5,38.7,87.1,10.4
+Municipio 038,Interior,4781,15873,11.1,43.7,83.9,13.5
+Municipio 039,Interior,1741,15595,15.8,40.6,87.1,16.1
+Municipio 040,Interior,501,12824,19.4,45.9,69.4,20.2
+Municipio 041,Litoral,1383,13184,15.4,42.5,78.0,13.1
+Municipio 042,Litoral,1137,13525,17.1,42.5,79.1,13.0
+Municipio 043,Área metropolitana,771,18064,8.5,44.6,81.3,18.3
+Municipio 044,Litoral,1451,15108,13.5,39.6,81.0,17.4
+Municipio 045,Litoral,5956,14373,17.4,43.8,77.4,17.0
+Municipio 046,Interior,2446,16423,16.4,40.2,89.4,12.9
+Municipio 047,Litoral,9180,11627,19.0,43.9,79.2,12.7
+Municipio 048,Área metropolitana,11804,11331,17.8,44.0,85.8,11.9
+Municipio 049,Litoral,2261,13631,14.9,38.5,83.7,10.4
+Municipio 050,Litoral,1863,10730,21.1,44.4,79.1,16.1
+Municipio 051,Litoral,6024,15861,11.0,39.8,78.6,10.3
+Municipio 052,Área metropolitana,5501,14069,18.3,45.2,77.1,19.7
+Municipio 053,Litoral,820,13685,19.2,45.8,80.0,14.5
+Municipio 054,Interior,873,14724,13.8,43.1,80.9,17.7
+Municipio 055,Litoral,4997,15557,17.2,44.2,84.7,12.3
+Municipio 056,Interior,1416,15432,15.0,48.1,76.2,19.8
+Municipio 057,Área metropolitana,2305,15627,12.5,44.1,80.0,17.0
+Municipio 058,Interior,688,15160,14.7,44.4,72.2,15.2
+Municipio 059,Litoral,4916,15766,14.9,40.1,81.3,13.0
+Municipio 060,Interior,56136,13431,19.3,40.4,87.9,11.5
+Municipio 061,Litoral,2534,11727,21.5,46.2,71.1,12.9
+Municipio 062,Interior,44522,16183,14.4,41.0,86.4,13.5
+Municipio 063,Litoral,2001,14347,16.1,38.4,80.2,15.2
+Municipio 064,Litoral,9258,13107,19.3,46.2,81.8,16.0
+Municipio 065,Área metropolitana,2247,13956,10.4,40.7,74.8,13.4
+Municipio 066,Litoral,7458,14781,18.7,47.6,78.0,17.8
+Municipio 067,Área metropolitana,6122,13315,18.8,44.1,78.7,12.5
+Municipio 068,Interior,5635,19877,9.8,38.1,92.4,12.6
+Municipio 069,Litoral,5007,17053,14.2,42.9,87.3,13.5
+Municipio 070,Litoral,13186,14422,14.2,43.1,82.2,14.9
+Municipio 071,Litoral,2930,15228,12.6,39.7,85.6,11.9
+Municipio 072,Interior,9811,17854,9.6,43.6,91.3,13.1
+Municipio 073,Interior,6502,10661,18.7,41.0,75.1,9.9
+Municipio 074,Litoral,1657,12923,20.8,45.2,73.6,13.8
+Municipio 075,Litoral,77502,16243,13.8,43.0,89.0,18.4
+Municipio 076,Litoral,100067,16177,16.6,37.4,87.8,13.4
+Municipio 077,Interior,19254,15111,19.0,38.1,85.5,14.6
+Municipio 078,Litoral,1965,14544,13.0,46.0,75.9,15.5
+Municipio 079,Litoral,3316,13690,14.6,54.8,70.8,24.4
+Municipio 080,Litoral,8436,13220,18.4,44.6,81.2,15.8
+Municipio 081,Litoral,1700,12526,15.2,49.9,80.1,19.5
+Municipio 082,Interior,1425,13440,15.1,38.4,83.7,7.6
+Municipio 083,Interior,19175,13587,14.4,45.5,81.5,13.9
+Municipio 084,Área metropolitana,5335,16110,15.1,40.6,84.8,9.9
+Municipio 085,Interior,5821,15055,16.2,44.1,79.7,13.6
+Municipio 086,Interior,14445,13736,10.7,38.9,88.1,12.2
+Municipio 087,Interior,2286,17604,13.7,51.8,88.9,20.9
+Municipio 088,Área metropolitana,9155,17699,15.4,43.8,86.4,17.2
+Municipio 089,Litoral,1721,16704,11.6,40.9,87.3,12.5
+Municipio 090,Área metropolitana,1804,14864,18.9,43.7,82.8,14.1
+Municipio 091,Interior,6337,15534,15.0,42.3,81.5,18.1
+Municipio 092,Interior,41143,15650,13.3,45.6,90.4,13.8
+Municipio 093,Área metropolitana,11847,14379,12.8,36.0,80.6,8.2
+Municipio 094,Litoral,1164,9533,20.8,45.7,68.9,13.8
+Municipio 095,Litoral,12447,15487,16.8,42.7,83.8,12.8
+Municipio 096,Interior,2806,13661,13.3,43.1,75.3,13.3
+Municipio 097,Litoral,1116,13698,17.3,49.0,84.1,19.7
+Municipio 098,Interior,12384,13396,16.6,37.2,82.1,12.0
+Municipio 099,Litoral,1623,14064,21.3,45.2,78.9,15.8
+Municipio 100,Litoral,8643,14536,14.5,44.0,84.9,13.6
+Municipio 101,Interior,47125,16036,18.2,45.1,83.2,16.5
+Municipio 102,Litoral,8030,15917,12.1,46.1,92.8,16.2
+Municipio 103,Litoral,6388,17777,12.2,46.8,91.3,19.6
+Municipio 104,Área metropolitana,7598,14688,15.6,39.9,90.0,11.4
+Municipio 105,Litoral,2733,13805,13.8,45.2,74.2,16.5
+Municipio 106,Interior,6968,14029,14.5,44.4,82.6,10.8
+Municipio 107,Área metropolitana,14519,15831,15.1,42.5,79.7,17.4
+Municipio 108,Interior,20189,11574,18.4,41.2,71.8,13.5
+Municipio 109,Interior,2666,12390,19.2,46.4,81.2,15.8
+Municipio 110,Litoral,1744,11814,17.6,40.2,78.2,8.4
+Municipio 111,Litoral,22909,16339,16.9,42.4,86.4,12.8
+Municipio 112,Litoral,9671,14928,15.0,49.1,79.9,19.6
+Municipio 113,Área metropolitana,5268,13343,17.8,36.0,80.5,6.0
+Municipio 114,Área metropolitana,2383,15386,12.9,36.9,86.5,11.5
+Municipio 115,Interior,872,13094,16.2,43.1,74.0,14.0
+Municipio 116,Área metropolitana,14287,17246,8.7,42.5,93.4,15.1
+Municipio 117,Litoral,5355,14814,19.0,39.3,88.5,9.6
+Municipio 118,Interior,13053,14385,15.6,36.0,81.0,6.5
+Municipio 119,Litoral,944,15891,18.5,41.4,83.5,10.3
+Municipio 120,Litoral,964,13926,16.8,46.2,87.4,16.1
+Municipio 121,Litoral,3156,12879,16.4,48.3,81.8,17.6
+Municipio 122,Litoral,8803,12095,19.6,41.1,85.4,10.7
+Municipio 123,Litoral,1560,13243,13.5,46.9,73.3,17.3
+Municipio 124,Interior,917,16147,16.3,49.3,83.2,20.5
+Municipio 125,Área metropolitana,3781,15440,15.7,43.1,82.4,11.8
+Municipio 126,Interior,21250,16424,15.9,44.9,91.7,15.1
+Municipio 127,Área metropolitana,51682,18531,8.0,45.4,92.2,21.3
+Municipio 128,Litoral,15021,17903,10.4,44.5,88.4,19.7
+Municipio 129,Área metropolitana,1824,15256,14.7,41.7,81.3,11.5
+Municipio 130,Área metropolitana,2736,15558,16.8,43.4,79.7,13.6
+Municipio 131,Área metropolitana,6328,13013,21.2,40.7,84.6,12.7
+Municipio 132,Interior,2285,16252,14.3,43.3,80.9,12.6
+Municipio 133,Área metropolitana,2585,12543,21.9,43.7,79.0,14.0
+Municipio 134,Interior,5972,15304,12.3,42.9,87.6,16.2
+Municipio 135,Interior,4598,18176,15.2,42.4,79.0,12.3
+Municipio 136,Interior,7569,15347,15.6,44.1,82.5,15.8
+Municipio 137,Litoral,20184,14312,16.8,40.5,80.8,10.5
+Municipio 138,Área metropolitana,8075,16660,14.8,41.1,86.3,14.8
+Municipio 139,Litoral,6694,16788,14.2,46.2,86.2,17.8
+Municipio 140,Interior,19379,15677,15.3,39.6,86.9,15.1

@@ -1,0 +1,421 @@
+id,puesto,anios_experiencia,tipo_medio,sexo,contrato,salario_bruto_anual
+1,Redactor/a,2,Televisión,Mujer,Indefinido,22970
+2,Editor/a,13,Televisión,Mujer,Indefinido,24520
+3,Redactor/a,5,Radio,Hombre,Temporal,24610
+4,Editor/a,4,Digital nativo,Mujer,Temporal,28040
+5,Redactor/a,18,Prensa tradicional,Mujer,Temporal,29760
+6,Redactor/a,17,Televisión,Mujer,Indefinido,32390
+7,Redactor/a jefe,11,Digital nativo,Hombre,Indefinido,36490
+8,Redactor/a,15,Agencia,Mujer,Temporal,21460
+9,Redactor/a jefe,6,Agencia,Mujer,Indefinido,32500
+10,Community manager,10,Prensa tradicional,Mujer,Indefinido,22470
+11,Editor/a,24,Digital nativo,Hombre,Indefinido,49800
+12,Editor/a,5,Televisión,Mujer,Indefinido,38700
+13,Community manager,10,Prensa tradicional,Mujer,Indefinido,29840
+14,Fotoperiodista,2,Televisión,Mujer,Indefinido,21780
+15,Redactor/a jefe,10,Prensa tradicional,Hombre,Indefinido,50800
+16,Redactor/a jefe,18,Prensa tradicional,Mujer,Autónomo,36600
+17,Redactor/a,4,Agencia,Mujer,Temporal,27870
+18,Fotoperiodista,6,Agencia,Hombre,Indefinido,24700
+19,Redactor/a,9,Agencia,Mujer,Indefinido,26500
+20,Redactor/a,17,Prensa tradicional,Mujer,Autónomo,24700
+21,Redactor/a,5,Digital nativo,Mujer,Autónomo,19180
+22,Redactor/a jefe,10,Prensa tradicional,Hombre,Temporal,48580
+23,Redactor/a,5,Digital nativo,Hombre,Temporal,38590
+24,Redactor/a,20,Digital nativo,Mujer,Indefinido,25130
+25,Redactor/a,4,Digital nativo,Hombre,Indefinido,17390
+26,Editor/a,7,Televisión,Mujer,Indefinido,31370
+27,Redactor/a,10,Radio,Hombre,Indefinido,27910
+28,Redactor/a,9,Agencia,Mujer,Indefinido,30270
+29,Redactor/a,6,Televisión,Mujer,Autónomo,22900
+30,Editor/a,22,Televisión,Mujer,Indefinido,41700
+31,Fotoperiodista,12,Agencia,Mujer,Autónomo,15470
+32,Editor/a,3,Digital nativo,Hombre,Indefinido,33930
+33,Editor/a,5,Digital nativo,Mujer,Autónomo,19860
+34,Redactor/a jefe,2,Radio,Mujer,Indefinido,29000
+35,Redactor/a,8,Digital nativo,Hombre,Indefinido,26830
+36,Redactor/a,6,Prensa tradicional,Hombre,Indefinido,26140
+37,Redactor/a jefe,4,Prensa tradicional,Mujer,Autónomo,32200
+38,Redactor/a,21,Televisión,Mujer,Indefinido,26760
+39,Redactor/a,6,Agencia,Mujer,Autónomo,22620
+40,Editor/a,6,Prensa tradicional,Mujer,Autónomo,21030
+41,Community manager,8,Prensa tradicional,Mujer,Indefinido,18350
+42,Community manager,3,Digital nativo,Hombre,Autónomo,16190
+43,Redactor/a,5,Agencia,Mujer,Temporal,20160
+44,Editor/a,2,Digital nativo,Mujer,Indefinido,23580
+45,Redactor/a jefe,2,Radio,Hombre,Indefinido,36850
+46,Redactor/a,5,Digital nativo,Hombre,Indefinido,19120
+47,Redactor/a,13,Televisión,Hombre,Temporal,26810
+48,Community manager,8,Televisión,Mujer,Temporal,27000
+49,Fotoperiodista,8,Digital nativo,Mujer,Indefinido,30740
+50,Community manager,5,Digital nativo,Mujer,Indefinido,18840
+51,Community manager,4,Prensa tradicional,Hombre,Indefinido,16730
+52,Community manager,4,Digital nativo,Mujer,Temporal,18610
+53,Redactor/a,5,Prensa tradicional,Mujer,Indefinido,27520
+54,Dirección,13,Digital nativo,Mujer,Indefinido,118870
+55,Dirección,21,Prensa tradicional,Mujer,Temporal,119760
+56,Redactor/a,3,Digital nativo,Mujer,Autónomo,22730
+57,Redactor/a jefe,6,Prensa tradicional,Hombre,Indefinido,39620
+58,Redactor/a,14,Radio,Hombre,Autónomo,21330
+59,Community manager,9,Agencia,Hombre,Indefinido,20020
+60,Redactor/a,7,Prensa tradicional,Hombre,Indefinido,26740
+61,Redactor/a,9,Digital nativo,Hombre,Indefinido,24780
+62,Redactor/a,5,Televisión,Hombre,Indefinido,27070
+63,Redactor/a,3,Digital nativo,Hombre,Temporal,24710
+64,Community manager,5,Prensa tradicional,Mujer,Autónomo,15630
+65,Dirección,6,Televisión,Mujer,Temporal,76260
+66,Redactor/a,2,Digital nativo,Mujer,Indefinido,25690
+67,Fotoperiodista,10,Prensa tradicional,Hombre,Autónomo,19550
+68,Community manager,1,Digital nativo,Hombre,Temporal,17130
+69,Community manager,2,Prensa tradicional,Hombre,Autónomo,19730
+70,Community manager,3,Prensa tradicional,Mujer,Temporal,14650
+71,Community manager,10,Radio,Mujer,Indefinido,24190
+72,Redactor/a,2,Radio,Mujer,Indefinido,25240
+73,Redactor/a,8,Televisión,Hombre,Autónomo,27240
+74,Redactor/a jefe,4,Televisión,Mujer,Temporal,52270
+75,Redactor/a,21,Digital nativo,Hombre,Indefinido,26800
+76,Redactor/a,5,Televisión,Mujer,Indefinido,21010
+77,Community manager,2,Digital nativo,Mujer,Indefinido,22240
+78,Fotoperiodista,1,Digital nativo,Mujer,Indefinido,25970
+79,Redactor/a,27,Radio,Mujer,Indefinido,33730
+80,Editor/a,12,Televisión,Mujer,Indefinido,48800
+81,Community manager,17,Prensa tradicional,Mujer,Indefinido,22870
+82,Redactor/a,2,Digital nativo,Mujer,Indefinido,21090
+83,Redactor/a,10,Digital nativo,Hombre,Indefinido,34830
+84,Community manager,10,Prensa tradicional,Hombre,Autónomo,20970
+85,Editor/a,8,Agencia,Hombre,Indefinido,32230
+86,Redactor/a jefe,9,Agencia,Hombre,Indefinido,48090
+87,Fotoperiodista,3,Radio,Hombre,Indefinido,29240
+88,Redactor/a,3,Digital nativo,Mujer,Autónomo,22340
+89,Fotoperiodista,11,Prensa tradicional,Hombre,Indefinido,30220
+90,Fotoperiodista,6,Digital nativo,Hombre,Temporal,18630
+91,Redactor/a,24,Agencia,Hombre,Indefinido,34420
+92,Redactor/a,10,Prensa tradicional,Hombre,Temporal,28230
+93,Redactor/a,10,Televisión,Mujer,Indefinido,23920
+94,Redactor/a jefe,3,Prensa tradicional,Hombre,Indefinido,37170
+95,Redactor/a jefe,6,Televisión,Mujer,Indefinido,35830
+96,Redactor/a,2,Prensa tradicional,Mujer,Temporal,20850
+97,Dirección,13,Radio,Hombre,Autónomo,60060
+98,Redactor/a jefe,7,Televisión,Mujer,Indefinido,33300
+99,Redactor/a,6,Televisión,Mujer,Temporal,26490
+100,Fotoperiodista,7,Prensa tradicional,Hombre,Autónomo,22800
+101,Redactor/a jefe,20,Televisión,Mujer,Indefinido,58350
+102,Editor/a,12,Digital nativo,Hombre,Indefinido,38570
+103,Redactor/a,23,Digital nativo,Hombre,Indefinido,36420
+104,Editor/a,3,Agencia,Hombre,Temporal,30200
+105,Community manager,11,Radio,Mujer,Indefinido,31820
+106,Redactor/a jefe,8,Televisión,Mujer,Indefinido,35400
+107,Redactor/a,7,Prensa tradicional,Hombre,Temporal,26850
+108,Redactor/a,5,Prensa tradicional,Mujer,Temporal,32270
+109,Redactor/a,17,Televisión,Mujer,Indefinido,27280
+110,Redactor/a,5,Agencia,Mujer,Indefinido,21540
+111,Redactor/a,4,Agencia,Hombre,Indefinido,28130
+112,Dirección,5,Digital nativo,Mujer,Indefinido,81490
+113,Community manager,5,Digital nativo,Hombre,Temporal,14840
+114,Redactor/a,10,Prensa tradicional,Mujer,Autónomo,24530
+115,Redactor/a,3,Digital nativo,Mujer,Temporal,25060
+116,Redactor/a,13,Prensa tradicional,Mujer,Indefinido,29100
+117,Redactor/a,7,Digital nativo,Mujer,Indefinido,25360
+118,Editor/a,21,Prensa tradicional,Hombre,Temporal,52060
+119,Redactor/a,5,Digital nativo,Mujer,Autónomo,20940
+120,Fotoperiodista,11,Digital nativo,Hombre,Indefinido,24930
+121,Redactor/a,10,Prensa tradicional,Hombre,Temporal,24760
+122,Redactor/a,7,Prensa tradicional,Hombre,Temporal,24440
+123,Community manager,10,Televisión,Hombre,Temporal,32250
+124,Editor/a,7,Digital nativo,Hombre,Indefinido,29270
+125,Redactor/a,6,Prensa tradicional,Mujer,Indefinido,20970
+126,Community manager,6,Digital nativo,Hombre,Temporal,24010
+127,Redactor/a jefe,6,Televisión,Mujer,Indefinido,31830
+128,Redactor/a jefe,9,Digital nativo,Mujer,Autónomo,34060
+129,Editor/a,21,Televisión,Mujer,Indefinido,33490
+130,Redactor/a,5,Prensa tradicional,Mujer,Indefinido,36380
+131,Redactor/a,8,Prensa tradicional,Mujer,Autónomo,27840
+132,Editor/a,18,Televisión,Mujer,Indefinido,36000
+133,Redactor/a jefe,1,Radio,Hombre,Autónomo,22520
+134,Fotoperiodista,25,Digital nativo,Mujer,Temporal,39020
+135,Redactor/a,9,Digital nativo,Mujer,Autónomo,24480
+136,Community manager,3,Televisión,Hombre,Temporal,16330
+137,Redactor/a,7,Prensa tradicional,Hombre,Indefinido,21800
+138,Redactor/a,3,Digital nativo,Hombre,Indefinido,18800
+139,Redactor/a,7,Digital nativo,Hombre,Indefinido,31930
+140,Community manager,5,Prensa tradicional,Mujer,Temporal,20520
+141,Redactor/a jefe,5,Televisión,Mujer,Indefinido,41230
+142,Redactor/a,7,Digital nativo,Mujer,Indefinido,20150
+143,Redactor/a,17,Prensa tradicional,Hombre,Indefinido,37980
+144,Redactor/a jefe,10,Prensa tradicional,Hombre,Indefinido,28350
+145,Redactor/a,2,Televisión,Hombre,Indefinido,21810
+146,Editor/a,1,Prensa tradicional,Hombre,Indefinido,35160
+147,Community manager,4,Digital nativo,Hombre,Temporal,18400
+148,Redactor/a,9,Agencia,Mujer,Indefinido,24040
+149,Redactor/a jefe,14,Digital nativo,Mujer,Indefinido,43340
+150,Redactor/a,8,Prensa tradicional,Hombre,Indefinido,19360
+151,Editor/a,6,Agencia,Hombre,Indefinido,40680
+152,Redactor/a,8,Digital nativo,Hombre,Indefinido,25640
+153,Redactor/a,3,Prensa tradicional,Mujer,Indefinido,27030
+154,Redactor/a,7,Digital nativo,Mujer,Autónomo,26730
+155,Redactor/a jefe,3,Televisión,Hombre,Autónomo,41420
+156,Redactor/a jefe,9,Digital nativo,Mujer,Temporal,41380
+157,Editor/a,7,Digital nativo,Mujer,Indefinido,22810
+158,Fotoperiodista,8,Prensa tradicional,Mujer,Indefinido,27580
+159,Redactor/a jefe,8,Prensa tradicional,Hombre,Autónomo,29760
+160,Redactor/a,15,Prensa tradicional,Hombre,Indefinido,33860
+161,Redactor/a,10,Radio,Hombre,Autónomo,21980
+162,Redactor/a,17,Televisión,Hombre,Temporal,26070
+163,Community manager,5,Televisión,Mujer,Temporal,25930
+164,Community manager,9,Agencia,Hombre,Indefinido,32660
+165,Redactor/a jefe,5,Digital nativo,Hombre,Indefinido,43590
+166,Redactor/a,13,Prensa tradicional,Mujer,Indefinido,37480
+167,Editor/a,3,Prensa tradicional,Hombre,Indefinido,31970
+168,Community manager,21,Televisión,Hombre,Indefinido,33260
+169,Editor/a,9,Radio,Mujer,Indefinido,42980
+170,Redactor/a,4,Digital nativo,Mujer,Indefinido,28400
+171,Redactor/a,9,Digital nativo,Hombre,Indefinido,26990
+172,Editor/a,12,Televisión,Mujer,Temporal,28000
+173,Community manager,28,Agencia,Hombre,Temporal,29250
+174,Redactor/a,13,Prensa tradicional,Hombre,Indefinido,41780
+175,Redactor/a,10,Agencia,Mujer,Indefinido,29350
+176,Community manager,2,Radio,Hombre,Autónomo,18480
+177,Redactor/a,3,Radio,Mujer,Autónomo,14870
+178,Redactor/a,9,Prensa tradicional,Mujer,Temporal,31090
+179,Community manager,15,Prensa tradicional,Hombre,Temporal,26630
+180,Redactor/a,1,Radio,Hombre,Autónomo,20840
+181,Redactor/a jefe,16,Televisión,Mujer,Indefinido,42480
+182,Redactor/a,4,Agencia,Mujer,Indefinido,28320
+183,Redactor/a,2,Televisión,Mujer,Autónomo,17150
+184,Fotoperiodista,4,Digital nativo,Mujer,Indefinido,26330
+185,Fotoperiodista,17,Prensa tradicional,Hombre,Indefinido,23200
+186,Community manager,28,Digital nativo,Hombre,Indefinido,35390
+187,Fotoperiodista,10,Agencia,Hombre,Indefinido,29150
+188,Redactor/a,11,Radio,Mujer,Autónomo,27480
+189,Redactor/a,20,Prensa tradicional,Mujer,Temporal,36280
+190,Redactor/a,9,Prensa tradicional,Mujer,Temporal,23880
+191,Fotoperiodista,8,Prensa tradicional,Hombre,Indefinido,35530
+192,Community manager,13,Prensa tradicional,Hombre,Indefinido,34810
+193,Redactor/a jefe,3,Prensa tradicional,Mujer,Indefinido,27570
+194,Redactor/a jefe,6,Agencia,Hombre,Autónomo,38690
+195,Redactor/a,4,Televisión,Hombre,Indefinido,36530
+196,Redactor/a,9,Digital nativo,Mujer,Indefinido,17580
+197,Redactor/a jefe,1,Prensa tradicional,Mujer,Autónomo,32740
+198,Community manager,7,Televisión,Mujer,Temporal,25470
+199,Community manager,16,Digital nativo,Hombre,Indefinido,23920
+200,Redactor/a,2,Televisión,Hombre,Temporal,21690
+201,Editor/a,15,Digital nativo,Hombre,Indefinido,36320
+202,Redactor/a,2,Prensa tradicional,Mujer,Indefinido,22270
+203,Fotoperiodista,8,Radio,Mujer,Indefinido,30020
+204,Fotoperiodista,4,Televisión,Hombre,Autónomo,26210
+205,Redactor/a,8,Televisión,Mujer,Autónomo,17010
+206,Editor/a,5,Prensa tradicional,Hombre,Temporal,33430
+207,Redactor/a,22,Prensa tradicional,Mujer,Indefinido,27230
+208,Redactor/a,3,Agencia,Mujer,Indefinido,19610
+209,Redactor/a,2,Televisión,Mujer,Temporal,20920
+210,Redactor/a,5,Agencia,Hombre,Indefinido,23320
+211,Editor/a,7,Agencia,Mujer,Autónomo,26750
+212,Community manager,21,Prensa tradicional,Hombre,Autónomo,23470
+213,Redactor/a,14,Digital nativo,Mujer,Temporal,29350
+214,Redactor/a,11,Digital nativo,Mujer,Temporal,23050
+215,Fotoperiodista,14,Prensa tradicional,Mujer,Indefinido,27530
+216,Community manager,2,Televisión,Hombre,Autónomo,17780
+217,Redactor/a,12,Digital nativo,Hombre,Indefinido,35000
+218,Redactor/a,25,Agencia,Mujer,Temporal,29320
+219,Redactor/a,2,Radio,Hombre,Temporal,21310
+220,Editor/a,8,Digital nativo,Mujer,Indefinido,37920
+221,Redactor/a,2,Prensa tradicional,Mujer,Temporal,23790
+222,Redactor/a,2,Prensa tradicional,Hombre,Indefinido,29350
+223,Redactor/a,6,Agencia,Mujer,Autónomo,17550
+224,Redactor/a,6,Agencia,Mujer,Indefinido,21010
+225,Redactor/a jefe,14,Agencia,Hombre,Indefinido,42930
+226,Redactor/a,8,Digital nativo,Mujer,Indefinido,23680
+227,Redactor/a,1,Digital nativo,Mujer,Indefinido,19330
+228,Editor/a,7,Televisión,Mujer,Indefinido,32680
+229,Redactor/a,4,Prensa tradicional,Mujer,Autónomo,21980
+230,Redactor/a,20,Radio,Hombre,Autónomo,19160
+231,Community manager,23,Prensa tradicional,Mujer,Temporal,23880
+232,Editor/a,9,Televisión,Mujer,Indefinido,30410
+233,Community manager,9,Radio,Hombre,Temporal,24350
+234,Redactor/a,3,Televisión,Mujer,Indefinido,21440
+235,Redactor/a,3,Agencia,Mujer,Indefinido,24150
+236,Redactor/a,7,Digital nativo,Mujer,Temporal,28430
+237,Fotoperiodista,4,Radio,Mujer,Indefinido,21160
+238,Fotoperiodista,7,Prensa tradicional,Hombre,Temporal,30030
+239,Fotoperiodista,20,Agencia,Mujer,Indefinido,28690
+240,Redactor/a jefe,9,Agencia,Mujer,Temporal,24740
+241,Redactor/a jefe,7,Televisión,Hombre,Indefinido,33450
+242,Fotoperiodista,12,Digital nativo,Mujer,Indefinido,27040
+243,Redactor/a,40,Agencia,Mujer,Autónomo,41450
+244,Community manager,13,Agencia,Mujer,Temporal,27570
+245,Redactor/a jefe,4,Digital nativo,Hombre,Indefinido,50460
+246,Redactor/a jefe,10,Digital nativo,Hombre,Indefinido,60490
+247,Editor/a,5,Digital nativo,Mujer,Indefinido,33710
+248,Redactor/a,3,Agencia,Mujer,Indefinido,26090
+249,Redactor/a,6,Digital nativo,Mujer,Temporal,24170
+250,Fotoperiodista,7,Prensa tradicional,Mujer,Autónomo,16940
+251,Fotoperiodista,26,Digital nativo,Mujer,Temporal,35660
+252,Fotoperiodista,2,Digital nativo,Mujer,Temporal,20790
+253,Redactor/a,4,Digital nativo,Mujer,Indefinido,22280
+254,Redactor/a,6,Prensa tradicional,Hombre,Indefinido,30860
+255,Redactor/a jefe,4,Televisión,Hombre,Indefinido,44310
+256,Redactor/a,9,Televisión,Mujer,Temporal,31860
+257,Redactor/a,14,Digital nativo,Mujer,Indefinido,36000
+258,Redactor/a,3,Digital nativo,Hombre,Indefinido,25320
+259,Redactor/a jefe,2,Digital nativo,Mujer,Temporal,41660
+260,Community manager,3,Televisión,Mujer,Indefinido,23550
+261,Redactor/a,4,Digital nativo,Mujer,Temporal,32840
+262,Redactor/a jefe,8,Agencia,Hombre,Indefinido,44780
+263,Community manager,10,Agencia,Hombre,Temporal,18620
+264,Community manager,22,Prensa tradicional,Mujer,Indefinido,29540
+265,Redactor/a,6,Televisión,Mujer,Indefinido,28850
+266,Redactor/a,17,Radio,Hombre,Indefinido,31220
+267,Redactor/a jefe,7,Prensa tradicional,Mujer,Indefinido,24460
+268,Redactor/a,3,Radio,Mujer,Indefinido,17760
+269,Editor/a,10,Digital nativo,Hombre,Indefinido,38610
+270,Editor/a,18,Prensa tradicional,Mujer,Autónomo,45880
+271,Fotoperiodista,22,Prensa tradicional,Mujer,Indefinido,26300
+272,Redactor/a,1,Digital nativo,Mujer,Temporal,14670
+273,Redactor/a,2,Radio,Hombre,Indefinido,25750
+274,Redactor/a,4,Prensa tradicional,Mujer,Indefinido,24380
+275,Redactor/a jefe,6,Digital nativo,Mujer,Temporal,29090
+276,Community manager,1,Digital nativo,Mujer,Indefinido,22890
+277,Redactor/a,3,Digital nativo,Hombre,Indefinido,17760
+278,Community manager,6,Agencia,Mujer,Autónomo,19200
+279,Redactor/a,12,Agencia,Mujer,Indefinido,25440
+280,Redactor/a,12,Prensa tradicional,Mujer,Autónomo,28300
+281,Community manager,7,Radio,Hombre,Indefinido,18060
+282,Redactor/a,2,Prensa tradicional,Mujer,Temporal,21590
+283,Redactor/a,8,Televisión,Mujer,Temporal,25070
+284,Redactor/a,7,Prensa tradicional,Hombre,Indefinido,24700
+285,Fotoperiodista,3,Prensa tradicional,Hombre,Indefinido,22560
+286,Redactor/a,3,Agencia,Hombre,Indefinido,23240
+287,Redactor/a jefe,20,Agencia,Mujer,Indefinido,46450
+288,Redactor/a,8,Digital nativo,Mujer,Indefinido,21180
+289,Fotoperiodista,15,Agencia,Hombre,Temporal,28560
+290,Redactor/a,8,Prensa tradicional,Mujer,Indefinido,22600
+291,Fotoperiodista,3,Prensa tradicional,Mujer,Temporal,30100
+292,Community manager,7,Televisión,Hombre,Autónomo,26550
+293,Redactor/a,13,Agencia,Hombre,Indefinido,32460
+294,Redactor/a,4,Radio,Mujer,Autónomo,18720
+295,Redactor/a,40,Digital nativo,Mujer,Autónomo,29820
+296,Redactor/a,12,Agencia,Mujer,Temporal,39270
+297,Redactor/a,6,Agencia,Hombre,Temporal,24890
+298,Redactor/a,9,Radio,Mujer,Autónomo,21030
+299,Fotoperiodista,3,Digital nativo,Mujer,Indefinido,24470
+300,Redactor/a,12,Radio,Mujer,Temporal,22570
+301,Redactor/a,17,Agencia,Mujer,Indefinido,32760
+302,Community manager,36,Prensa tradicional,Hombre,Autónomo,33680
+303,Redactor/a,7,Televisión,Hombre,Indefinido,33890
+304,Community manager,13,Digital nativo,Mujer,Indefinido,22260
+305,Redactor/a,1,Digital nativo,Mujer,Indefinido,21150
+306,Community manager,4,Televisión,Hombre,Indefinido,28240
+307,Redactor/a jefe,4,Radio,Hombre,Indefinido,37530
+308,Redactor/a,1,Digital nativo,Mujer,Indefinido,22160
+309,Redactor/a,10,Radio,Mujer,Autónomo,19200
+310,Redactor/a,10,Digital nativo,Mujer,Temporal,20260
+311,Fotoperiodista,5,Digital nativo,Mujer,Autónomo,26120
+312,Redactor/a,13,Prensa tradicional,Mujer,Temporal,29110
+313,Editor/a,16,Digital nativo,Mujer,Temporal,34980
+314,Redactor/a jefe,15,Radio,Hombre,Temporal,44050
+315,Redactor/a,10,Digital nativo,Hombre,Indefinido,25720
+316,Fotoperiodista,7,Digital nativo,Hombre,Indefinido,27760
+317,Dirección,32,Radio,Mujer,Temporal,77620
+318,Redactor/a,10,Digital nativo,Mujer,Indefinido,24200
+319,Redactor/a jefe,7,Digital nativo,Hombre,Temporal,42750
+320,Redactor/a jefe,5,Digital nativo,Mujer,Temporal,35840
+321,Redactor/a jefe,26,Digital nativo,Mujer,Indefinido,44050
+322,Community manager,9,Prensa tradicional,Mujer,Indefinido,20700
+323,Dirección,14,Digital nativo,Hombre,Temporal,65990
+324,Redactor/a,1,Televisión,Hombre,Indefinido,17600
+325,Fotoperiodista,6,Digital nativo,Mujer,Indefinido,28820
+326,Community manager,4,Prensa tradicional,Hombre,Indefinido,18680
+327,Redactor/a,10,Digital nativo,Mujer,Temporal,31860
+328,Redactor/a jefe,6,Digital nativo,Hombre,Indefinido,32860
+329,Community manager,10,Televisión,Mujer,Indefinido,19530
+330,Redactor/a,16,Radio,Hombre,Indefinido,35270
+331,Community manager,6,Radio,Mujer,Indefinido,19900
+332,Redactor/a,3,Televisión,Mujer,Temporal,23060
+333,Community manager,7,Televisión,Hombre,Indefinido,23240
+334,Redactor/a,13,Prensa tradicional,Mujer,Indefinido,23270
+335,Community manager,8,Digital nativo,Mujer,Indefinido,32890
+336,Editor/a,19,Agencia,Hombre,Autónomo,35570
+337,Redactor/a,22,Prensa tradicional,Mujer,Indefinido,48760
+338,Community manager,4,Agencia,Hombre,Temporal,20780
+339,Redactor/a,2,Prensa tradicional,Hombre,Autónomo,24940
+340,Editor/a,7,Televisión,Hombre,Temporal,34750
+341,Community manager,20,Prensa tradicional,Mujer,Indefinido,28690
+342,Redactor/a,6,Digital nativo,Mujer,Indefinido,25100
+343,Editor/a,4,Prensa tradicional,Mujer,Indefinido,32470
+344,Fotoperiodista,20,Digital nativo,Hombre,Temporal,26830
+345,Redactor/a jefe,8,Prensa tradicional,Mujer,Temporal,36410
+346,Redactor/a,14,Televisión,Hombre,Autónomo,15050
+347,Redactor/a,8,Prensa tradicional,Hombre,Temporal,26240
+348,Redactor/a,6,Digital nativo,Mujer,Indefinido,25210
+349,Redactor/a jefe,4,Televisión,Hombre,Autónomo,38260
+350,Redactor/a jefe,3,Digital nativo,Hombre,Temporal,54190
+351,Redactor/a,7,Digital nativo,Hombre,Indefinido,47680
+352,Redactor/a jefe,3,Digital nativo,Hombre,Indefinido,41900
+353,Editor/a,9,Digital nativo,Hombre,Indefinido,47890
+354,Fotoperiodista,8,Digital nativo,Hombre,Indefinido,20680
+355,Redactor/a,4,Prensa tradicional,Hombre,Indefinido,33110
+356,Redactor/a,14,Digital nativo,Hombre,Autónomo,27760
+357,Editor/a,11,Digital nativo,Hombre,Temporal,29590
+358,Community manager,3,Digital nativo,Mujer,Temporal,17180
+359,Redactor/a,4,Digital nativo,Hombre,Temporal,22030
+360,Fotoperiodista,1,Prensa tradicional,Hombre,Indefinido,30420
+361,Redactor/a,13,Agencia,Mujer,Indefinido,26560
+362,Editor/a,40,Digital nativo,Hombre,Indefinido,44020
+363,Redactor/a,5,Prensa tradicional,Hombre,Indefinido,27160
+364,Redactor/a jefe,10,Prensa tradicional,Mujer,Indefinido,42250
+365,Redactor/a,8,Digital nativo,Hombre,Indefinido,27540
+366,Redactor/a jefe,19,Prensa tradicional,Mujer,Indefinido,35500
+367,Redactor/a jefe,17,Prensa tradicional,Mujer,Indefinido,40850
+368,Redactor/a,6,Prensa tradicional,Mujer,Temporal,19350
+369,Fotoperiodista,8,Agencia,Hombre,Indefinido,14920
+370,Community manager,9,Televisión,Mujer,Indefinido,18370
+371,Community manager,13,Radio,Hombre,Autónomo,19180
+372,Redactor/a,4,Prensa tradicional,Mujer,Indefinido,32980
+373,Editor/a,2,Prensa tradicional,Mujer,Indefinido,35920
+374,Redactor/a,8,Digital nativo,Hombre,Indefinido,27700
+375,Redactor/a,29,Prensa tradicional,Hombre,Autónomo,31060
+376,Fotoperiodista,4,Televisión,Mujer,Indefinido,21590
+377,Redactor/a,5,Digital nativo,Mujer,Temporal,19310
+378,Editor/a,3,Prensa tradicional,Mujer,Autónomo,27930
+379,Redactor/a,26,Radio,Hombre,Temporal,39850
+380,Redactor/a,11,Radio,Mujer,Temporal,25410
+381,Community manager,6,Agencia,Hombre,Temporal,18360
+382,Redactor/a,11,Agencia,Hombre,Indefinido,23480
+383,Dirección,4,Televisión,Hombre,Indefinido,70580
+384,Redactor/a,5,Agencia,Hombre,Autónomo,24360
+385,Fotoperiodista,3,Digital nativo,Mujer,Autónomo,15360
+386,Fotoperiodista,15,Digital nativo,Hombre,Indefinido,31510
+387,Editor/a,13,Prensa tradicional,Mujer,Indefinido,36000
+388,Redactor/a,5,Televisión,Hombre,Indefinido,22370
+389,Redactor/a,6,Prensa tradicional,Hombre,Indefinido,22620
+390,Redactor/a,12,Televisión,Hombre,Temporal,20250
+391,Community manager,7,Radio,Mujer,Autónomo,16860
+392,Redactor/a,5,Televisión,Hombre,Indefinido,22720
+393,Redactor/a,20,Prensa tradicional,Mujer,Indefinido,22270
+394,Community manager,5,Agencia,Hombre,Indefinido,19320
+395,Editor/a,14,Televisión,Mujer,Temporal,37080
+396,Redactor/a,31,Digital nativo,Hombre,Indefinido,36810
+397,Redactor/a,6,Digital nativo,Mujer,Indefinido,21690
+398,Redactor/a,17,Digital nativo,Mujer,Autónomo,23920
+399,Redactor/a,2,Televisión,Mujer,Temporal,24300
+400,Redactor/a,2,Televisión,Hombre,Indefinido,25680
+401,Redactor/a jefe,5,Televisión,Hombre,Indefinido,30270
+402,Editor/a,11,Digital nativo,Hombre,Temporal,36160
+403,Redactor/a,15,Digital nativo,Mujer,Temporal,25720
+404,Community manager,8,Prensa tradicional,Mujer,Indefinido,24550
+405,Community manager,3,Radio,Hombre,Indefinido,21720
+406,Redactor/a,10,Digital nativo,Mujer,Indefinido,27750
+407,Dirección,9,Prensa tradicional,Hombre,Indefinido,52370
+408,Community manager,2,Prensa tradicional,Mujer,Temporal,23310
+409,Redactor/a,13,Digital nativo,Hombre,Indefinido,24000
+410,Editor/a,4,Digital nativo,Mujer,Autónomo,24120
+411,Editor/a,27,Radio,Mujer,Autónomo,32700
+412,Redactor/a,11,Digital nativo,Hombre,Indefinido,26170
+413,Fotoperiodista,20,Televisión,Hombre,Indefinido,32700
+414,Redactor/a,3,Televisión,Hombre,Temporal,19960
+415,Community manager,4,Digital nativo,Mujer,Indefinido,17810
+416,Fotoperiodista,8,Digital nativo,Mujer,Autónomo,24860
+417,Redactor/a,4,Agencia,Hombre,Temporal,33670
+418,Redactor/a,16,Digital nativo,Mujer,Temporal,26970
+419,Community manager,13,Digital nativo,Mujer,Indefinido,32720
+420,Redactor/a,4,Radio,Mujer,Indefinido,19800
